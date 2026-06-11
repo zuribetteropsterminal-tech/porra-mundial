@@ -19,7 +19,7 @@ except ImportError:
 
 # ---------------------------------------------------------------- rutas
 AQUI = os.path.dirname(os.path.abspath(__file__))
-DEFECTO_XLSX = os.path.join(AQUI, "..", "ADMIN lMundial 2026.xlsx")
+DEFECTO_XLSX = os.path.join(AQUI, "..", "ADMIN lMundial 2026 - Porra Poyete.xlsx")
 SALIDA = os.path.join(AQUI, "docs", "datos.json")
 
 # ---------------------------------------------------------------- banderas
