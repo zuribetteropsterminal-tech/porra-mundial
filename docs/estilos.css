@@ -1,0 +1,127 @@
+:root{
+  --bg:#0b1020; --bg2:#121a33; --card:#16203f; --card2:#1c2950;
+  --line:#28365f; --txt:#eef2ff; --muted:#93a0c8; --muted2:#6b78a3;
+  --acc:#ffd34e; --acc2:#37e0a6; --bad:#ff6b7d; --good:#37e0a6;
+  --chip:#1e2a4f; --shadow:0 6px 20px rgba(0,0,0,.35);
+  --gold:#ffd34e; --silver:#c8d2e8; --bronze:#e29a5a;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;padding:0}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  background:radial-gradient(1200px 600px at 50% -10%,#1a2547 0%,var(--bg) 60%);
+  color:var(--txt); min-height:100vh; padding-bottom:78px; line-height:1.4;
+}
+a{color:inherit}
+.wrap{max-width:680px;margin:0 auto;padding:14px 14px 0}
+
+/* header */
+header{padding:18px 0 8px;text-align:center}
+header .titulo{font-size:1.05rem;font-weight:800;letter-spacing:.2px}
+header .grupo{font-size:1.7rem;font-weight:900;margin-top:2px;
+  background:linear-gradient(90deg,var(--acc),#ff9f43);-webkit-background-clip:text;background-clip:text;color:transparent}
+header .meta{color:var(--muted);font-size:.78rem;margin-top:6px}
+header .meta b{color:var(--acc2)}
+
+/* tabs */
+nav{position:fixed;bottom:0;left:0;right:0;background:rgba(11,16,32,.92);
+  backdrop-filter:blur(10px);border-top:1px solid var(--line);z-index:50;
+  display:flex;justify-content:center}
+nav .tabs{display:flex;width:100%;max-width:680px}
+nav button{flex:1;background:none;border:0;color:var(--muted);padding:9px 2px 8px;
+  font-size:.64rem;font-weight:700;cursor:pointer;display:flex;flex-direction:column;
+  align-items:center;gap:3px;transition:color .15s}
+nav button .ic{font-size:1.25rem;line-height:1}
+nav button.activa{color:var(--acc)}
+
+/* cards */
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;
+  padding:14px;margin-bottom:12px;box-shadow:var(--shadow)}
+.h2{font-size:1.15rem;font-weight:800;margin:6px 2px 12px;display:flex;align-items:center;gap:8px}
+.sub{color:var(--muted);font-size:.8rem}
+
+/* clasificación */
+.fila{display:flex;align-items:center;gap:11px;padding:11px 6px;border-bottom:1px solid var(--line);cursor:pointer}
+.fila:last-child{border-bottom:0}
+.pos{width:30px;text-align:center;font-weight:900;font-size:1.05rem;color:var(--muted)}
+.pos.m1{color:var(--gold)} .pos.m2{color:var(--silver)} .pos.m3{color:var(--bronze)}
+.nombre{flex:1;font-weight:700}
+.nombre .barra{height:6px;border-radius:4px;background:var(--card2);margin-top:6px;overflow:hidden}
+.nombre .barra > i{display:block;height:100%;background:linear-gradient(90deg,var(--acc2),#3aa0ff)}
+.pts{font-weight:900;font-size:1.15rem}
+.pts small{display:block;font-weight:600;font-size:.62rem;color:var(--muted);text-align:right}
+.desglose{display:none;padding:4px 6px 12px;flex-wrap:wrap;gap:6px}
+.desglose.abierto{display:flex}
+.desglose .d{background:var(--chip);border:1px solid var(--line);border-radius:8px;
+  padding:4px 8px;font-size:.7rem;color:var(--muted)}
+.desglose .d b{color:var(--txt)}
+
+/* filtros */
+.filtros{display:flex;gap:7px;overflow-x:auto;padding:2px 2px 10px;scrollbar-width:none}
+.filtros::-webkit-scrollbar{display:none}
+.filtros button{white-space:nowrap;background:var(--chip);border:1px solid var(--line);
+  color:var(--muted);border-radius:20px;padding:7px 13px;font-size:.78rem;font-weight:700;cursor:pointer}
+.filtros button.activa{background:var(--acc);color:#1a1300;border-color:var(--acc)}
+
+/* partido */
+.match{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px;margin-bottom:10px}
+.match .top{display:flex;justify-content:space-between;align-items:center;color:var(--muted);font-size:.72rem;margin-bottom:9px}
+.match .top .badge{background:var(--chip);border:1px solid var(--line);border-radius:6px;padding:2px 7px;font-weight:700}
+.teams{display:flex;align-items:center;justify-content:center;gap:10px;font-weight:800;font-size:1.02rem}
+.teams .tm{flex:1;display:flex;align-items:center;gap:7px}
+.teams .tm.loc{justify-content:flex-end;text-align:right}
+.teams .tm .fl{font-size:1.3rem}
+.teams .res{min-width:64px;text-align:center;font-weight:900;font-size:1.15rem;
+  background:var(--card2);border-radius:9px;padding:4px 8px}
+.teams .res.pend{color:var(--muted);font-size:.75rem;font-weight:700;background:transparent;border:1px dashed var(--line)}
+.preds{display:flex;flex-wrap:wrap;gap:6px;margin-top:11px;padding-top:10px;border-top:1px solid var(--line)}
+.pred{display:flex;align-items:center;gap:6px;background:var(--chip);border:1px solid var(--line);
+  border-radius:9px;padding:5px 9px;font-size:.78rem}
+.pred .who{color:var(--muted);font-weight:700}
+.pred .val{font-weight:800}
+.pred.hit{border-color:var(--good);background:rgba(55,224,166,.12)}
+.pred.miss{opacity:.72}
+.pred .pt{font-weight:900;font-size:.72rem;color:var(--good)}
+.pred .pt.z{color:var(--muted2)}
+
+/* quiniela jugador */
+.selrow{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+.sel{flex:1;min-width:140px}
+.sel label{display:block;font-size:.72rem;color:var(--muted);margin-bottom:4px;font-weight:700}
+select{width:100%;background:var(--card2);color:var(--txt);border:1px solid var(--line);
+  border-radius:10px;padding:11px;font-size:.95rem;font-weight:700;-webkit-appearance:none;appearance:none}
+.qline{display:flex;align-items:center;gap:10px;padding:9px 4px;border-bottom:1px solid var(--line);font-size:.86rem}
+.qline:last-child{border-bottom:0}
+.qline .ql-m{flex:1}
+.qline .ql-m small{display:block;color:var(--muted);font-size:.68rem}
+.qline .ql-p{font-weight:800;min-width:58px;text-align:center}
+.qline .ql-r{min-width:54px;text-align:center;color:var(--muted);font-size:.78rem}
+.qline .ql-pt{min-width:34px;text-align:right;font-weight:900}
+.tag{display:inline-block;border-radius:6px;padding:1px 6px;font-size:.66rem;font-weight:800;margin-left:6px}
+.tag.ok{background:rgba(55,224,166,.18);color:var(--good)}
+.tag.no{background:rgba(255,107,125,.15);color:var(--bad)}
+
+/* duelos */
+.vs{display:flex;align-items:stretch;gap:8px}
+.vs .col{flex:1;text-align:center}
+.vs .vbar{width:1px;background:var(--line)}
+.duel-line{display:flex;align-items:center;gap:6px;padding:8px 2px;border-bottom:1px solid var(--line);font-size:.8rem}
+.duel-line .mid{flex:1;text-align:center;color:var(--muted);font-size:.7rem}
+.duel-line .side{min-width:74px;text-align:center;font-weight:700}
+.duel-line .side.win{color:var(--good);font-weight:900}
+.scoreboard{display:flex;justify-content:space-around;align-items:center;margin:6px 0 14px;text-align:center}
+.scoreboard .big{font-size:2.1rem;font-weight:900}
+.scoreboard .nm{font-size:.85rem;color:var(--muted);font-weight:700}
+.scoreboard .dash{font-size:1.2rem;color:var(--muted)}
+
+/* honor */
+.honor{display:flex;align-items:center;gap:10px;padding:10px 4px;border-bottom:1px solid var(--line)}
+.honor:last-child{border-bottom:0}
+.honor .cc{min-width:120px;font-weight:700;font-size:.82rem}
+.honor .picks{flex:1;display:flex;flex-wrap:wrap;gap:5px}
+.honor .pk{background:var(--chip);border:1px solid var(--line);border-radius:8px;padding:3px 7px;font-size:.72rem}
+.honor .pk .w{color:var(--muted)}
+.honor .real{font-size:.72rem;color:var(--acc2);font-weight:800}
+
+.empty{text-align:center;color:var(--muted);padding:30px 10px;font-size:.9rem}
+.foot{text-align:center;color:var(--muted2);font-size:.7rem;padding:18px 0 8px}

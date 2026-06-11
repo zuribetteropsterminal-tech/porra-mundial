@@ -1,0 +1,8421 @@
+{
+ "titulo": "XXIII Mundial USA/MEX/CAN 2026",
+ "grupo": "Poyete",
+ "actualizado": "2026-06-11T14:36:43",
+ "jugadores": [
+  "Juanlu",
+  "WILLY",
+  "Mesa",
+  "TERRY",
+  "Velasco",
+  "Rino",
+  "Mini",
+  "Moi",
+  "RAFA NAVARRETE"
+ ],
+ "categorias": [
+  "F. Grupos",
+  "Pos. Grupos",
+  "Equipos 1/16",
+  "Partidos 1/16",
+  "Equipos 1/8",
+  "Partidos 1/8",
+  "Equipos 1/4",
+  "Partidos 1/4",
+  "Equipos 1/2",
+  "Partidos 1/2",
+  "Equipos 3-4",
+  "Equipos Final",
+  "Partido 3-4",
+  "Partido Final",
+  "Cuadro de Honor"
+ ],
+ "clasificacion": [
+  {
+   "jugador": "Juanlu",
+   "total": 0.0,
+   "desglose": {
+    "F. Grupos": 0.0,
+    "Pos. Grupos": 0.0,
+    "Equipos 1/16": 0.0,
+    "Partidos 1/16": 0.0,
+    "Equipos 1/8": 0.0,
+    "Partidos 1/8": 0.0,
+    "Equipos 1/4": 0.0,
+    "Partidos 1/4": 0.0,
+    "Equipos 1/2": 0.0,
+    "Partidos 1/2": 0.0,
+    "Equipos 3-4": 0.0,
+    "Equipos Final": 0.0,
+    "Partido 3-4": 0.0,
+    "Partido Final": 0.0,
+    "Cuadro de Honor": 0.0
+   },
+   "pos": 1
+  },
+  {
+   "jugador": "Mesa",
+   "total": 0.0,
+   "desglose": {
+    "F. Grupos": 0.0,
+    "Pos. Grupos": 0.0,
+    "Equipos 1/16": 0.0,
+    "Partidos 1/16": 0.0,
+    "Equipos 1/8": 0.0,
+    "Partidos 1/8": 0.0,
+    "Equipos 1/4": 0.0,
+    "Partidos 1/4": 0.0,
+    "Equipos 1/2": 0.0,
+    "Partidos 1/2": 0.0,
+    "Equipos 3-4": 0.0,
+    "Equipos Final": 0.0,
+    "Partido 3-4": 0.0,
+    "Partido Final": 0.0,
+    "Cuadro de Honor": 0.0
+   },
+   "pos": 1
+  },
+  {
+   "jugador": "Mini",
+   "total": 0.0,
+   "desglose": {
+    "F. Grupos": 0.0,
+    "Pos. Grupos": 0.0,
+    "Equipos 1/16": 0.0,
+    "Partidos 1/16": 0.0,
+    "Equipos 1/8": 0.0,
+    "Partidos 1/8": 0.0,
+    "Equipos 1/4": 0.0,
+    "Partidos 1/4": 0.0,
+    "Equipos 1/2": 0.0,
+    "Partidos 1/2": 0.0,
+    "Equipos 3-4": 0.0,
+    "Equipos Final": 0.0,
+    "Partido 3-4": 0.0,
+    "Partido Final": 0.0,
+    "Cuadro de Honor": 0.0
+   },
+   "pos": 1
+  },
+  {
+   "jugador": "Moi",
+   "total": 0.0,
+   "desglose": {
+    "F. Grupos": 0.0,
+    "Pos. Grupos": 0.0,
+    "Equipos 1/16": 0.0,
+    "Partidos 1/16": 0.0,
+    "Equipos 1/8": 0.0,
+    "Partidos 1/8": 0.0,
+    "Equipos 1/4": 0.0,
+    "Partidos 1/4": 0.0,
+    "Equipos 1/2": 0.0,
+    "Partidos 1/2": 0.0,
+    "Equipos 3-4": 0.0,
+    "Equipos Final": 0.0,
+    "Partido 3-4": 0.0,
+    "Partido Final": 0.0,
+    "Cuadro de Honor": 0.0
+   },
+   "pos": 1
+  },
+  {
+   "jugador": "RAFA NAVARRETE",
+   "total": 0.0,
+   "desglose": {
+    "F. Grupos": 0.0,
+    "Pos. Grupos": 0.0,
+    "Equipos 1/16": 0.0,
+    "Partidos 1/16": 0.0,
+    "Equipos 1/8": 0.0,
+    "Partidos 1/8": 0.0,
+    "Equipos 1/4": 0.0,
+    "Partidos 1/4": 0.0,
+    "Equipos 1/2": 0.0,
+    "Partidos 1/2": 0.0,
+    "Equipos 3-4": 0.0,
+    "Equipos Final": 0.0,
+    "Partido 3-4": 0.0,
+    "Partido Final": 0.0,
+    "Cuadro de Honor": 0.0
+   },
+   "pos": 1
+  },
+  {
+   "jugador": "Rino",
+   "total": 0.0,
+   "desglose": {
+    "F. Grupos": 0.0,
+    "Pos. Grupos": 0.0,
+    "Equipos 1/16": 0.0,
+    "Partidos 1/16": 0.0,
+    "Equipos 1/8": 0.0,
+    "Partidos 1/8": 0.0,
+    "Equipos 1/4": 0.0,
+    "Partidos 1/4": 0.0,
+    "Equipos 1/2": 0.0,
+    "Partidos 1/2": 0.0,
+    "Equipos 3-4": 0.0,
+    "Equipos Final": 0.0,
+    "Partido 3-4": 0.0,
+    "Partido Final": 0.0,
+    "Cuadro de Honor": 0.0
+   },
+   "pos": 1
+  },
+  {
+   "jugador": "TERRY",
+   "total": 0.0,
+   "desglose": {
+    "F. Grupos": 0.0,
+    "Pos. Grupos": 0.0,
+    "Equipos 1/16": 0.0,
+    "Partidos 1/16": 0.0,
+    "Equipos 1/8": 0.0,
+    "Partidos 1/8": 0.0,
+    "Equipos 1/4": 0.0,
+    "Partidos 1/4": 0.0,
+    "Equipos 1/2": 0.0,
+    "Partidos 1/2": 0.0,
+    "Equipos 3-4": 0.0,
+    "Equipos Final": 0.0,
+    "Partido 3-4": 0.0,
+    "Partido Final": 0.0,
+    "Cuadro de Honor": 0.0
+   },
+   "pos": 1
+  },
+  {
+   "jugador": "Velasco",
+   "total": 0.0,
+   "desglose": {
+    "F. Grupos": 0.0,
+    "Pos. Grupos": 0.0,
+    "Equipos 1/16": 0.0,
+    "Partidos 1/16": 0.0,
+    "Equipos 1/8": 0.0,
+    "Partidos 1/8": 0.0,
+    "Equipos 1/4": 0.0,
+    "Partidos 1/4": 0.0,
+    "Equipos 1/2": 0.0,
+    "Partidos 1/2": 0.0,
+    "Equipos 3-4": 0.0,
+    "Equipos Final": 0.0,
+    "Partido 3-4": 0.0,
+    "Partido Final": 0.0,
+    "Cuadro de Honor": 0.0
+   },
+   "pos": 1
+  },
+  {
+   "jugador": "WILLY",
+   "total": 0.0,
+   "desglose": {
+    "F. Grupos": 0.0,
+    "Pos. Grupos": 0.0,
+    "Equipos 1/16": 0.0,
+    "Partidos 1/16": 0.0,
+    "Equipos 1/8": 0.0,
+    "Partidos 1/8": 0.0,
+    "Equipos 1/4": 0.0,
+    "Partidos 1/4": 0.0,
+    "Equipos 1/2": 0.0,
+    "Partidos 1/2": 0.0,
+    "Equipos 3-4": 0.0,
+    "Equipos Final": 0.0,
+    "Partido 3-4": 0.0,
+    "Partido Final": 0.0,
+    "Cuadro de Honor": 0.0
+   },
+   "pos": 1
+  }
+ ],
+ "partidos": [
+  {
+   "id": 6,
+   "fase": "Fase de grupos",
+   "grupo": "A",
+   "jornada": "J1",
+   "codigo": "México-Sudáfrica",
+   "fecha": "2026-06-11",
+   "equipos": [
+    "México",
+    "Sudáfrica"
+   ],
+   "banderas": [
+    "🇲🇽",
+    "🇿🇦"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 7,
+   "fase": "Fase de grupos",
+   "grupo": "A",
+   "jornada": "J1",
+   "codigo": "Corea del Sur-República Checa",
+   "fecha": "2026-06-12",
+   "equipos": [
+    "Corea del Sur",
+    "República Checa"
+   ],
+   "banderas": [
+    "🇰🇷",
+    "🇨🇿"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "X",
+     "local": 2,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 1,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 8,
+   "fase": "Fase de grupos",
+   "grupo": "B",
+   "jornada": "J1",
+   "codigo": "Canadá-Bosnia y Herzegovina",
+   "fecha": "2026-06-12",
+   "equipos": [
+    "Canadá",
+    "Bosnia y Herzegovina"
+   ],
+   "banderas": [
+    "🇨🇦",
+    "🇧🇦"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 9,
+   "fase": "Fase de grupos",
+   "grupo": "B",
+   "jornada": "J1",
+   "codigo": "Catar-Suiza",
+   "fecha": "2026-06-13",
+   "equipos": [
+    "Catar",
+    "Suiza"
+   ],
+   "banderas": [
+    "🇶🇦",
+    "🇨🇭"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 10,
+   "fase": "Fase de grupos",
+   "grupo": "C",
+   "jornada": "J1",
+   "codigo": "Brasil-Marruecos",
+   "fecha": "2026-06-14",
+   "equipos": [
+    "Brasil",
+    "Marruecos"
+   ],
+   "banderas": [
+    "🇧🇷",
+    "🇲🇦"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "2",
+     "local": 2,
+     "visitante": 3,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "X",
+     "local": 2,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 11,
+   "fase": "Fase de grupos",
+   "grupo": "C",
+   "jornada": "J1",
+   "codigo": "Haití-Escocia",
+   "fecha": "2026-06-14",
+   "equipos": [
+    "Haití",
+    "Escocia"
+   ],
+   "banderas": [
+    "🇭🇹",
+    "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "X",
+     "local": 0,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 12,
+   "fase": "Fase de grupos",
+   "grupo": "D",
+   "jornada": "J1",
+   "codigo": "Estados Unidos-Paraguay",
+   "fecha": "2026-06-13",
+   "equipos": [
+    "Estados Unidos",
+    "Paraguay"
+   ],
+   "banderas": [
+    "🇺🇸",
+    "🇵🇾"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "X",
+     "local": 2,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 1,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 13,
+   "fase": "Fase de grupos",
+   "grupo": "D",
+   "jornada": "J1",
+   "codigo": "Australia-Turquía",
+   "fecha": "2026-06-14",
+   "equipos": [
+    "Australia",
+    "Turquía"
+   ],
+   "banderas": [
+    "🇦🇺",
+    "🇹🇷"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 3,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 3,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 14,
+   "fase": "Fase de grupos",
+   "grupo": "E",
+   "jornada": "J1",
+   "codigo": "Alemania-Curazao",
+   "fecha": "2026-06-14",
+   "equipos": [
+    "Alemania",
+    "Curazao"
+   ],
+   "banderas": [
+    "🇩🇪",
+    "🇨🇼"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "1",
+     "local": 4,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 5,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 4,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 4,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 15,
+   "fase": "Fase de grupos",
+   "grupo": "E",
+   "jornada": "J1",
+   "codigo": "Costa de Marfil-Ecuador",
+   "fecha": "2026-06-15",
+   "equipos": [
+    "Costa de Marfil",
+    "Ecuador"
+   ],
+   "banderas": [
+    "🇨🇮",
+    "🇪🇨"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "X",
+     "local": 2,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "2",
+     "local": 2,
+     "visitante": 3,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 16,
+   "fase": "Fase de grupos",
+   "grupo": "F",
+   "jornada": "J1",
+   "codigo": "Países Bajos-Japón",
+   "fecha": "2026-06-15",
+   "equipos": [
+    "Países Bajos",
+    "Japón"
+   ],
+   "banderas": [
+    "🇳🇱",
+    "🇯🇵"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "X",
+     "local": 2,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 17,
+   "fase": "Fase de grupos",
+   "grupo": "F",
+   "jornada": "J1",
+   "codigo": "Suecia-Túnez",
+   "fecha": "2026-06-15",
+   "equipos": [
+    "Suecia",
+    "Túnez"
+   ],
+   "banderas": [
+    "🇸🇪",
+    "🇹🇳"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 18,
+   "fase": "Fase de grupos",
+   "grupo": "G",
+   "jornada": "J1",
+   "codigo": "Bélgica-Egipto",
+   "fecha": "2026-06-15",
+   "equipos": [
+    "Bélgica",
+    "Egipto"
+   ],
+   "banderas": [
+    "🇧🇪",
+    "🇪🇬"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 19,
+   "fase": "Fase de grupos",
+   "grupo": "G",
+   "jornada": "J1",
+   "codigo": "Irán-Nueva Zelanda",
+   "fecha": "2026-06-16",
+   "equipos": [
+    "Irán",
+    "Nueva Zelanda"
+   ],
+   "banderas": [
+    "🇮🇷",
+    "🇳🇿"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "X",
+     "local": 0,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "X",
+     "local": 2,
+     "visitante": 2,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 20,
+   "fase": "Fase de grupos",
+   "grupo": "H",
+   "jornada": "J1",
+   "codigo": "España-Cabo Verde",
+   "fecha": "2026-06-15",
+   "equipos": [
+    "España",
+    "Cabo Verde"
+   ],
+   "banderas": [
+    "🇪🇸",
+    "🇨🇻"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "1",
+     "local": 4,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 4,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 4,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 4,
+     "visitante": 1,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 21,
+   "fase": "Fase de grupos",
+   "grupo": "H",
+   "jornada": "J1",
+   "codigo": "Arabia Saudita-Uruguay",
+   "fecha": "2026-06-16",
+   "equipos": [
+    "Arabia Saudita",
+    "Uruguay"
+   ],
+   "banderas": [
+    "🇸🇦",
+    "🇺🇾"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 3,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 3,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 3,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 22,
+   "fase": "Fase de grupos",
+   "grupo": "I",
+   "jornada": "J1",
+   "codigo": "Francia-Senegal",
+   "fecha": "2026-06-16",
+   "equipos": [
+    "Francia",
+    "Senegal"
+   ],
+   "banderas": [
+    "🇫🇷",
+    "🇸🇳"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 23,
+   "fase": "Fase de grupos",
+   "grupo": "I",
+   "jornada": "J1",
+   "codigo": "Irak-Noruega",
+   "fecha": "2026-06-17",
+   "equipos": [
+    "Irak",
+    "Noruega"
+   ],
+   "banderas": [
+    "🇮🇶",
+    "🇳🇴"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 3,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 3,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 3,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 24,
+   "fase": "Fase de grupos",
+   "grupo": "J",
+   "jornada": "J1",
+   "codigo": "Argentina-Argelia",
+   "fecha": "2026-06-17",
+   "equipos": [
+    "Argentina",
+    "Argelia"
+   ],
+   "banderas": [
+    "🇦🇷",
+    "🇩🇿"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 4,
+     "visitante": 0,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 25,
+   "fase": "Fase de grupos",
+   "grupo": "J",
+   "jornada": "J1",
+   "codigo": "Austria-Jordania",
+   "fecha": "2026-06-17",
+   "equipos": [
+    "Austria",
+    "Jordania"
+   ],
+   "banderas": [
+    "🇦🇹",
+    "🇯🇴"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 26,
+   "fase": "Fase de grupos",
+   "grupo": "K",
+   "jornada": "J1",
+   "codigo": "Portugal-RD Congo",
+   "fecha": "2026-06-17",
+   "equipos": [
+    "Portugal",
+    "RD Congo"
+   ],
+   "banderas": [
+    "🇵🇹",
+    "🇨🇩"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 1,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 27,
+   "fase": "Fase de grupos",
+   "grupo": "K",
+   "jornada": "J1",
+   "codigo": "Uzbekistán-Colombia",
+   "fecha": "2026-06-18",
+   "equipos": [
+    "Uzbekistán",
+    "Colombia"
+   ],
+   "banderas": [
+    "🇺🇿",
+    "🇨🇴"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 4,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 28,
+   "fase": "Fase de grupos",
+   "grupo": "L",
+   "jornada": "J1",
+   "codigo": "Inglaterra-Croacia",
+   "fecha": "2026-06-18",
+   "equipos": [
+    "Inglaterra",
+    "Croacia"
+   ],
+   "banderas": [
+    "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "🇭🇷"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 4,
+     "visitante": 3,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 29,
+   "fase": "Fase de grupos",
+   "grupo": "L",
+   "jornada": "J1",
+   "codigo": "Ghana-Panamá",
+   "fecha": "2026-06-18",
+   "equipos": [
+    "Ghana",
+    "Panamá"
+   ],
+   "banderas": [
+    "🇬🇭",
+    "🇵🇦"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 30,
+   "fase": "Fase de grupos",
+   "grupo": "A",
+   "jornada": "J2",
+   "codigo": "República Checa-Sudáfrica",
+   "fecha": "2026-06-18",
+   "equipos": [
+    "República Checa",
+    "Sudáfrica"
+   ],
+   "banderas": [
+    "🇨🇿",
+    "🇿🇦"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 31,
+   "fase": "Fase de grupos",
+   "grupo": "A",
+   "jornada": "J2",
+   "codigo": "México-Corea del Sur",
+   "fecha": "2026-06-19",
+   "equipos": [
+    "México",
+    "Corea del Sur"
+   ],
+   "banderas": [
+    "🇲🇽",
+    "🇰🇷"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "X",
+     "local": 2,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 32,
+   "fase": "Fase de grupos",
+   "grupo": "B",
+   "jornada": "J2",
+   "codigo": "Suiza-Bosnia y Herzegovina",
+   "fecha": "2026-06-18",
+   "equipos": [
+    "Suiza",
+    "Bosnia y Herzegovina"
+   ],
+   "banderas": [
+    "🇨🇭",
+    "🇧🇦"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 33,
+   "fase": "Fase de grupos",
+   "grupo": "B",
+   "jornada": "J2",
+   "codigo": "Canadá-Catar",
+   "fecha": "2026-06-19",
+   "equipos": [
+    "Canadá",
+    "Catar"
+   ],
+   "banderas": [
+    "🇨🇦",
+    "🇶🇦"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 3,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 34,
+   "fase": "Fase de grupos",
+   "grupo": "C",
+   "jornada": "J2",
+   "codigo": "Escocia-Marruecos",
+   "fecha": "2026-06-20",
+   "equipos": [
+    "Escocia",
+    "Marruecos"
+   ],
+   "banderas": [
+    "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "🇲🇦"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 3,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "X",
+     "local": 2,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 35,
+   "fase": "Fase de grupos",
+   "grupo": "C",
+   "jornada": "J2",
+   "codigo": "Brasil-Haití",
+   "fecha": "2026-06-20",
+   "equipos": [
+    "Brasil",
+    "Haití"
+   ],
+   "banderas": [
+    "🇧🇷",
+    "🇭🇹"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "1",
+     "local": 4,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 4,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 4,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 4,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 36,
+   "fase": "Fase de grupos",
+   "grupo": "D",
+   "jornada": "J2",
+   "codigo": "Estados Unidos-Australia",
+   "fecha": "2026-06-19",
+   "equipos": [
+    "Estados Unidos",
+    "Australia"
+   ],
+   "banderas": [
+    "🇺🇸",
+    "🇦🇺"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 37,
+   "fase": "Fase de grupos",
+   "grupo": "D",
+   "jornada": "J2",
+   "codigo": "Turquía-Paraguay",
+   "fecha": "2026-06-20",
+   "equipos": [
+    "Turquía",
+    "Paraguay"
+   ],
+   "banderas": [
+    "🇹🇷",
+    "🇵🇾"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "X",
+     "local": 2,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 38,
+   "fase": "Fase de grupos",
+   "grupo": "E",
+   "jornada": "J2",
+   "codigo": "Alemania-Costa de Marfil",
+   "fecha": "2026-06-21",
+   "equipos": [
+    "Alemania",
+    "Costa de Marfil"
+   ],
+   "banderas": [
+    "🇩🇪",
+    "🇨🇮"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 39,
+   "fase": "Fase de grupos",
+   "grupo": "E",
+   "jornada": "J2",
+   "codigo": "Ecuador-Curazao",
+   "fecha": "2026-06-21",
+   "equipos": [
+    "Ecuador",
+    "Curazao"
+   ],
+   "banderas": [
+    "🇪🇨",
+    "🇨🇼"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 1,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 40,
+   "fase": "Fase de grupos",
+   "grupo": "F",
+   "jornada": "J2",
+   "codigo": "Países Bajos-Suecia",
+   "fecha": "2026-06-20",
+   "equipos": [
+    "Países Bajos",
+    "Suecia"
+   ],
+   "banderas": [
+    "🇳🇱",
+    "🇸🇪"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 41,
+   "fase": "Fase de grupos",
+   "grupo": "F",
+   "jornada": "J2",
+   "codigo": "Túnez-Japón",
+   "fecha": "2026-06-21",
+   "equipos": [
+    "Túnez",
+    "Japón"
+   ],
+   "banderas": [
+    "🇹🇳",
+    "🇯🇵"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "X",
+     "local": 0,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 42,
+   "fase": "Fase de grupos",
+   "grupo": "G",
+   "jornada": "J2",
+   "codigo": "Bélgica-Irán",
+   "fecha": "2026-06-21",
+   "equipos": [
+    "Bélgica",
+    "Irán"
+   ],
+   "banderas": [
+    "🇧🇪",
+    "🇮🇷"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 43,
+   "fase": "Fase de grupos",
+   "grupo": "G",
+   "jornada": "J2",
+   "codigo": "Nueva Zelanda-Egipto",
+   "fecha": "2026-06-22",
+   "equipos": [
+    "Nueva Zelanda",
+    "Egipto"
+   ],
+   "banderas": [
+    "🇳🇿",
+    "🇪🇬"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "X",
+     "local": 0,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 44,
+   "fase": "Fase de grupos",
+   "grupo": "H",
+   "jornada": "J2",
+   "codigo": "España-Arabia Saudita",
+   "fecha": "2026-06-21",
+   "equipos": [
+    "España",
+    "Arabia Saudita"
+   ],
+   "banderas": [
+    "🇪🇸",
+    "🇸🇦"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 1,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 45,
+   "fase": "Fase de grupos",
+   "grupo": "H",
+   "jornada": "J2",
+   "codigo": "Uruguay-Cabo Verde",
+   "fecha": "2026-06-22",
+   "equipos": [
+    "Uruguay",
+    "Cabo Verde"
+   ],
+   "banderas": [
+    "🇺🇾",
+    "🇨🇻"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 46,
+   "fase": "Fase de grupos",
+   "grupo": "I",
+   "jornada": "J2",
+   "codigo": "Francia-Irak",
+   "fecha": "2026-06-23",
+   "equipos": [
+    "Francia",
+    "Irak"
+   ],
+   "banderas": [
+    "🇫🇷",
+    "🇮🇶"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 4,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 47,
+   "fase": "Fase de grupos",
+   "grupo": "I",
+   "jornada": "J2",
+   "codigo": "Noruega-Senegal",
+   "fecha": "2026-06-23",
+   "equipos": [
+    "Noruega",
+    "Senegal"
+   ],
+   "banderas": [
+    "🇳🇴",
+    "🇸🇳"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "X",
+     "local": 2,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 48,
+   "fase": "Fase de grupos",
+   "grupo": "J",
+   "jornada": "J2",
+   "codigo": "Argentina-Austria",
+   "fecha": "2026-06-22",
+   "equipos": [
+    "Argentina",
+    "Austria"
+   ],
+   "banderas": [
+    "🇦🇷",
+    "🇦🇹"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "X",
+     "local": 2,
+     "visitante": 2,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 49,
+   "fase": "Fase de grupos",
+   "grupo": "J",
+   "jornada": "J2",
+   "codigo": "Jordania-Argelia",
+   "fecha": "2026-06-23",
+   "equipos": [
+    "Jordania",
+    "Argelia"
+   ],
+   "banderas": [
+    "🇯🇴",
+    "🇩🇿"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "X",
+     "local": 0,
+     "visitante": 0,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 50,
+   "fase": "Fase de grupos",
+   "grupo": "K",
+   "jornada": "J2",
+   "codigo": "Portugal-Uzbekistán",
+   "fecha": "2026-06-23",
+   "equipos": [
+    "Portugal",
+    "Uzbekistán"
+   ],
+   "banderas": [
+    "🇵🇹",
+    "🇺🇿"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 4,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 1,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 51,
+   "fase": "Fase de grupos",
+   "grupo": "K",
+   "jornada": "J2",
+   "codigo": "Colombia-RD Congo",
+   "fecha": "2026-06-24",
+   "equipos": [
+    "Colombia",
+    "RD Congo"
+   ],
+   "banderas": [
+    "🇨🇴",
+    "🇨🇩"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "X",
+     "local": 2,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "X",
+     "local": 2,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 52,
+   "fase": "Fase de grupos",
+   "grupo": "L",
+   "jornada": "J2",
+   "codigo": "Inglaterra-Ghana",
+   "fecha": "2026-06-24",
+   "equipos": [
+    "Inglaterra",
+    "Ghana"
+   ],
+   "banderas": [
+    "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "🇬🇭"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 53,
+   "fase": "Fase de grupos",
+   "grupo": "L",
+   "jornada": "J2",
+   "codigo": "Panamá-Croacia",
+   "fecha": "2026-06-24",
+   "equipos": [
+    "Panamá",
+    "Croacia"
+   ],
+   "banderas": [
+    "🇵🇦",
+    "🇭🇷"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 54,
+   "fase": "Fase de grupos",
+   "grupo": "A",
+   "jornada": "J3",
+   "codigo": "República Checa-México",
+   "fecha": "2026-06-25",
+   "equipos": [
+    "República Checa",
+    "México"
+   ],
+   "banderas": [
+    "🇨🇿",
+    "🇲🇽"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "2",
+     "local": 2,
+     "visitante": 3,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "2",
+     "local": 2,
+     "visitante": 3,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "X",
+     "local": 2,
+     "visitante": 2,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 55,
+   "fase": "Fase de grupos",
+   "grupo": "A",
+   "jornada": "J3",
+   "codigo": "Sudáfrica-Corea del Sur",
+   "fecha": "2026-06-25",
+   "equipos": [
+    "Sudáfrica",
+    "Corea del Sur"
+   ],
+   "banderas": [
+    "🇿🇦",
+    "🇰🇷"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 56,
+   "fase": "Fase de grupos",
+   "grupo": "B",
+   "jornada": "J3",
+   "codigo": "Suiza-Canadá",
+   "fecha": "2026-06-24",
+   "equipos": [
+    "Suiza",
+    "Canadá"
+   ],
+   "banderas": [
+    "🇨🇭",
+    "🇨🇦"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "X",
+     "local": 2,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "X",
+     "local": 2,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "X",
+     "local": 2,
+     "visitante": 2,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 57,
+   "fase": "Fase de grupos",
+   "grupo": "B",
+   "jornada": "J3",
+   "codigo": "Bosnia y Herzegovina-Catar",
+   "fecha": "2026-06-24",
+   "equipos": [
+    "Bosnia y Herzegovina",
+    "Catar"
+   ],
+   "banderas": [
+    "🇧🇦",
+    "🇶🇦"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "X",
+     "local": 2,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "X",
+     "local": 3,
+     "visitante": 3,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 58,
+   "fase": "Fase de grupos",
+   "grupo": "C",
+   "jornada": "J3",
+   "codigo": "Escocia-Brasil",
+   "fecha": "2026-06-25",
+   "equipos": [
+    "Escocia",
+    "Brasil"
+   ],
+   "banderas": [
+    "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "🇧🇷"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 3,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 3,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 59,
+   "fase": "Fase de grupos",
+   "grupo": "C",
+   "jornada": "J3",
+   "codigo": "Marruecos-Haití",
+   "fecha": "2026-06-25",
+   "equipos": [
+    "Marruecos",
+    "Haití"
+   ],
+   "banderas": [
+    "🇲🇦",
+    "🇭🇹"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 5,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "X",
+     "local": 0,
+     "visitante": 0,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 60,
+   "fase": "Fase de grupos",
+   "grupo": "D",
+   "jornada": "J3",
+   "codigo": "Turquía-Estados Unidos",
+   "fecha": "2026-06-26",
+   "equipos": [
+    "Turquía",
+    "Estados Unidos"
+   ],
+   "banderas": [
+    "🇹🇷",
+    "🇺🇸"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "X",
+     "local": 2,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "X",
+     "local": 2,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "X",
+     "local": 2,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "X",
+     "local": 2,
+     "visitante": 2,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 61,
+   "fase": "Fase de grupos",
+   "grupo": "D",
+   "jornada": "J3",
+   "codigo": "Paraguay-Australia",
+   "fecha": "2026-06-26",
+   "equipos": [
+    "Paraguay",
+    "Australia"
+   ],
+   "banderas": [
+    "🇵🇾",
+    "🇦🇺"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "X",
+     "local": 0,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "X",
+     "local": 0,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 62,
+   "fase": "Fase de grupos",
+   "grupo": "E",
+   "jornada": "J3",
+   "codigo": "Curazao-Costa de Marfil",
+   "fecha": "2026-06-26",
+   "equipos": [
+    "Curazao",
+    "Costa de Marfil"
+   ],
+   "banderas": [
+    "🇨🇼",
+    "🇨🇮"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "X",
+     "local": 0,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "X",
+     "local": 2,
+     "visitante": 2,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 63,
+   "fase": "Fase de grupos",
+   "grupo": "E",
+   "jornada": "J3",
+   "codigo": "Ecuador-Alemania",
+   "fecha": "2026-06-26",
+   "equipos": [
+    "Ecuador",
+    "Alemania"
+   ],
+   "banderas": [
+    "🇪🇨",
+    "🇩🇪"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 3,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "X",
+     "local": 2,
+     "visitante": 2,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 64,
+   "fase": "Fase de grupos",
+   "grupo": "F",
+   "jornada": "J3",
+   "codigo": "Japón-Suecia",
+   "fecha": "2026-06-26",
+   "equipos": [
+    "Japón",
+    "Suecia"
+   ],
+   "banderas": [
+    "🇯🇵",
+    "🇸🇪"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "X",
+     "local": 2,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "X",
+     "local": 2,
+     "visitante": 2,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 65,
+   "fase": "Fase de grupos",
+   "grupo": "F",
+   "jornada": "J3",
+   "codigo": "Túnez-Países Bajos",
+   "fecha": "2026-06-26",
+   "equipos": [
+    "Túnez",
+    "Países Bajos"
+   ],
+   "banderas": [
+    "🇹🇳",
+    "🇳🇱"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 3,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 4,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 66,
+   "fase": "Fase de grupos",
+   "grupo": "G",
+   "jornada": "J3",
+   "codigo": "Egipto-Irán",
+   "fecha": "2026-06-27",
+   "equipos": [
+    "Egipto",
+    "Irán"
+   ],
+   "banderas": [
+    "🇪🇬",
+    "🇮🇷"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "X",
+     "local": 2,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 67,
+   "fase": "Fase de grupos",
+   "grupo": "G",
+   "jornada": "J3",
+   "codigo": "Nueva Zelanda-Bélgica",
+   "fecha": "2026-06-27",
+   "equipos": [
+    "Nueva Zelanda",
+    "Bélgica"
+   ],
+   "banderas": [
+    "🇳🇿",
+    "🇧🇪"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 3,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 3,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 4,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 3,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 4,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 68,
+   "fase": "Fase de grupos",
+   "grupo": "H",
+   "jornada": "J3",
+   "codigo": "Cabo Verde-Arabia Saudita",
+   "fecha": "2026-06-27",
+   "equipos": [
+    "Cabo Verde",
+    "Arabia Saudita"
+   ],
+   "banderas": [
+    "🇨🇻",
+    "🇸🇦"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "X",
+     "local": 2,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 69,
+   "fase": "Fase de grupos",
+   "grupo": "H",
+   "jornada": "J3",
+   "codigo": "Uruguay-España",
+   "fecha": "2026-06-27",
+   "equipos": [
+    "Uruguay",
+    "España"
+   ],
+   "banderas": [
+    "🇺🇾",
+    "🇪🇸"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "2",
+     "local": 2,
+     "visitante": 3,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 3,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 70,
+   "fase": "Fase de grupos",
+   "grupo": "I",
+   "jornada": "J3",
+   "codigo": "Noruega-Francia",
+   "fecha": "2026-06-26",
+   "equipos": [
+    "Noruega",
+    "Francia"
+   ],
+   "banderas": [
+    "🇳🇴",
+    "🇫🇷"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 71,
+   "fase": "Fase de grupos",
+   "grupo": "I",
+   "jornada": "J3",
+   "codigo": "Senegal-Irak",
+   "fecha": "2026-06-26",
+   "equipos": [
+    "Senegal",
+    "Irak"
+   ],
+   "banderas": [
+    "🇸🇳",
+    "🇮🇶"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "X",
+     "local": 0,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 72,
+   "fase": "Fase de grupos",
+   "grupo": "J",
+   "jornada": "J3",
+   "codigo": "Argelia-Austria",
+   "fecha": "2026-06-28",
+   "equipos": [
+    "Argelia",
+    "Austria"
+   ],
+   "banderas": [
+    "🇩🇿",
+    "🇦🇹"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 3,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 73,
+   "fase": "Fase de grupos",
+   "grupo": "J",
+   "jornada": "J3",
+   "codigo": "Jordania-Argentina",
+   "fecha": "2026-06-28",
+   "equipos": [
+    "Jordania",
+    "Argentina"
+   ],
+   "banderas": [
+    "🇯🇴",
+    "🇦🇷"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 3,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 4,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 3,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 3,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 74,
+   "fase": "Fase de grupos",
+   "grupo": "K",
+   "jornada": "J3",
+   "codigo": "Colombia-Portugal",
+   "fecha": "2026-06-28",
+   "equipos": [
+    "Colombia",
+    "Portugal"
+   ],
+   "banderas": [
+    "🇨🇴",
+    "🇵🇹"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 3,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "X",
+     "local": 2,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "2",
+     "local": 2,
+     "visitante": 3,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 75,
+   "fase": "Fase de grupos",
+   "grupo": "K",
+   "jornada": "J3",
+   "codigo": "RD Congo-Uzbekistán",
+   "fecha": "2026-06-28",
+   "equipos": [
+    "RD Congo",
+    "Uzbekistán"
+   ],
+   "banderas": [
+    "🇨🇩",
+    "🇺🇿"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "X",
+     "local": 0,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "X",
+     "local": 2,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 76,
+   "fase": "Fase de grupos",
+   "grupo": "L",
+   "jornada": "J3",
+   "codigo": "Panamá-Inglaterra",
+   "fecha": "2026-06-28",
+   "equipos": [
+    "Panamá",
+    "Inglaterra"
+   ],
+   "banderas": [
+    "🇵🇦",
+    "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 3,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 3,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 3,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 3,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 77,
+   "fase": "Fase de grupos",
+   "grupo": "L",
+   "jornada": "J3",
+   "codigo": "Croacia-Ghana",
+   "fecha": "2026-06-28",
+   "equipos": [
+    "Croacia",
+    "Ghana"
+   ],
+   "banderas": [
+    "🇭🇷",
+    "🇬🇭"
+   ],
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 164,
+   "fase": "Dieciseisavos",
+   "grupo": null,
+   "jornada": null,
+   "codigo": "2A-2B",
+   "fecha": null,
+   "equipos": null,
+   "banderas": null,
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "duelo": "Corea del Sur-Canadá",
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "República Checa-Catar",
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "México-Bosnia y Herzegovina",
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Corea del Sur-Suiza",
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "duelo": "República Checa-Suiza",
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "México-Suiza",
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Corea del Sur-Suiza",
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "duelo": "Corea del Sur-Suiza",
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "República Checa-Canadá",
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 165,
+   "fase": "Dieciseisavos",
+   "grupo": null,
+   "jornada": null,
+   "codigo": "1C-2F",
+   "fecha": null,
+   "equipos": null,
+   "banderas": null,
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "duelo": "Brasil-Suecia",
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "duelo": "Brasil-Suecia",
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Escocia-Japón",
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Brasil-Japón",
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Marruecos-Japón",
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "X",
+     "local": 2,
+     "visitante": 2,
+     "duelo": "Brasil-Japón",
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Marruecos-Países Bajos",
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Brasil-Japón",
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Brasil-Japón",
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 166,
+   "fase": "Dieciseisavos",
+   "grupo": null,
+   "jornada": null,
+   "codigo": "1E-3ABCDF",
+   "fecha": null,
+   "equipos": null,
+   "banderas": null,
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Alemania-Paraguay",
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "duelo": "Alemania-Paraguay",
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Ecuador-Estados Unidos",
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "duelo": "Alemania-Paraguay",
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "duelo": "Alemania-Escocia",
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "duelo": "Alemania-Sudáfrica",
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 1,
+     "duelo": "Alemania-Paraguay",
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "duelo": "Alemania-Paraguay",
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "duelo": "Alemania-Paraguay",
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 167,
+   "fase": "Dieciseisavos",
+   "grupo": null,
+   "jornada": null,
+   "codigo": "1F-2C",
+   "fecha": null,
+   "equipos": null,
+   "banderas": null,
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Países Bajos-Marruecos",
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Países Bajos-Marruecos",
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Países Bajos-Marruecos",
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Países Bajos-Marruecos",
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 3,
+     "duelo": "Países Bajos-Brasil",
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Países Bajos-Marruecos",
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "2",
+     "local": 2,
+     "visitante": 3,
+     "duelo": "Japón-Brasil",
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "X",
+     "local": 0,
+     "visitante": 0,
+     "duelo": "Países Bajos-Marruecos",
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "duelo": "Países Bajos-Escocia",
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 168,
+   "fase": "Dieciseisavos",
+   "grupo": null,
+   "jornada": null,
+   "codigo": "2E-2I",
+   "fecha": null,
+   "equipos": null,
+   "banderas": null,
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "duelo": "Ecuador-Senegal",
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "duelo": "Ecuador-Noruega",
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Alemania-Noruega",
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Ecuador-Noruega",
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "duelo": "Costa de Marfil-Senegal",
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "X",
+     "local": 2,
+     "visitante": 2,
+     "duelo": "Costa de Marfil-Francia",
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Ecuador-Noruega",
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "X",
+     "local": 0,
+     "visitante": 0,
+     "duelo": "Costa de Marfil-Senegal",
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Ecuador-Noruega",
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 169,
+   "fase": "Dieciseisavos",
+   "grupo": null,
+   "jornada": null,
+   "codigo": "1I-3CDFGH",
+   "fecha": null,
+   "equipos": null,
+   "banderas": null,
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "duelo": "Francia-Japón",
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 1,
+     "duelo": "Francia-Japón",
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "duelo": "Senegal-Suecia",
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "duelo": "Francia-Suecia",
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 4,
+     "visitante": 0,
+     "duelo": "Francia-Suecia",
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "duelo": "Noruega-Cabo Verde",
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 1,
+     "duelo": "Francia-Suecia",
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Francia-Cabo Verde",
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "duelo": "Francia-Suecia",
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 170,
+   "fase": "Dieciseisavos",
+   "grupo": null,
+   "jornada": null,
+   "codigo": "1A-3CEFHI",
+   "fecha": null,
+   "equipos": null,
+   "banderas": null,
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "México-Escocia",
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "México-Escocia",
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 3,
+     "duelo": "Corea del Sur-Brasil",
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "duelo": "México-Escocia",
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "duelo": "México-Arabia Saudita",
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "República Checa-Ecuador",
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "duelo": "México-Costa de Marfil",
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "México-Ecuador",
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "México-Costa de Marfil",
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 171,
+   "fase": "Dieciseisavos",
+   "grupo": null,
+   "jornada": null,
+   "codigo": "1L-3EHIJK",
+   "fecha": null,
+   "equipos": null,
+   "banderas": null,
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "duelo": "Inglaterra-Noruega",
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "duelo": "Inglaterra-Senegal",
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Ghana-Francia",
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Inglaterra-Senegal",
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 2,
+     "duelo": "Inglaterra-Ecuador",
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "duelo": "Croacia-RD Congo",
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Croacia-RD Congo",
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "duelo": "Croacia-Uzbekistán",
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Inglaterra-Senegal",
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 172,
+   "fase": "Dieciseisavos",
+   "grupo": null,
+   "jornada": null,
+   "codigo": "1G-3AEHIJ",
+   "fecha": null,
+   "equipos": null,
+   "banderas": null,
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Bélgica-República Checa",
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "duelo": "Bélgica-Corea del Sur",
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "duelo": "Irán-Argentina",
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Bélgica-República Checa",
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 2,
+     "duelo": "Bélgica-Corea del Sur",
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Bélgica-Senegal",
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 1,
+     "duelo": "Bélgica-República Checa",
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Bélgica-República Checa",
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "duelo": "Bélgica-Sudáfrica",
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 173,
+   "fase": "Dieciseisavos",
+   "grupo": null,
+   "jornada": null,
+   "codigo": "1D-3BEFIJ",
+   "fecha": null,
+   "equipos": null,
+   "banderas": null,
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Estados Unidos-Bosnia y Herzegovina",
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "duelo": "Estados Unidos-Canadá",
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "duelo": "Turquía-Suiza",
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "duelo": "Estados Unidos-Bosnia y Herzegovina",
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 1,
+     "duelo": "Estados Unidos-Austria",
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "duelo": "Turquía-Bosnia y Herzegovina",
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Turquía-Bosnia y Herzegovina",
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "duelo": "Turquía-Canadá",
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Estados Unidos-Bosnia y Herzegovina",
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 174,
+   "fase": "Dieciseisavos",
+   "grupo": null,
+   "jornada": null,
+   "codigo": "1H-2J",
+   "fecha": null,
+   "equipos": null,
+   "banderas": null,
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "duelo": "España-Austria",
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "duelo": "España-Austria",
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 1,
+     "duelo": "España-Argelia",
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 0,
+     "duelo": "España-Austria",
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 4,
+     "visitante": 1,
+     "duelo": "España-Argelia",
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "España-Argelia",
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "duelo": "España-Austria",
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "duelo": "España-Austria",
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "duelo": "España-Austria",
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 175,
+   "fase": "Dieciseisavos",
+   "grupo": null,
+   "jornada": null,
+   "codigo": "2K-2L",
+   "fecha": null,
+   "equipos": null,
+   "banderas": null,
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "duelo": "Colombia-Croacia",
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 3,
+     "duelo": "Colombia-Croacia",
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 1,
+     "duelo": "RD Congo-Croacia",
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Colombia-Croacia",
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 2,
+     "duelo": "Colombia-Croacia",
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 1,
+     "duelo": "Colombia-Inglaterra",
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Colombia-Inglaterra",
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 1,
+     "duelo": "Colombia-Inglaterra",
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Colombia-Croacia",
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 176,
+   "fase": "Dieciseisavos",
+   "grupo": null,
+   "jornada": null,
+   "codigo": "1B-3EFGIJ",
+   "fecha": null,
+   "equipos": null,
+   "banderas": null,
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Suiza-Costa de Marfil",
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Suiza-Argelia",
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "duelo": "Canadá-Bélgica",
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "duelo": "Canadá-Irán",
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 4,
+     "visitante": 2,
+     "duelo": "Canadá-Nueva Zelanda",
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "duelo": "Canadá-Austria",
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "duelo": "Canadá-Senegal",
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "X",
+     "local": 0,
+     "visitante": 0,
+     "duelo": "Catar-Noruega",
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "duelo": "Suiza-Irán",
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 177,
+   "fase": "Dieciseisavos",
+   "grupo": null,
+   "jornada": null,
+   "codigo": "2D-2G",
+   "fecha": null,
+   "equipos": null,
+   "banderas": null,
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "duelo": "Turquía-Egipto",
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 2,
+     "duelo": "Turquía-Egipto",
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Paraguay-Egipto",
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Turquía-Egipto",
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 3,
+     "duelo": "Turquía-Egipto",
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "duelo": "Estados Unidos-Egipto",
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "duelo": "Estados Unidos-Egipto",
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "X",
+     "local": 0,
+     "visitante": 0,
+     "duelo": "Estados Unidos-Egipto",
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Turquía-Egipto",
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 178,
+   "fase": "Dieciseisavos",
+   "grupo": null,
+   "jornada": null,
+   "codigo": "1J-2H",
+   "fecha": null,
+   "equipos": null,
+   "banderas": null,
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "duelo": "Argentina-Uruguay",
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Argentina-Uruguay",
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Austria-Uruguay",
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Argentina-Uruguay",
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 2,
+     "duelo": "Argentina-Uruguay",
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Argentina-Uruguay",
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Argentina-Uruguay",
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "duelo": "Argentina-Uruguay",
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Argentina-Uruguay",
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 179,
+   "fase": "Dieciseisavos",
+   "grupo": null,
+   "jornada": null,
+   "codigo": "1K-3DEIJL",
+   "fecha": null,
+   "equipos": null,
+   "banderas": null,
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "duelo": "Portugal-Ghana",
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 1,
+     "duelo": "Portugal-Ghana",
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Colombia-Inglaterra",
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "duelo": "Portugal-Costa de Marfil",
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Portugal-Paraguay",
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "duelo": "Portugal-Ghana",
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 1,
+     "duelo": "Portugal-Ghana",
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Portugal-Ghana",
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "duelo": "Portugal-Ghana",
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 200,
+   "fase": "Octavos",
+   "grupo": null,
+   "jornada": null,
+   "codigo": "W73-W75",
+   "fecha": null,
+   "equipos": null,
+   "banderas": null,
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Canadá-Países Bajos",
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 3,
+     "duelo": "Catar-Marruecos",
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "México-Marruecos",
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Suiza-Marruecos",
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 3,
+     "duelo": "República Checa-Brasil",
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 3,
+     "duelo": "México-Marruecos",
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Suiza-Brasil",
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 1,
+     "duelo": "Corea del Sur-Marruecos",
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "duelo": "Canadá-Países Bajos",
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 201,
+   "fase": "Octavos",
+   "grupo": null,
+   "jornada": null,
+   "codigo": "W74-W77",
+   "fecha": null,
+   "equipos": null,
+   "banderas": null,
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "duelo": "Alemania-Francia",
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "2",
+     "local": 2,
+     "visitante": 3,
+     "duelo": "Alemania-Francia",
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Ecuador-Senegal",
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Alemania-Francia",
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 1,
+     "duelo": "Alemania-Francia",
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Alemania-Noruega",
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "2",
+     "local": 2,
+     "visitante": 3,
+     "duelo": "Alemania-Francia",
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Alemania-Francia",
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Alemania-Francia",
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 202,
+   "fase": "Octavos",
+   "grupo": null,
+   "jornada": null,
+   "codigo": "W76-W78",
+   "fecha": null,
+   "equipos": null,
+   "banderas": null,
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Brasil-Senegal",
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 1,
+     "duelo": "Brasil-Noruega",
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Japón-Noruega",
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Brasil-Noruega",
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 4,
+     "visitante": 1,
+     "duelo": "Marruecos-Costa de Marfil",
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "X",
+     "local": 2,
+     "visitante": 2,
+     "duelo": "Japón-Francia",
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Marruecos-Noruega",
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Brasil-Senegal",
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Brasil-Noruega",
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 203,
+   "fase": "Octavos",
+   "grupo": null,
+   "jornada": null,
+   "codigo": "W79-W80",
+   "fecha": null,
+   "equipos": null,
+   "banderas": null,
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "México-Inglaterra",
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "México-Inglaterra",
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "duelo": "Brasil-Ghana",
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "México-Inglaterra",
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "México-Inglaterra",
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Ecuador-Croacia",
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "México-Croacia",
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "duelo": "México-Croacia",
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "México-Inglaterra",
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 204,
+   "fase": "Octavos",
+   "grupo": null,
+   "jornada": null,
+   "codigo": "W83-W84",
+   "fecha": null,
+   "equipos": null,
+   "banderas": null,
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Croacia-España",
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Croacia-España",
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Croacia-España",
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Colombia-España",
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 3,
+     "duelo": "Colombia-España",
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 3,
+     "duelo": "Colombia-España",
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 3,
+     "duelo": "Inglaterra-España",
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 1,
+     "duelo": "Inglaterra-España",
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 1,
+     "duelo": "Croacia-España",
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 205,
+   "fase": "Octavos",
+   "grupo": null,
+   "jornada": null,
+   "codigo": "W81-W82",
+   "fecha": null,
+   "equipos": null,
+   "banderas": null,
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Estados Unidos-Bélgica",
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Estados Unidos-Bélgica",
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Turquía-Argentina",
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Estados Unidos-Bélgica",
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Estados Unidos-Bélgica",
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "duelo": "Turquía-Bélgica",
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Turquía-Bélgica",
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Turquía-Bélgica",
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Estados Unidos-Bélgica",
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 206,
+   "fase": "Octavos",
+   "grupo": null,
+   "jornada": null,
+   "codigo": "W86-W88",
+   "fecha": null,
+   "equipos": null,
+   "banderas": null,
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "duelo": "Argentina-Turquía",
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Uruguay-Turquía",
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Uruguay-Paraguay",
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 1,
+     "duelo": "Argentina-Turquía",
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 4,
+     "visitante": 2,
+     "duelo": "Argentina-Egipto",
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "duelo": "Argentina-Estados Unidos",
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Argentina-Estados Unidos",
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "duelo": "Argentina-Egipto",
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "duelo": "Argentina-Turquía",
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 207,
+   "fase": "Octavos",
+   "grupo": null,
+   "jornada": null,
+   "codigo": "W85-W87",
+   "fecha": null,
+   "equipos": null,
+   "banderas": null,
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Suiza-Portugal",
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 3,
+     "duelo": "Argelia-Portugal",
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Bélgica-Colombia",
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "duelo": "Canadá-Portugal",
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Canadá-Portugal",
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Canadá-Portugal",
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Canadá-Portugal",
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "duelo": "Noruega-Portugal",
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "duelo": "Suiza-Portugal",
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 220,
+   "fase": "Cuartos",
+   "grupo": null,
+   "jornada": null,
+   "codigo": "W89-W90",
+   "fecha": null,
+   "equipos": null,
+   "banderas": null,
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Francia-Países Bajos",
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 1,
+     "duelo": "Francia-Marruecos",
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Senegal-Marruecos",
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Francia-Marruecos",
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "2",
+     "local": 2,
+     "visitante": 3,
+     "duelo": "Alemania-Brasil",
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "X",
+     "local": 2,
+     "visitante": 2,
+     "duelo": "Noruega-Marruecos",
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Francia-Brasil",
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "duelo": "Francia-Marruecos",
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Francia-Países Bajos",
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 221,
+   "fase": "Cuartos",
+   "grupo": null,
+   "jornada": null,
+   "codigo": "W93-W94",
+   "fecha": null,
+   "equipos": null,
+   "banderas": null,
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "España-Estados Unidos",
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Croacia-Bélgica",
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "España-Argentina",
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "duelo": "España-Estados Unidos",
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 4,
+     "visitante": 1,
+     "duelo": "España-Bélgica",
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 2,
+     "duelo": "España-Bélgica",
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 1,
+     "duelo": "España-Bélgica",
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "España-Bélgica",
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 0,
+     "duelo": "España-Bélgica",
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 222,
+   "fase": "Cuartos",
+   "grupo": null,
+   "jornada": null,
+   "codigo": "W91-W92",
+   "fecha": null,
+   "equipos": null,
+   "banderas": null,
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Brasil-Inglaterra",
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 2,
+     "duelo": "Brasil-Inglaterra",
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 2,
+     "duelo": "Japón-Brasil",
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Brasil-Inglaterra",
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Marruecos-Inglaterra",
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "duelo": "Francia-Croacia",
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Marruecos-Croacia",
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Brasil-México",
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Brasil-Inglaterra",
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 223,
+   "fase": "Cuartos",
+   "grupo": null,
+   "jornada": null,
+   "codigo": "W95-W96",
+   "fecha": null,
+   "equipos": null,
+   "banderas": null,
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Argentina-Portugal",
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "2",
+     "local": 2,
+     "visitante": 3,
+     "duelo": "Turquía-Portugal",
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Paraguay-Colombia",
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Argentina-Portugal",
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 1,
+     "duelo": "Argentina-Portugal",
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Argentina-Portugal",
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Argentina-Portugal",
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "duelo": "Argentina-Noruega",
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Argentina-Portugal",
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 232,
+   "fase": "Semifinales",
+   "grupo": null,
+   "jornada": null,
+   "codigo": "W97-W98",
+   "fecha": null,
+   "equipos": null,
+   "banderas": null,
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Francia-España",
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 1,
+     "duelo": "Francia-Croacia",
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Marruecos-España",
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Francia-España",
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 3,
+     "duelo": "Brasil-España",
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "X",
+     "local": 1,
+     "visitante": 1,
+     "duelo": "Noruega-España",
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "2",
+     "local": 2,
+     "visitante": 3,
+     "duelo": "Francia-España",
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 1,
+     "duelo": "Francia-España",
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Francia-España",
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 233,
+   "fase": "Semifinales",
+   "grupo": null,
+   "jornada": null,
+   "codigo": "W99-W100",
+   "fecha": null,
+   "equipos": null,
+   "banderas": null,
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Inglaterra-Portugal",
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "2",
+     "local": 2,
+     "visitante": 3,
+     "duelo": "Brasil-Portugal",
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Brasil-Colombia",
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "2",
+     "local": 0,
+     "visitante": 1,
+     "duelo": "Inglaterra-Portugal",
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 3,
+     "duelo": "Inglaterra-Argentina",
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Francia-Portugal",
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Marruecos-Portugal",
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Brasil-Argentina",
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Inglaterra-Argentina",
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 244,
+   "fase": "3º y 4º puesto",
+   "grupo": null,
+   "jornada": null,
+   "codigo": "L101-L102",
+   "fecha": null,
+   "equipos": null,
+   "banderas": null,
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Francia-Portugal",
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "Croacia-Brasil",
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Marruecos-Colombia",
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Francia-Inglaterra",
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 2,
+     "duelo": "Brasil-Inglaterra",
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "X",
+     "local": 2,
+     "visitante": 2,
+     "duelo": "Noruega-Portugal",
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Francia-Marruecos",
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "duelo": "Francia-Argentina",
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "Francia-Inglaterra",
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "id": 247,
+   "fase": "Final",
+   "grupo": null,
+   "jornada": null,
+   "codigo": "W101-W102",
+   "fecha": null,
+   "equipos": null,
+   "banderas": null,
+   "resultado": null,
+   "jugado": false,
+   "predicciones": {
+    "Juanlu": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "España-Inglaterra",
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 3,
+     "duelo": "Francia-Portugal",
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "España-Brasil",
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "signo": "1",
+     "local": 1,
+     "visitante": 0,
+     "duelo": "España-Portugal",
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "signo": "1",
+     "local": 4,
+     "visitante": 1,
+     "duelo": "España-Argentina",
+     "puntos": 0.0
+    },
+    "Rino": {
+     "signo": "1",
+     "local": 3,
+     "visitante": 1,
+     "duelo": "España-Francia",
+     "puntos": 0.0
+    },
+    "Mini": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "España-Portugal",
+     "puntos": 0.0
+    },
+    "Moi": {
+     "signo": "2",
+     "local": 1,
+     "visitante": 2,
+     "duelo": "España-Brasil",
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "signo": "1",
+     "local": 2,
+     "visitante": 1,
+     "duelo": "España-Argentina",
+     "puntos": 0.0
+    }
+   }
+  }
+ ],
+ "cuadro_honor": [
+  {
+   "concepto": "🥇Campeón",
+   "resultado": null,
+   "bandera": "",
+   "predicciones": {
+    "Juanlu": {
+     "texto": "España",
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "texto": "Portugal",
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "texto": "España",
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "texto": "España",
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "texto": "España",
+     "puntos": 0.0
+    },
+    "Rino": {
+     "texto": "España",
+     "puntos": 0.0
+    },
+    "Mini": {
+     "texto": "España",
+     "puntos": 0.0
+    },
+    "Moi": {
+     "texto": "Brasil",
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "texto": "España",
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "concepto": "🥈Subcampeón",
+   "resultado": null,
+   "bandera": "",
+   "predicciones": {
+    "Juanlu": {
+     "texto": "Inglaterra",
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "texto": "Francia",
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "texto": "Brasil",
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "texto": "Portugal",
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "texto": "Argentina",
+     "puntos": 0.0
+    },
+    "Rino": {
+     "texto": "Francia",
+     "puntos": 0.0
+    },
+    "Mini": {
+     "texto": "Portugal",
+     "puntos": 0.0
+    },
+    "Moi": {
+     "texto": "España",
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "texto": "Argentina",
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "concepto": "🥉3º puesto",
+   "resultado": null,
+   "bandera": "",
+   "predicciones": {
+    "Juanlu": {
+     "texto": "Francia",
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "texto": "Brasil",
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "texto": "Marruecos",
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "texto": "Francia",
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "texto": "Brasil",
+     "puntos": 0.0
+    },
+    "Rino": {
+     "texto": "Noruega",
+     "puntos": 0.0
+    },
+    "Mini": {
+     "texto": "Francia",
+     "puntos": 0.0
+    },
+    "Moi": {
+     "texto": "Francia",
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "texto": "Francia",
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "concepto": "Bota de Oro (máximo goleador)",
+   "resultado": null,
+   "bandera": "",
+   "predicciones": {
+    "Juanlu": {
+     "texto": "Mbappé",
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "texto": "RONALDO",
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "texto": "Julian Alvarez",
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "texto": "MBAPPE",
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "texto": "CRISTIANO RONALDO",
+     "puntos": 0.0
+    },
+    "Rino": {
+     "texto": "Erling Haaland",
+     "puntos": 0.0
+    },
+    "Mini": {
+     "texto": "Mbappe",
+     "puntos": 0.0
+    },
+    "Moi": {
+     "texto": "Kylian Mbappé",
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "texto": "Harry Kane",
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "concepto": "Bota de Plata (2º máximo goleador)",
+   "resultado": null,
+   "bandera": "",
+   "predicciones": {
+    "Juanlu": {
+     "texto": "Kane",
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "texto": "MBAPPE",
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "texto": "En-Nesyri",
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "texto": "OYARZABAL",
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "texto": "MESSI",
+     "puntos": 0.0
+    },
+    "Rino": {
+     "texto": "Kylian Mbappé",
+     "puntos": 0.0
+    },
+    "Mini": {
+     "texto": "Haaland",
+     "puntos": 0.0
+    },
+    "Moi": {
+     "texto": "Vinicius Jr",
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "texto": "Julian Álvarez",
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "concepto": "Bota de Bronce (3º máximo goleador)",
+   "resultado": null,
+   "bandera": "",
+   "predicciones": {
+    "Juanlu": {
+     "texto": "Haaland",
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "texto": "KANE",
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "texto": "Vinicius Jr.",
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "texto": "MESSI",
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "texto": "FERRAN TORRES",
+     "puntos": 0.0
+    },
+    "Rino": {
+     "texto": "Cristiano Ronaldo",
+     "puntos": 0.0
+    },
+    "Mini": {
+     "texto": "Yamal",
+     "puntos": 0.0
+    },
+    "Moi": {
+     "texto": "Mikel Oyarzabal",
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "texto": "Kylian Mbappé",
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "concepto": "Balón de Oro (mejor jugador)",
+   "resultado": null,
+   "bandera": "",
+   "predicciones": {
+    "Juanlu": {
+     "texto": "Lamine Yamal",
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "texto": "RONALDO",
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "texto": "Pedri",
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "texto": "LAMINE YAMAL",
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "texto": "FERRAN TORRES",
+     "puntos": 0.0
+    },
+    "Rino": {
+     "texto": "Pedri",
+     "puntos": 0.0
+    },
+    "Mini": {
+     "texto": "Vitinha",
+     "puntos": 0.0
+    },
+    "Moi": {
+     "texto": "Kylian Mbappé",
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "texto": "Lamine Yamal",
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "concepto": "Balón de Plata (2º mejor jugador)",
+   "resultado": null,
+   "bandera": "",
+   "predicciones": {
+    "Juanlu": {
+     "texto": "Kane",
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "texto": "MBAPPE",
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "texto": "Vinicus Jr.",
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "texto": "CRISTIANO RONALDO",
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "texto": "LAMINE YAMAL",
+     "puntos": 0.0
+    },
+    "Rino": {
+     "texto": "Kylian Mbappé",
+     "puntos": 0.0
+    },
+    "Mini": {
+     "texto": "Pedri",
+     "puntos": 0.0
+    },
+    "Moi": {
+     "texto": "Lamine Yamal",
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "texto": "Kylian Mbappé",
+     "puntos": 0.0
+    }
+   }
+  },
+  {
+   "concepto": "Balón de Bronce (3º mejor jugador)",
+   "resultado": null,
+   "bandera": "",
+   "predicciones": {
+    "Juanlu": {
+     "texto": "Mbappé",
+     "puntos": 0.0
+    },
+    "WILLY": {
+     "texto": "VINICIUS",
+     "puntos": 0.0
+    },
+    "Mesa": {
+     "texto": "Acharaf Hakimi",
+     "puntos": 0.0
+    },
+    "TERRY": {
+     "texto": "FABIAN",
+     "puntos": 0.0
+    },
+    "Velasco": {
+     "texto": "MESSI",
+     "puntos": 0.0
+    },
+    "Rino": {
+     "texto": "Erling Haaland",
+     "puntos": 0.0
+    },
+    "Mini": {
+     "texto": "Olise",
+     "puntos": 0.0
+    },
+    "Moi": {
+     "texto": "Vinicius Jr",
+     "puntos": 0.0
+    },
+    "RAFA NAVARRETE": {
+     "texto": "Rodri",
+     "puntos": 0.0
+    }
+   }
+  }
+ ],
+ "resumen": {
+  "n_jugadores": 9,
+  "n_partidos": 104,
+  "n_jugados": 0
+ }
+}
