@@ -1,7 +1,7 @@
 {
  "titulo": "XXIII Mundial USA/MEX/CAN 2026",
  "grupo": "Poyete",
- "actualizado": "2026-06-12T12:20:50",
+ "actualizado": "2026-06-12T17:41:21",
  "jugadores": [
   "Juanlu",
   "WILLY",
@@ -261,6 +261,7 @@
    "jornada": "J1",
    "codigo": "México-Sudáfrica",
    "fecha": "2026-06-11",
+   "hora": "21:00",
    "equipos": [
     "México",
     "Sudáfrica"
@@ -345,6 +346,7 @@
    "jornada": "J1",
    "codigo": "Corea del Sur-República Checa",
    "fecha": "2026-06-12",
+   "hora": "04:00",
    "equipos": [
     "Corea del Sur",
     "República Checa"
@@ -429,6 +431,7 @@
    "jornada": "J1",
    "codigo": "Canadá-Bosnia y Herzegovina",
    "fecha": "2026-06-12",
+   "hora": "21:00",
    "equipos": [
     "Canadá",
     "Bosnia y Herzegovina"
@@ -509,6 +512,7 @@
    "jornada": "J1",
    "codigo": "Catar-Suiza",
    "fecha": "2026-06-13",
+   "hora": "21:00",
    "equipos": [
     "Catar",
     "Suiza"
@@ -589,6 +593,7 @@
    "jornada": "J1",
    "codigo": "Brasil-Marruecos",
    "fecha": "2026-06-14",
+   "hora": "00:00",
    "equipos": [
     "Brasil",
     "Marruecos"
@@ -669,6 +674,7 @@
    "jornada": "J1",
    "codigo": "Haití-Escocia",
    "fecha": "2026-06-14",
+   "hora": "00:00",
    "equipos": [
     "Haití",
     "Escocia"
@@ -749,6 +755,7 @@
    "jornada": "J1",
    "codigo": "Estados Unidos-Paraguay",
    "fecha": "2026-06-13",
+   "hora": "03:00",
    "equipos": [
     "Estados Unidos",
     "Paraguay"
@@ -829,6 +836,7 @@
    "jornada": "J1",
    "codigo": "Australia-Turquía",
    "fecha": "2026-06-14",
+   "hora": "06:00",
    "equipos": [
     "Australia",
     "Turquía"
@@ -909,6 +917,7 @@
    "jornada": "J1",
    "codigo": "Alemania-Curazao",
    "fecha": "2026-06-14",
+   "hora": "19:00",
    "equipos": [
     "Alemania",
     "Curazao"
@@ -989,6 +998,7 @@
    "jornada": "J1",
    "codigo": "Costa de Marfil-Ecuador",
    "fecha": "2026-06-15",
+   "hora": "01:00",
    "equipos": [
     "Costa de Marfil",
     "Ecuador"
@@ -1069,6 +1079,7 @@
    "jornada": "J1",
    "codigo": "Países Bajos-Japón",
    "fecha": "2026-06-15",
+   "hora": "04:00",
    "equipos": [
     "Países Bajos",
     "Japón"
@@ -1149,6 +1160,7 @@
    "jornada": "J1",
    "codigo": "Suecia-Túnez",
    "fecha": "2026-06-15",
+   "hora": "04:00",
    "equipos": [
     "Suecia",
     "Túnez"
@@ -1229,6 +1241,7 @@
    "jornada": "J1",
    "codigo": "Bélgica-Egipto",
    "fecha": "2026-06-15",
+   "hora": "21:00",
    "equipos": [
     "Bélgica",
     "Egipto"
@@ -1309,6 +1322,7 @@
    "jornada": "J1",
    "codigo": "Irán-Nueva Zelanda",
    "fecha": "2026-06-16",
+   "hora": "03:00",
    "equipos": [
     "Irán",
     "Nueva Zelanda"
@@ -1389,6 +1403,7 @@
    "jornada": "J1",
    "codigo": "España-Cabo Verde",
    "fecha": "2026-06-15",
+   "hora": "18:00",
    "equipos": [
     "España",
     "Cabo Verde"
@@ -1469,6 +1484,7 @@
    "jornada": "J1",
    "codigo": "Arabia Saudita-Uruguay",
    "fecha": "2026-06-16",
+   "hora": "00:00",
    "equipos": [
     "Arabia Saudita",
     "Uruguay"
@@ -1549,6 +1565,7 @@
    "jornada": "J1",
    "codigo": "Francia-Senegal",
    "fecha": "2026-06-16",
+   "hora": "21:00",
    "equipos": [
     "Francia",
     "Senegal"
@@ -1629,6 +1646,7 @@
    "jornada": "J1",
    "codigo": "Irak-Noruega",
    "fecha": "2026-06-17",
+   "hora": "00:00",
    "equipos": [
     "Irak",
     "Noruega"
@@ -1709,6 +1727,7 @@
    "jornada": "J1",
    "codigo": "Argentina-Argelia",
    "fecha": "2026-06-17",
+   "hora": "03:00",
    "equipos": [
     "Argentina",
     "Argelia"
@@ -1789,6 +1808,7 @@
    "jornada": "J1",
    "codigo": "Austria-Jordania",
    "fecha": "2026-06-17",
+   "hora": "03:00",
    "equipos": [
     "Austria",
     "Jordania"
@@ -1869,6 +1889,7 @@
    "jornada": "J1",
    "codigo": "Portugal-RD Congo",
    "fecha": "2026-06-17",
+   "hora": "19:00",
    "equipos": [
     "Portugal",
     "RD Congo"
@@ -1949,6 +1970,7 @@
    "jornada": "J1",
    "codigo": "Uzbekistán-Colombia",
    "fecha": "2026-06-18",
+   "hora": "04:00",
    "equipos": [
     "Uzbekistán",
     "Colombia"
@@ -2029,6 +2051,7 @@
    "jornada": "J1",
    "codigo": "Inglaterra-Croacia",
    "fecha": "2026-06-18",
+   "hora": "01:00",
    "equipos": [
     "Inglaterra",
     "Croacia"
@@ -2109,6 +2132,7 @@
    "jornada": "J1",
    "codigo": "Ghana-Panamá",
    "fecha": "2026-06-18",
+   "hora": "01:00",
    "equipos": [
     "Ghana",
     "Panamá"
@@ -2189,6 +2213,7 @@
    "jornada": "J2",
    "codigo": "República Checa-Sudáfrica",
    "fecha": "2026-06-18",
+   "hora": "18:00",
    "equipos": [
     "República Checa",
     "Sudáfrica"
@@ -2269,6 +2294,7 @@
    "jornada": "J2",
    "codigo": "México-Corea del Sur",
    "fecha": "2026-06-19",
+   "hora": "03:00",
    "equipos": [
     "México",
     "Corea del Sur"
@@ -2349,6 +2375,7 @@
    "jornada": "J2",
    "codigo": "Suiza-Bosnia y Herzegovina",
    "fecha": "2026-06-18",
+   "hora": "21:00",
    "equipos": [
     "Suiza",
     "Bosnia y Herzegovina"
@@ -2429,6 +2456,7 @@
    "jornada": "J2",
    "codigo": "Canadá-Catar",
    "fecha": "2026-06-19",
+   "hora": "00:00",
    "equipos": [
     "Canadá",
     "Catar"
@@ -2509,6 +2537,7 @@
    "jornada": "J2",
    "codigo": "Escocia-Marruecos",
    "fecha": "2026-06-20",
+   "hora": "00:00",
    "equipos": [
     "Escocia",
     "Marruecos"
@@ -2589,6 +2618,7 @@
    "jornada": "J2",
    "codigo": "Brasil-Haití",
    "fecha": "2026-06-20",
+   "hora": "00:00",
    "equipos": [
     "Brasil",
     "Haití"
@@ -2669,6 +2699,7 @@
    "jornada": "J2",
    "codigo": "Estados Unidos-Australia",
    "fecha": "2026-06-19",
+   "hora": "21:00",
    "equipos": [
     "Estados Unidos",
     "Australia"
@@ -2749,6 +2780,7 @@
    "jornada": "J2",
    "codigo": "Turquía-Paraguay",
    "fecha": "2026-06-20",
+   "hora": "05:00",
    "equipos": [
     "Turquía",
     "Paraguay"
@@ -2829,6 +2861,7 @@
    "jornada": "J2",
    "codigo": "Alemania-Costa de Marfil",
    "fecha": "2026-06-21",
+   "hora": "02:00",
    "equipos": [
     "Alemania",
     "Costa de Marfil"
@@ -2909,6 +2942,7 @@
    "jornada": "J2",
    "codigo": "Ecuador-Curazao",
    "fecha": "2026-06-21",
+   "hora": "02:00",
    "equipos": [
     "Ecuador",
     "Curazao"
@@ -2989,6 +3023,7 @@
    "jornada": "J2",
    "codigo": "Países Bajos-Suecia",
    "fecha": "2026-06-20",
+   "hora": "19:00",
    "equipos": [
     "Países Bajos",
     "Suecia"
@@ -3069,6 +3104,7 @@
    "jornada": "J2",
    "codigo": "Túnez-Japón",
    "fecha": "2026-06-21",
+   "hora": "06:00",
    "equipos": [
     "Túnez",
     "Japón"
@@ -3149,6 +3185,7 @@
    "jornada": "J2",
    "codigo": "Bélgica-Irán",
    "fecha": "2026-06-21",
+   "hora": "21:00",
    "equipos": [
     "Bélgica",
     "Irán"
@@ -3229,6 +3266,7 @@
    "jornada": "J2",
    "codigo": "Nueva Zelanda-Egipto",
    "fecha": "2026-06-22",
+   "hora": "03:00",
    "equipos": [
     "Nueva Zelanda",
     "Egipto"
@@ -3309,6 +3347,7 @@
    "jornada": "J2",
    "codigo": "España-Arabia Saudita",
    "fecha": "2026-06-21",
+   "hora": "18:00",
    "equipos": [
     "España",
     "Arabia Saudita"
@@ -3389,6 +3428,7 @@
    "jornada": "J2",
    "codigo": "Uruguay-Cabo Verde",
    "fecha": "2026-06-22",
+   "hora": "00:00",
    "equipos": [
     "Uruguay",
     "Cabo Verde"
@@ -3469,6 +3509,7 @@
    "jornada": "J2",
    "codigo": "Francia-Irak",
    "fecha": "2026-06-23",
+   "hora": "02:00",
    "equipos": [
     "Francia",
     "Irak"
@@ -3549,6 +3590,7 @@
    "jornada": "J2",
    "codigo": "Noruega-Senegal",
    "fecha": "2026-06-23",
+   "hora": "02:00",
    "equipos": [
     "Noruega",
     "Senegal"
@@ -3629,6 +3671,7 @@
    "jornada": "J2",
    "codigo": "Argentina-Austria",
    "fecha": "2026-06-22",
+   "hora": "19:00",
    "equipos": [
     "Argentina",
     "Austria"
@@ -3709,6 +3752,7 @@
    "jornada": "J2",
    "codigo": "Jordania-Argelia",
    "fecha": "2026-06-23",
+   "hora": "05:00",
    "equipos": [
     "Jordania",
     "Argelia"
@@ -3789,6 +3833,7 @@
    "jornada": "J2",
    "codigo": "Portugal-Uzbekistán",
    "fecha": "2026-06-23",
+   "hora": "19:00",
    "equipos": [
     "Portugal",
     "Uzbekistán"
@@ -3869,6 +3914,7 @@
    "jornada": "J2",
    "codigo": "Colombia-RD Congo",
    "fecha": "2026-06-24",
+   "hora": "04:00",
    "equipos": [
     "Colombia",
     "RD Congo"
@@ -3949,6 +3995,7 @@
    "jornada": "J2",
    "codigo": "Inglaterra-Ghana",
    "fecha": "2026-06-24",
+   "hora": "01:00",
    "equipos": [
     "Inglaterra",
     "Ghana"
@@ -4029,6 +4076,7 @@
    "jornada": "J2",
    "codigo": "Panamá-Croacia",
    "fecha": "2026-06-24",
+   "hora": "01:00",
    "equipos": [
     "Panamá",
     "Croacia"
@@ -4109,6 +4157,7 @@
    "jornada": "J3",
    "codigo": "República Checa-México",
    "fecha": "2026-06-25",
+   "hora": "03:00",
    "equipos": [
     "República Checa",
     "México"
@@ -4189,6 +4238,7 @@
    "jornada": "J3",
    "codigo": "Sudáfrica-Corea del Sur",
    "fecha": "2026-06-25",
+   "hora": "03:00",
    "equipos": [
     "Sudáfrica",
     "Corea del Sur"
@@ -4269,6 +4319,7 @@
    "jornada": "J3",
    "codigo": "Suiza-Canadá",
    "fecha": "2026-06-24",
+   "hora": "21:00",
    "equipos": [
     "Suiza",
     "Canadá"
@@ -4349,6 +4400,7 @@
    "jornada": "J3",
    "codigo": "Bosnia y Herzegovina-Catar",
    "fecha": "2026-06-24",
+   "hora": "21:00",
    "equipos": [
     "Bosnia y Herzegovina",
     "Catar"
@@ -4429,6 +4481,7 @@
    "jornada": "J3",
    "codigo": "Escocia-Brasil",
    "fecha": "2026-06-25",
+   "hora": "00:00",
    "equipos": [
     "Escocia",
     "Brasil"
@@ -4509,6 +4562,7 @@
    "jornada": "J3",
    "codigo": "Marruecos-Haití",
    "fecha": "2026-06-25",
+   "hora": "00:00",
    "equipos": [
     "Marruecos",
     "Haití"
@@ -4589,6 +4643,7 @@
    "jornada": "J3",
    "codigo": "Turquía-Estados Unidos",
    "fecha": "2026-06-26",
+   "hora": "04:00",
    "equipos": [
     "Turquía",
     "Estados Unidos"
@@ -4669,6 +4724,7 @@
    "jornada": "J3",
    "codigo": "Paraguay-Australia",
    "fecha": "2026-06-26",
+   "hora": "04:00",
    "equipos": [
     "Paraguay",
     "Australia"
@@ -4749,6 +4805,7 @@
    "jornada": "J3",
    "codigo": "Curazao-Costa de Marfil",
    "fecha": "2026-06-26",
+   "hora": null,
    "equipos": [
     "Curazao",
     "Costa de Marfil"
@@ -4829,6 +4886,7 @@
    "jornada": "J3",
    "codigo": "Ecuador-Alemania",
    "fecha": "2026-06-26",
+   "hora": null,
    "equipos": [
     "Ecuador",
     "Alemania"
@@ -4909,6 +4967,7 @@
    "jornada": "J3",
    "codigo": "Japón-Suecia",
    "fecha": "2026-06-26",
+   "hora": "01:00",
    "equipos": [
     "Japón",
     "Suecia"
@@ -4989,6 +5048,7 @@
    "jornada": "J3",
    "codigo": "Túnez-Países Bajos",
    "fecha": "2026-06-26",
+   "hora": "01:00",
    "equipos": [
     "Túnez",
     "Países Bajos"
@@ -5069,6 +5129,7 @@
    "jornada": "J3",
    "codigo": "Egipto-Irán",
    "fecha": "2026-06-27",
+   "hora": "05:00",
    "equipos": [
     "Egipto",
     "Irán"
@@ -5149,6 +5210,7 @@
    "jornada": "J3",
    "codigo": "Nueva Zelanda-Bélgica",
    "fecha": "2026-06-27",
+   "hora": "05:00",
    "equipos": [
     "Nueva Zelanda",
     "Bélgica"
@@ -5229,6 +5291,7 @@
    "jornada": "J3",
    "codigo": "Cabo Verde-Arabia Saudita",
    "fecha": "2026-06-27",
+   "hora": "02:00",
    "equipos": [
     "Cabo Verde",
     "Arabia Saudita"
@@ -5309,6 +5372,7 @@
    "jornada": "J3",
    "codigo": "Uruguay-España",
    "fecha": "2026-06-27",
+   "hora": "02:00",
    "equipos": [
     "Uruguay",
     "España"
@@ -5389,6 +5453,7 @@
    "jornada": "J3",
    "codigo": "Noruega-Francia",
    "fecha": "2026-06-26",
+   "hora": "21:00",
    "equipos": [
     "Noruega",
     "Francia"
@@ -5469,6 +5534,7 @@
    "jornada": "J3",
    "codigo": "Senegal-Irak",
    "fecha": "2026-06-26",
+   "hora": "21:00",
    "equipos": [
     "Senegal",
     "Irak"
@@ -5549,6 +5615,7 @@
    "jornada": "J3",
    "codigo": "Argelia-Austria",
    "fecha": "2026-06-28",
+   "hora": "04:00",
    "equipos": [
     "Argelia",
     "Austria"
@@ -5629,6 +5696,7 @@
    "jornada": "J3",
    "codigo": "Jordania-Argentina",
    "fecha": "2026-06-28",
+   "hora": "04:00",
    "equipos": [
     "Jordania",
     "Argentina"
@@ -5709,6 +5777,7 @@
    "jornada": "J3",
    "codigo": "Colombia-Portugal",
    "fecha": "2026-06-28",
+   "hora": "01:30",
    "equipos": [
     "Colombia",
     "Portugal"
@@ -5789,6 +5858,7 @@
    "jornada": "J3",
    "codigo": "RD Congo-Uzbekistán",
    "fecha": "2026-06-28",
+   "hora": "01:30",
    "equipos": [
     "RD Congo",
     "Uzbekistán"
@@ -5869,6 +5939,7 @@
    "jornada": "J3",
    "codigo": "Panamá-Inglaterra",
    "fecha": "2026-06-28",
+   "hora": "21:00",
    "equipos": [
     "Panamá",
     "Inglaterra"
@@ -5949,6 +6020,7 @@
    "jornada": "J3",
    "codigo": "Croacia-Ghana",
    "fecha": "2026-06-28",
+   "hora": "21:00",
    "equipos": [
     "Croacia",
     "Ghana"
@@ -6029,6 +6101,7 @@
    "jornada": null,
    "codigo": "2A-2B",
    "fecha": null,
+   "hora": null,
    "equipos": null,
    "banderas": null,
    "resultado": null,
@@ -6113,6 +6186,7 @@
    "jornada": null,
    "codigo": "1C-2F",
    "fecha": null,
+   "hora": null,
    "equipos": null,
    "banderas": null,
    "resultado": null,
@@ -6197,6 +6271,7 @@
    "jornada": null,
    "codigo": "1E-3ABCDF",
    "fecha": null,
+   "hora": null,
    "equipos": null,
    "banderas": null,
    "resultado": null,
@@ -6281,6 +6356,7 @@
    "jornada": null,
    "codigo": "1F-2C",
    "fecha": null,
+   "hora": null,
    "equipos": null,
    "banderas": null,
    "resultado": null,
@@ -6365,6 +6441,7 @@
    "jornada": null,
    "codigo": "2E-2I",
    "fecha": null,
+   "hora": null,
    "equipos": null,
    "banderas": null,
    "resultado": null,
@@ -6449,6 +6526,7 @@
    "jornada": null,
    "codigo": "1I-3CDFGH",
    "fecha": null,
+   "hora": null,
    "equipos": null,
    "banderas": null,
    "resultado": null,
@@ -6533,6 +6611,7 @@
    "jornada": null,
    "codigo": "1A-3CEFHI",
    "fecha": null,
+   "hora": null,
    "equipos": null,
    "banderas": null,
    "resultado": null,
@@ -6617,6 +6696,7 @@
    "jornada": null,
    "codigo": "1L-3EHIJK",
    "fecha": null,
+   "hora": null,
    "equipos": null,
    "banderas": null,
    "resultado": null,
@@ -6701,6 +6781,7 @@
    "jornada": null,
    "codigo": "1G-3AEHIJ",
    "fecha": null,
+   "hora": null,
    "equipos": null,
    "banderas": null,
    "resultado": null,
@@ -6785,6 +6866,7 @@
    "jornada": null,
    "codigo": "1D-3BEFIJ",
    "fecha": null,
+   "hora": null,
    "equipos": null,
    "banderas": null,
    "resultado": null,
@@ -6869,6 +6951,7 @@
    "jornada": null,
    "codigo": "1H-2J",
    "fecha": null,
+   "hora": null,
    "equipos": null,
    "banderas": null,
    "resultado": null,
@@ -6953,6 +7036,7 @@
    "jornada": null,
    "codigo": "2K-2L",
    "fecha": null,
+   "hora": null,
    "equipos": null,
    "banderas": null,
    "resultado": null,
@@ -7037,6 +7121,7 @@
    "jornada": null,
    "codigo": "1B-3EFGIJ",
    "fecha": null,
+   "hora": null,
    "equipos": null,
    "banderas": null,
    "resultado": null,
@@ -7121,6 +7206,7 @@
    "jornada": null,
    "codigo": "2D-2G",
    "fecha": null,
+   "hora": null,
    "equipos": null,
    "banderas": null,
    "resultado": null,
@@ -7205,6 +7291,7 @@
    "jornada": null,
    "codigo": "1J-2H",
    "fecha": null,
+   "hora": null,
    "equipos": null,
    "banderas": null,
    "resultado": null,
@@ -7289,6 +7376,7 @@
    "jornada": null,
    "codigo": "1K-3DEIJL",
    "fecha": null,
+   "hora": null,
    "equipos": null,
    "banderas": null,
    "resultado": null,
@@ -7373,6 +7461,7 @@
    "jornada": null,
    "codigo": "W73-W75",
    "fecha": null,
+   "hora": null,
    "equipos": null,
    "banderas": null,
    "resultado": null,
@@ -7457,6 +7546,7 @@
    "jornada": null,
    "codigo": "W74-W77",
    "fecha": null,
+   "hora": null,
    "equipos": null,
    "banderas": null,
    "resultado": null,
@@ -7541,6 +7631,7 @@
    "jornada": null,
    "codigo": "W76-W78",
    "fecha": null,
+   "hora": null,
    "equipos": null,
    "banderas": null,
    "resultado": null,
@@ -7625,6 +7716,7 @@
    "jornada": null,
    "codigo": "W79-W80",
    "fecha": null,
+   "hora": null,
    "equipos": null,
    "banderas": null,
    "resultado": null,
@@ -7709,6 +7801,7 @@
    "jornada": null,
    "codigo": "W83-W84",
    "fecha": null,
+   "hora": null,
    "equipos": null,
    "banderas": null,
    "resultado": null,
@@ -7793,6 +7886,7 @@
    "jornada": null,
    "codigo": "W81-W82",
    "fecha": null,
+   "hora": null,
    "equipos": null,
    "banderas": null,
    "resultado": null,
@@ -7877,6 +7971,7 @@
    "jornada": null,
    "codigo": "W86-W88",
    "fecha": null,
+   "hora": null,
    "equipos": null,
    "banderas": null,
    "resultado": null,
@@ -7961,6 +8056,7 @@
    "jornada": null,
    "codigo": "W85-W87",
    "fecha": null,
+   "hora": null,
    "equipos": null,
    "banderas": null,
    "resultado": null,
@@ -8045,6 +8141,7 @@
    "jornada": null,
    "codigo": "W89-W90",
    "fecha": null,
+   "hora": null,
    "equipos": null,
    "banderas": null,
    "resultado": null,
@@ -8129,6 +8226,7 @@
    "jornada": null,
    "codigo": "W93-W94",
    "fecha": null,
+   "hora": null,
    "equipos": null,
    "banderas": null,
    "resultado": null,
@@ -8213,6 +8311,7 @@
    "jornada": null,
    "codigo": "W91-W92",
    "fecha": null,
+   "hora": null,
    "equipos": null,
    "banderas": null,
    "resultado": null,
@@ -8297,6 +8396,7 @@
    "jornada": null,
    "codigo": "W95-W96",
    "fecha": null,
+   "hora": null,
    "equipos": null,
    "banderas": null,
    "resultado": null,
@@ -8381,6 +8481,7 @@
    "jornada": null,
    "codigo": "W97-W98",
    "fecha": null,
+   "hora": null,
    "equipos": null,
    "banderas": null,
    "resultado": null,
@@ -8465,6 +8566,7 @@
    "jornada": null,
    "codigo": "W99-W100",
    "fecha": null,
+   "hora": null,
    "equipos": null,
    "banderas": null,
    "resultado": null,
@@ -8549,6 +8651,7 @@
    "jornada": null,
    "codigo": "L101-L102",
    "fecha": null,
+   "hora": null,
    "equipos": null,
    "banderas": null,
    "resultado": null,
@@ -8633,6 +8736,7 @@
    "jornada": null,
    "codigo": "W101-W102",
    "fecha": null,
+   "hora": null,
    "equipos": null,
    "banderas": null,
    "resultado": null,
