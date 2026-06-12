@@ -28,8 +28,26 @@ lo convierte en la web y en el mensaje del grupo de WhatsApp.
 | `exportar.py`      | Excel → `docs/datos.json`                                       |
 | `mensaje.py`       | `datos.json` → mensaje de WhatsApp (`mensaje_hoy.txt`)          |
 | `actualizar.sh`    | Hace todo lo anterior + publica                                |
+| `registrar_resultado.py` | Escribe un resultado en el Excel y guarda con Microsoft Excel |
+| `actualizar_desde_espn.py` | ESPN → Excel → web, si ESPN marca el partido como finalizado |
 | `docs/`            | La web (lo que sirve GitHub Pages)                             |
 | `config.json`      | La URL de la web (para el enlace del mensaje)                  |
+
+## Actualización automática desde ESPN
+
+Para registrar y publicar un resultado ya finalizado en ESPN:
+
+```bash
+python3 actualizar_desde_espn.py "Canadá-Bosnia y Herzegovina" --fecha 2026-06-12 --publicar
+```
+
+Para probar sin publicar:
+
+```bash
+python3 actualizar_desde_espn.py "Canadá-Bosnia y Herzegovina" --fecha 2026-06-12 --no-publicar
+```
+
+Si ESPN todavía no da el partido por finalizado, el script sale con código `2`.
 
 ## La web (`docs/`)
 

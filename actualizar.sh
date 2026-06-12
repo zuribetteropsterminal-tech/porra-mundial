@@ -4,10 +4,17 @@
 #   2) genera el mensaje de WhatsApp de hoy
 #   3) (si el repo está en git) publica los cambios -> GitHub Pages se actualiza solo
 #
-# Uso:   ./actualizar.sh            (mensaje de hoy)
-#        ./actualizar.sh 2026-06-15 (mensaje de una fecha)
+# Uso:   ./actualizar.sh                 (mensaje de hoy + publica si hay cambios)
+#        ./actualizar.sh 2026-06-15      (mensaje de una fecha + publica si hay cambios)
+#        ./actualizar.sh --no-publicar 2026-06-15
 set -e
 cd "$(dirname "$0")"
+
+NO_PUBLICAR=0
+if [ "${1:-}" = "--no-publicar" ]; then
+  NO_PUBLICAR=1
+  shift
+fi
 
 echo "▶  Convirtiendo el Excel…"
 python3 exportar.py
@@ -17,7 +24,10 @@ echo "▶  Generando el mensaje de WhatsApp…"
 python3 mensaje.py "$@"
 
 # publicar si esto es un repositorio git con remoto configurado
-if git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
+if [ "$NO_PUBLICAR" -eq 1 ]; then
+  echo
+  echo "ℹ  Modo prueba: no se hace commit ni push."
+elif git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
   if ! git diff --quiet -- docs/datos.json 2>/dev/null; then
     echo
     echo "▶  Publicando en internet…"
