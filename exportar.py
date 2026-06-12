@@ -85,6 +85,22 @@ adm = wb["ADMIN"]
 clas = wb["CLAS"]
 home = wb["Home"]
 
+# Hora de Madrid por partido, desde la hoja Horarios (col C = hora Madrid)
+hora_madrid = {}  # (fecha_str, grupo_letter) -> "HH:MM"
+if "Horarios" in wb.sheetnames:
+    hor = wb["Horarios"]
+    cur_g = None
+    for r in range(1, hor.max_row + 1):
+        v = hor.cell(r, 1).value
+        if isinstance(v, str) and len(v) == 2 and v[0] == "G":
+            cur_g = v[1]
+        elif isinstance(v, datetime.datetime) and cur_g:
+            madrid = hor.cell(r, 3).value
+            if isinstance(madrid, datetime.datetime):
+                key = (madrid.strftime("%Y-%m-%d"), cur_g)
+                if key not in hora_madrid:
+                    hora_madrid[key] = madrid.strftime("%H:%M")
+
 # ---------------------------------------------------------------- jugadores
 # Nombres en ADMIN fila 5, columnas 19,22,25,... (cada 3). La predicción va en
 # esa columna y los puntos en la de al lado (col+1).
@@ -149,6 +165,7 @@ for r in range(6, 260):
             p["puntos"] = round(float(pts), 2)
         preds[j["nombre"]] = p
 
+    hora = hora_madrid.get((fecha, grupo)) if fecha and grupo else None
     partidos.append({
         "id": r,
         "fase": fase_actual,
@@ -156,6 +173,7 @@ for r in range(6, 260):
         "jornada": jornada,
         "codigo": k.strip(),
         "fecha": fecha,
+        "hora": hora,
         "equipos": equipos,
         "banderas": [bandera(e) for e in equipos] if equipos else None,
         "resultado": resultado if jugado else None,
