@@ -104,6 +104,9 @@ function vPartidos(m){
     lista.sort((a,b)=>(a.fecha||"9").localeCompare(b.fecha||"9"));
     lista = lista.slice(0,16);
   }
+  if(filtroPart==="jugados"){
+    lista.sort((a,b)=>(b.fecha||"0").localeCompare(a.fecha||"0"));
+  }
   if(!lista.length){ m.appendChild(el(`<div class="empty">No hay partidos en este filtro.</div>`)); return; }
   lista.forEach(p=>m.appendChild(matchCard(p)));
 }
