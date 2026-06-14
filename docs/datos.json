@@ -1,7 +1,7 @@
 {
  "titulo": "XXIII Mundial USA/MEX/CAN 2026",
  "grupo": "Poyete",
- "actualizado": "2026-06-14T11:47:36",
+ "actualizado": "2026-06-14T23:15:25",
  "jugadores": [
   "Juanlu",
   "WILLY",
@@ -34,9 +34,9 @@
  "clasificacion": [
   {
    "jugador": "Moi",
-   "total": 20.0,
+   "total": 21.0,
    "desglose": {
-    "F. Grupos": 20.0,
+    "F. Grupos": 21.0,
     "Pos. Grupos": 0.0,
     "Equipos 1/16": 0.0,
     "Partidos 1/16": 0.0,
@@ -56,9 +56,9 @@
   },
   {
    "jugador": "Juanlu",
-   "total": 16.0,
+   "total": 17.0,
    "desglose": {
-    "F. Grupos": 16.0,
+    "F. Grupos": 17.0,
     "Pos. Grupos": 0.0,
     "Equipos 1/16": 0.0,
     "Partidos 1/16": 0.0,
@@ -78,9 +78,9 @@
   },
   {
    "jugador": "TERRY",
-   "total": 12.0,
+   "total": 13.0,
    "desglose": {
-    "F. Grupos": 12.0,
+    "F. Grupos": 13.0,
     "Pos. Grupos": 0.0,
     "Equipos 1/16": 0.0,
     "Partidos 1/16": 0.0,
@@ -100,9 +100,9 @@
   },
   {
    "jugador": "Mesa",
-   "total": 7.0,
+   "total": 8.0,
    "desglose": {
-    "F. Grupos": 7.0,
+    "F. Grupos": 8.0,
     "Pos. Grupos": 0.0,
     "Equipos 1/16": 0.0,
     "Partidos 1/16": 0.0,
@@ -122,9 +122,9 @@
   },
   {
    "jugador": "RAFA NAVARRETE",
-   "total": 7.0,
+   "total": 8.0,
    "desglose": {
-    "F. Grupos": 7.0,
+    "F. Grupos": 8.0,
     "Pos. Grupos": 0.0,
     "Equipos 1/16": 0.0,
     "Partidos 1/16": 0.0,
@@ -144,9 +144,9 @@
   },
   {
    "jugador": "WILLY",
-   "total": 7.0,
+   "total": 8.0,
    "desglose": {
-    "F. Grupos": 7.0,
+    "F. Grupos": 8.0,
     "Pos. Grupos": 0.0,
     "Equipos 1/16": 0.0,
     "Partidos 1/16": 0.0,
@@ -166,9 +166,9 @@
   },
   {
    "jugador": "John",
-   "total": 4.0,
+   "total": 5.0,
    "desglose": {
-    "F. Grupos": 4.0,
+    "F. Grupos": 5.0,
     "Pos. Grupos": 0.0,
     "Equipos 1/16": 0.0,
     "Partidos 1/16": 0.0,
@@ -188,9 +188,9 @@
   },
   {
    "jugador": "Mini",
-   "total": 4.0,
+   "total": 5.0,
    "desglose": {
-    "F. Grupos": 4.0,
+    "F. Grupos": 5.0,
     "Pos. Grupos": 0.0,
     "Equipos 1/16": 0.0,
     "Partidos 1/16": 0.0,
@@ -210,9 +210,9 @@
   },
   {
    "jugador": "Rino",
-   "total": 3.0,
+   "total": 4.0,
    "desglose": {
-    "F. Grupos": 3.0,
+    "F. Grupos": 4.0,
     "Pos. Grupos": 0.0,
     "Equipos 1/16": 0.0,
     "Partidos 1/16": 0.0,
@@ -232,9 +232,9 @@
   },
   {
    "jugador": "Velasco",
-   "total": 3.0,
+   "total": 4.0,
    "desglose": {
-    "F. Grupos": 3.0,
+    "F. Grupos": 4.0,
     "Pos. Grupos": 0.0,
     "Equipos 1/16": 0.0,
     "Partidos 1/16": 0.0,
@@ -950,68 +950,72 @@
     "🇩🇪",
     "🇨🇼"
    ],
-   "resultado": null,
-   "jugado": false,
+   "resultado": {
+    "signo": "1",
+    "local": 7,
+    "visitante": 1
+   },
+   "jugado": true,
    "predicciones": {
     "Juanlu": {
      "signo": "1",
      "local": 3,
      "visitante": 0,
-     "puntos": 0.0
+     "puntos": 1.0
     },
     "WILLY": {
      "signo": "1",
      "local": 4,
      "visitante": 0,
-     "puntos": 0.0
+     "puntos": 1.0
     },
     "Mesa": {
      "signo": "1",
      "local": 1,
      "visitante": 0,
-     "puntos": 0.0
+     "puntos": 1.0
     },
     "TERRY": {
      "signo": "1",
      "local": 5,
      "visitante": 0,
-     "puntos": 0.0
+     "puntos": 1.0
     },
     "Velasco": {
      "signo": "1",
      "local": 4,
      "visitante": 0,
-     "puntos": 0.0
+     "puntos": 1.0
     },
     "Rino": {
      "signo": "1",
      "local": 2,
      "visitante": 0,
-     "puntos": 0.0
+     "puntos": 1.0
     },
     "Mini": {
      "signo": "1",
      "local": 4,
      "visitante": 0,
-     "puntos": 0.0
+     "puntos": 1.0
     },
     "Moi": {
      "signo": "1",
      "local": 3,
      "visitante": 0,
-     "puntos": 0.0
+     "puntos": 1.0
     },
     "RAFA NAVARRETE": {
      "signo": "1",
      "local": 3,
      "visitante": 0,
-     "puntos": 0.0
+     "puntos": 1.0
     },
     "John": {
      "signo": "1",
      "local": 4,
      "visitante": 0,
-     "puntos": 0.0
+     "puntos": 1.0
     }
    }
   },
@@ -9267,6 +9271,6 @@
  "resumen": {
   "n_jugadores": 10,
   "n_partidos": 104,
-  "n_jugados": 8
+  "n_jugados": 9
  }
 }
