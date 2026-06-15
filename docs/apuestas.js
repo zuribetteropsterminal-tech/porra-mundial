@@ -3,6 +3,16 @@
    La interfaz es idéntica a la versión mock; solo cambia el objeto Store. */
 
 const SALDO_INICIAL = 50;
+const MAX_APUESTA   = 20;   // importe máximo por boleto (€ ficticios)
+
+/* ¿Ya ha empezado el partido? (fecha+hora en horario peninsular).
+   Una vez empezado, no se puede apostar a ese partido. */
+function haEmpezado(p){
+  if(!p.fecha || !p.hora) return false;
+  const inicio = new Date(`${p.fecha}T${p.hora}:00`);
+  if(isNaN(inicio)) return false;
+  return Date.now() >= inicio.getTime();
+}
 
 const MOCK_JUGADORES = ["Juanlu","WILLY","Mesa","TERRY","Velasco","Rino","Mini","Moi","RAFA NAVARRETE","John"];
 
@@ -163,7 +173,7 @@ async function vApuestas(m){
 
   /* sub-pestañas */
   const tabs = el(`<div class="filtros bet-subtabs"></div>`);
-  [["apostar","📋 Apostar"],["ranking","💰 Ranking"],["mias","🧾 Mis apuestas"]].forEach(([k,t]) => {
+  [["apostar","📋 Apostar"],["ranking","💰 Ranking"],["mias","🧾 Mis apuestas"],["pena","👥 La peña"]].forEach(([k,t]) => {
     const b = el(`<button class="${k===bTab?"activa":""}">${t}</button>`);
     b.onclick = () => { bTab = k; vApuestas(m); };
     tabs.appendChild(b);
@@ -177,6 +187,7 @@ async function vApuestas(m){
 
   if(bTab === "apostar")  await vApostar(m, saldo);
   else if(bTab === "ranking") await vRanking(m);
+  else if(bTab === "pena") await vPena(m);
   else await vMias(m);
 }
 
@@ -217,11 +228,26 @@ async function vApostar(m, saldo){
   try { partidos = await Store.partidos(); }
   catch(e){ m.appendChild(el(`<div class="empty">Error cargando partidos.</div>`)); return; }
 
+  /* orden cronológico */
+  partidos.sort((a,b) =>
+    `${a.fecha}T${a.hora}`.localeCompare(`${b.fecha}T${b.hora}`));
+
+  /* purga del boleto cualquier selección de un partido ya empezado */
+  const empezados = new Set(partidos.filter(haEmpezado).map(p => p.id));
+  Object.keys(boleto).forEach(c => { if(empezados.has(boleto[c].matchId)) delete boleto[c]; });
+
+  const abiertos = partidos.filter(p => !haEmpezado(p));
+  if(!abiertos.length){
+    m.appendChild(el(`<div class="empty">No hay partidos abiertos para apostar ahora mismo.</div>`));
+  }
+
   partidos.forEach(p => {
-    const card = el(`<div class="card bet-match">
-      <div class="bm-top"><span class="bm-when">${esc(fechaCorta(p.fecha))} · ${esc(p.hora)}</span></div>
+    const cerrado = haEmpezado(p);
+    const card = el(`<div class="card bet-match ${cerrado?"bm-cerrado":""}">
+      <div class="bm-top"><span class="bm-when">${esc(fechaCorta(p.fecha))} · ${esc(p.hora)}</span>${cerrado?`<span class="bm-lock">🔒 Cerrado</span>`:""}</div>
       <div class="bm-teams"><span>${p.flLocal} ${esc(p.local)}</span><span class="bm-vs">vs</span><span>${esc(p.visitante)} ${p.flVis}</span></div>
     </div>`);
+    if(cerrado){ m.appendChild(card); return; }
     p.mercados.forEach(mk => {
       const mkBox = el(`<div class="mkt"><div class="mkt-t">${esc(mk.nombre)}</div><div class="odds ${mk.id==="exact"?"odds-grid":""}"></div></div>`);
       const grid = $(".odds", mkBox);
@@ -255,7 +281,7 @@ function pintarBoleto(saldo, m){
     <div class="slip-hd"><span>🧾 Boleto · ${sels.length} ${sels.length===1?"apuesta":"combinada"}</span><span class="slip-cuota">×${cuotaTotal.toFixed(2)}</span></div>
     <div class="slip-lines"></div>
     <div class="slip-foot">
-      <input class="bet-stake slip-stake" type="number" inputmode="decimal" min="0.5" step="0.5" placeholder="Importe €">
+      <input class="bet-stake slip-stake" type="number" inputmode="decimal" min="0.5" max="${MAX_APUESTA}" step="0.5" placeholder="Importe € (máx ${MAX_APUESTA})">
       <div class="slip-ret">Ganarías <b>—</b></div>
       <button class="btn-primary slip-go">Apostar</button>
     </div>
@@ -277,6 +303,7 @@ function pintarBoleto(saldo, m){
     const stake = parseFloat(inp.value);
     const go = $(".slip-go", slip);
     if(!stake || stake <= 0){ err.textContent = "Pon un importe."; return; }
+    if(stake > MAX_APUESTA){ err.textContent = `Máximo ${fmt(MAX_APUESTA)} por apuesta.`; return; }
     if(stake > saldo){ err.textContent = `Saldo insuficiente: solo ${fmt(saldo)}.`; return; }
     go.disabled = true; go.textContent = "Enviando…";
     try {
@@ -338,6 +365,33 @@ async function vMias(m){
     const etiq = a.estado==="ganada"?`✅ Ganada +${fmt(a.retornoPot)}`:a.estado==="perdida"?`❌ Perdida −${fmt(a.stake)}`:"⏳ Pendiente";
     const t = el(`<div class="ticket ticket-${est}">
       <div class="tk-top"><span class="tk-est">${etiq}</span><span class="tk-cuota">×${(+a.cuotaTotal).toFixed(2)}</span></div>
+      <div class="tk-sels"></div>
+      <div class="tk-foot"><span>Importe ${fmt(a.stake)}</span><span>Retorno pot. ${fmt(a.retornoPot)}</span></div>
+    </div>`);
+    const sc = $(".tk-sels", t);
+    a.sels.forEach(s => sc.appendChild(el(`<div class="tk-sel"><b>${esc(s.etq)}</b> <small>${esc(s.mkNombre)} · ${esc(s.partido)} · ${(+s.cuota).toFixed(2)}</small></div>`)));
+    card.appendChild(t);
+  });
+  m.appendChild(card);
+}
+
+/* ---------------------------------------------------------------- la peña */
+async function vPena(m){
+  let aps;
+  try { aps = await Store.apuestas(); }
+  catch(e){ m.appendChild(el(`<div class="empty">Error cargando apuestas.</div>`)); return; }
+
+  const card = el(`<div class="card"><div class="h2">👥 Apuestas de la peña</div>
+    <div class="sub" style="margin-bottom:8px">Todas las apuestas de todos, de la más reciente a la más antigua.</div></div>`);
+  if(!aps.length){
+    card.appendChild(el(`<div class="empty">Todavía no ha apostado nadie.</div>`));
+    m.appendChild(card); return;
+  }
+  aps.forEach(a => {
+    const est = a.estado==="ganada"?"win":a.estado==="perdida"?"lose":"pend";
+    const etiq = a.estado==="ganada"?`✅ Ganada +${fmt(a.retornoPot)}`:a.estado==="perdida"?`❌ Perdida −${fmt(a.stake)}`:"⏳ Pendiente";
+    const t = el(`<div class="ticket ticket-${est}">
+      <div class="tk-top"><span class="tk-est"><b>${esc(a.jugador)}</b> · ${etiq}</span><span class="tk-cuota">×${(+a.cuotaTotal).toFixed(2)}</span></div>
       <div class="tk-sels"></div>
       <div class="tk-foot"><span>Importe ${fmt(a.stake)}</span><span>Retorno pot. ${fmt(a.retornoPot)}</span></div>
     </div>`);
