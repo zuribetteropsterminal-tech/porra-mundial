@@ -12,13 +12,14 @@ service cloud.firestore {
     match /jugadores/{nombre} {
       allow read: if request.auth != null;
 
-      // Fijar PIN por primera vez (saldo no cambia, pin era null)
+      // Fijar PIN por primera vez (no existía pin; saldo no cambia)
       allow update: if request.auth != null
-        && resource.data.pin == null
+        && !("pin" in resource.data)
         && request.resource.data.saldo == resource.data.saldo;
 
-      // Descontar saldo al apostar (saldo baja, no sube nunca desde el cliente)
+      // Descontar saldo al apostar (saldo baja, no sube nunca desde el cliente; pin no cambia)
       allow update: if request.auth != null
+        && ("pin" in resource.data)
         && request.resource.data.saldo < resource.data.saldo
         && request.resource.data.saldo >= 0
         && request.resource.data.pin == resource.data.pin;
