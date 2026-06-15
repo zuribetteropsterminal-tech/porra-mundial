@@ -1,7 +1,7 @@
 {
  "titulo": "XXIII Mundial USA/MEX/CAN 2026",
  "grupo": "Poyete",
- "actualizado": "2026-06-15T20:15:22",
+ "actualizado": "2026-06-15T23:15:23",
  "jugadores": [
   "Juanlu",
   "WILLY",
@@ -55,10 +55,10 @@
    "pos": 1
   },
   {
-   "jugador": "Juanlu",
-   "total": 18.0,
+   "jugador": "TERRY",
+   "total": 19.0,
    "desglose": {
-    "F. Grupos": 18.0,
+    "F. Grupos": 19.0,
     "Pos. Grupos": 0.0,
     "Equipos 1/16": 0.0,
     "Partidos 1/16": 0.0,
@@ -77,10 +77,10 @@
    "pos": 2
   },
   {
-   "jugador": "TERRY",
-   "total": 14.0,
+   "jugador": "Juanlu",
+   "total": 18.0,
    "desglose": {
-    "F. Grupos": 14.0,
+    "F. Grupos": 18.0,
     "Pos. Grupos": 0.0,
     "Equipos 1/16": 0.0,
     "Partidos 1/16": 0.0,
@@ -1290,8 +1290,12 @@
     "🇧🇪",
     "🇪🇬"
    ],
-   "resultado": null,
-   "jugado": false,
+   "resultado": {
+    "signo": "X",
+    "local": 1,
+    "visitante": 1
+   },
+   "jugado": true,
    "predicciones": {
     "Juanlu": {
      "signo": "1",
@@ -1315,7 +1319,7 @@
      "signo": "X",
      "local": 1,
      "visitante": 1,
-     "puntos": 0.0
+     "puntos": 5.0
     },
     "Velasco": {
      "signo": "1",
@@ -9287,6 +9291,6 @@
  "resumen": {
   "n_jugadores": 10,
   "n_partidos": 104,
-  "n_jugados": 13
+  "n_jugados": 14
  }
 }
