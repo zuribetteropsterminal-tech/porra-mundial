@@ -23,10 +23,24 @@
   <button data-v="clas" class="activa"><span class="ic">🏆</span>Clasificación</button>
   <button data-v="partidos"><span class="ic">📅</span>Partidos</button>
   <button data-v="quiniela"><span class="ic">🔮</span>Quinielas</button>
-  <button data-v="duelos"><span class="ic">🔥</span>El Pique</button>
+  <button data-v="apuestas"><span class="ic">💰</span>La Casa</button>
   <button data-v="honor"><span class="ic">🏅</span>Honor</button>
 </div></nav>
 
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+<script>
+firebase.initializeApp({
+  apiKey: "AIzaSyC_j1PWa-ppr5Au4or_sLNg4zibI32sB6c",
+  authDomain: "porra-mundial-5634e.firebaseapp.com",
+  projectId: "porra-mundial-5634e",
+  storageBucket: "porra-mundial-5634e.firebasestorage.app",
+  messagingSenderId: "513661468944",
+  appId: "1:513661468944:web:8ac3c008fd166bed08e595"
+});
+</script>
+<script src="apuestas.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

@@ -1,0 +1,39 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Partidos: solo lectura para clientes
+    match /partidos/{id} {
+      allow read: if request.auth != null;
+      allow write: if false; // solo admin SDK (cuotas.py)
+    }
+
+    // Jugadores: lectura libre; escritura con restricciones
+    match /jugadores/{nombre} {
+      allow read: if request.auth != null;
+
+      // Fijar PIN por primera vez (saldo no cambia, pin era null)
+      allow update: if request.auth != null
+        && resource.data.pin == null
+        && request.resource.data.saldo == resource.data.saldo;
+
+      // Descontar saldo al apostar (saldo baja, no sube nunca desde el cliente)
+      allow update: if request.auth != null
+        && request.resource.data.saldo < resource.data.saldo
+        && request.resource.data.saldo >= 0
+        && request.resource.data.pin == resource.data.pin;
+
+      // Las liquidaciones (saldo sube) solo las hace el Admin SDK (liquidar.py)
+    }
+
+    // Apuestas: crear y leer; nunca editar desde el cliente
+    match /apuestas/{id} {
+      allow read:   if request.auth != null;
+      allow create: if request.auth != null
+        && request.resource.data.stake > 0
+        && request.resource.data.estado == "pendiente";
+      allow update: if false; // solo admin SDK (liquidar.py)
+      allow delete: if false;
+    }
+  }
+}

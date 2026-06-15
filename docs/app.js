@@ -33,6 +33,7 @@ document.querySelectorAll("nav button").forEach(b=>{
   b.onclick = () => {
     document.querySelectorAll("nav button").forEach(x=>x.classList.remove("activa"));
     b.classList.add("activa");
+    window.dispatchEvent(new Event("apuestas:leave"));
     pinta(b.dataset.v);
     window.scrollTo(0,0);
   };
@@ -43,7 +44,7 @@ function pinta(v){
   if(v==="clas") return vClas(m);
   if(v==="partidos") return vPartidos(m);
   if(v==="quiniela") return vQuiniela(m);
-  if(v==="duelos") return vDuelos(m);
+  if(v==="apuestas") return window.vApuestas(m);
   if(v==="honor") return vHonor(m);
 }
 

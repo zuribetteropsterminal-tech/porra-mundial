@@ -115,7 +115,87 @@ select{width:100%;background:var(--card2);color:var(--txt);border:1px solid var(
 .tag.ok{background:rgba(55,224,166,.18);color:var(--good)}
 .tag.no{background:rgba(255,107,125,.15);color:var(--bad)}
 
-/* el pique */
+/* ============================ LA CASA (apuestas) ============================ */
+.btn-primary{width:100%;background:linear-gradient(90deg,var(--acc),#ff9f43);color:#1a1300;
+  border:0;border-radius:12px;padding:12px;font-size:.95rem;font-weight:900;cursor:pointer}
+.btn-primary:active{transform:scale(.99)}
+.bet-stake{width:100%;background:var(--card2);color:var(--txt);border:1px solid var(--line);
+  border-radius:10px;padding:11px;font-size:1rem;font-weight:700}
+.bet-err{color:var(--bad);font-size:.78rem;font-weight:700;min-height:16px;margin-top:6px}
+
+/* login */
+.bet-login .bl-lab{display:block;font-size:.72rem;color:var(--muted);font-weight:700;margin-bottom:4px}
+
+/* barra de saldo */
+.bet-bar{display:flex;align-items:center;justify-content:space-between;
+  background:linear-gradient(135deg,var(--card2),var(--card))}
+.bet-bar .bb-hi{font-weight:900;font-size:1.05rem}
+.bet-bar .bb-sub{color:var(--muted);font-size:.72rem;margin-top:2px}
+.bet-bar .bb-r{display:flex;align-items:center;gap:12px}
+.bet-bar .bb-saldo{font-size:1.5rem;font-weight:900;color:var(--acc2)}
+.bet-bar .bb-out{background:var(--chip);border:1px solid var(--line);color:var(--muted);
+  border-radius:8px;padding:6px 10px;font-size:.74rem;font-weight:700;cursor:pointer}
+.bet-toast{background:rgba(55,224,166,.12);border:1px solid var(--good);color:var(--good);
+  border-radius:10px;padding:10px 12px;font-size:.82rem;font-weight:700;margin-bottom:12px}
+
+/* partido + mercados */
+.bet-match{padding:14px}
+.bm-top{display:flex;justify-content:center;color:var(--muted);font-size:.72rem;margin-bottom:6px}
+.bm-teams{display:flex;align-items:center;justify-content:center;gap:10px;font-weight:800;font-size:1rem;margin-bottom:6px}
+.bm-teams .bm-vs{color:var(--muted2);font-size:.78rem;font-weight:700}
+.mkt{border-top:1px solid var(--line);padding-top:10px;margin-top:10px}
+.mkt-t{font-size:.74rem;color:var(--muted);font-weight:800;margin-bottom:7px;text-transform:uppercase;letter-spacing:.4px}
+.odds{display:flex;gap:7px;flex-wrap:wrap}
+.odds-grid{display:grid;grid-template-columns:repeat(3,1fr)}
+.odd{flex:1;min-width:90px;display:flex;flex-direction:column;align-items:center;gap:3px;
+  background:var(--chip);border:1px solid var(--line);border-radius:10px;padding:9px 6px;cursor:pointer;transition:all .12s}
+.odd:active{transform:scale(.97)}
+.odd .odd-etq{font-size:.74rem;color:var(--muted);font-weight:700;text-align:center}
+.odd .odd-c{font-size:1.05rem;font-weight:900;color:var(--txt)}
+.odd-on{background:rgba(255,211,78,.14);border-color:var(--acc)}
+.odd-on .odd-etq{color:var(--txt)} .odd-on .odd-c{color:var(--acc)}
+
+/* boleto flotante */
+.slip{position:fixed;left:0;right:0;bottom:64px;z-index:60;max-width:680px;margin:0 auto;
+  background:var(--card2);border:1px solid var(--acc);border-radius:16px 16px 0 0;
+  box-shadow:0 -8px 30px rgba(0,0,0,.5);padding:12px 14px 14px}
+.slip-hd{display:flex;justify-content:space-between;align-items:center;font-weight:800;font-size:.85rem;margin-bottom:8px}
+.slip-cuota{color:var(--acc);font-weight:900}
+.slip-lines{max-height:30vh;overflow-y:auto}
+.slip-ln{display:flex;align-items:center;gap:9px;padding:6px 0;border-bottom:1px solid var(--line)}
+.slip-ln .sl-x{color:var(--bad);font-weight:900;cursor:pointer;font-size:.8rem}
+.slip-ln .sl-txt{flex:1} .slip-ln .sl-txt small{display:block;color:var(--muted);font-size:.68rem}
+.slip-ln .sl-c{font-weight:900}
+.slip-foot{display:flex;align-items:center;gap:9px;margin-top:10px}
+.slip-foot .slip-stake{flex:1}
+.slip-foot .slip-ret{font-size:.74rem;color:var(--muted);white-space:nowrap}
+.slip-foot .slip-ret b{color:var(--acc2);display:block;font-size:.92rem}
+.slip-foot .slip-go{width:auto;padding:11px 18px}
+.slip-err{color:var(--bad);font-size:.76rem;font-weight:700;min-height:14px;margin-top:6px;text-align:center}
+
+/* ranking de saldos */
+.rank-row{display:grid;grid-template-columns:40px 1fr auto auto;align-items:center;gap:10px;
+  padding:10px 4px;border-bottom:1px solid var(--line)}
+.rank-row:last-child{border-bottom:0}
+.rank-row.rank-me{background:rgba(255,211,78,.06);border-radius:8px}
+.rank-pos{text-align:center;font-weight:900}
+.rank-nom{font-weight:700}
+.rank-dif{font-size:.74rem;font-weight:800;color:var(--muted2)}
+.rank-dif.up{color:var(--good)} .rank-dif.down{color:var(--bad)}
+.rank-sal{font-weight:900;font-size:1.05rem;color:var(--acc2);min-width:64px;text-align:right}
+
+/* tickets / mis apuestas */
+.ticket{border:1px solid var(--line);border-radius:12px;padding:11px;margin-bottom:10px;background:var(--card2)}
+.ticket-win{border-color:var(--good)} .ticket-lose{opacity:.7} .ticket-pend{}
+.tk-top{display:flex;justify-content:space-between;font-weight:800;font-size:.82rem;margin-bottom:7px}
+.ticket-win .tk-est{color:var(--good)} .ticket-lose .tk-est{color:var(--bad)} .ticket-pend .tk-est{color:var(--acc)}
+.tk-cuota{color:var(--muted)}
+.tk-sel{padding:4px 0;font-size:.82rem}
+.tk-sel small{color:var(--muted);font-size:.7rem;display:block}
+.tk-foot{display:flex;justify-content:space-between;color:var(--muted);font-size:.74rem;
+  margin-top:8px;padding-top:8px;border-top:1px solid var(--line)}
+
+/* el pique (legacy) */
 .pique-head .sub{line-height:1.5}
 .pq{padding:12px 14px}
 .pq-top{display:flex;justify-content:center;margin-bottom:8px}
