@@ -1,7 +1,7 @@
 {
  "titulo": "XXIII Mundial USA/MEX/CAN 2026",
  "grupo": "Poyete",
- "actualizado": "2026-06-16T02:15:23",
+ "actualizado": "2026-06-16T05:15:21",
  "jugadores": [
   "Juanlu",
   "WILLY",
@@ -34,9 +34,9 @@
  "clasificacion": [
   {
    "jugador": "Moi",
-   "total": 21.0,
+   "total": 23.0,
    "desglose": {
-    "F. Grupos": 21.0,
+    "F. Grupos": 23.0,
     "Pos. Grupos": 0.0,
     "Equipos 1/16": 0.0,
     "Partidos 1/16": 0.0,
@@ -99,10 +99,10 @@
    "pos": 3
   },
   {
-   "jugador": "Mini",
-   "total": 11.0,
+   "jugador": "RAFA NAVARRETE",
+   "total": 16.0,
    "desglose": {
-    "F. Grupos": 11.0,
+    "F. Grupos": 16.0,
     "Pos. Grupos": 0.0,
     "Equipos 1/16": 0.0,
     "Partidos 1/16": 0.0,
@@ -121,7 +121,29 @@
    "pos": 4
   },
   {
-   "jugador": "RAFA NAVARRETE",
+   "jugador": "Mini",
+   "total": 13.0,
+   "desglose": {
+    "F. Grupos": 13.0,
+    "Pos. Grupos": 0.0,
+    "Equipos 1/16": 0.0,
+    "Partidos 1/16": 0.0,
+    "Equipos 1/8": 0.0,
+    "Partidos 1/8": 0.0,
+    "Equipos 1/4": 0.0,
+    "Partidos 1/4": 0.0,
+    "Equipos 1/2": 0.0,
+    "Partidos 1/2": 0.0,
+    "Equipos 3-4": 0.0,
+    "Equipos Final": 0.0,
+    "Partido 3-4": 0.0,
+    "Partido Final": 0.0,
+    "Cuadro de Honor": 0.0
+   },
+   "pos": 5
+  },
+  {
+   "jugador": "WILLY",
    "total": 11.0,
    "desglose": {
     "F. Grupos": 11.0,
@@ -140,7 +162,7 @@
     "Partido Final": 0.0,
     "Cuadro de Honor": 0.0
    },
-   "pos": 4
+   "pos": 6
   },
   {
    "jugador": "Mesa",
@@ -162,29 +184,7 @@
     "Partido Final": 0.0,
     "Cuadro de Honor": 0.0
    },
-   "pos": 6
-  },
-  {
-   "jugador": "WILLY",
-   "total": 9.0,
-   "desglose": {
-    "F. Grupos": 9.0,
-    "Pos. Grupos": 0.0,
-    "Equipos 1/16": 0.0,
-    "Partidos 1/16": 0.0,
-    "Equipos 1/8": 0.0,
-    "Partidos 1/8": 0.0,
-    "Equipos 1/4": 0.0,
-    "Partidos 1/4": 0.0,
-    "Equipos 1/2": 0.0,
-    "Partidos 1/2": 0.0,
-    "Equipos 3-4": 0.0,
-    "Equipos Final": 0.0,
-    "Partido 3-4": 0.0,
-    "Partido Final": 0.0,
-    "Cuadro de Honor": 0.0
-   },
-   "pos": 6
+   "pos": 7
   },
   {
    "jugador": "Rino",
@@ -1375,8 +1375,12 @@
     "🇮🇷",
     "🇳🇿"
    ],
-   "resultado": null,
-   "jugado": false,
+   "resultado": {
+    "signo": "X",
+    "local": 2,
+    "visitante": 2
+   },
+   "jugado": true,
    "predicciones": {
     "Juanlu": {
      "signo": "1",
@@ -1388,7 +1392,7 @@
      "signo": "X",
      "local": 0,
      "visitante": 0,
-     "puntos": 0.0
+     "puntos": 2.0
     },
     "Mesa": {
      "signo": "1",
@@ -1418,19 +1422,19 @@
      "signo": "X",
      "local": 1,
      "visitante": 1,
-     "puntos": 0.0
+     "puntos": 2.0
     },
     "Moi": {
      "signo": "X",
      "local": 1,
      "visitante": 1,
-     "puntos": 0.0
+     "puntos": 2.0
     },
     "RAFA NAVARRETE": {
      "signo": "X",
      "local": 2,
      "visitante": 2,
-     "puntos": 0.0
+     "puntos": 5.0
     },
     "John": {
      "signo": "1",
@@ -9295,6 +9299,6 @@
  "resumen": {
   "n_jugadores": 10,
   "n_partidos": 104,
-  "n_jugados": 15
+  "n_jugados": 16
  }
 }
