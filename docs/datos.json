@@ -1,7 +1,7 @@
 {
  "titulo": "XXIII Mundial USA/MEX/CAN 2026",
  "grupo": "Poyete",
- "actualizado": "2026-06-17T08:15:27",
+ "actualizado": "2026-06-17T23:15:22",
  "jugadores": [
   "Juanlu",
   "WILLY",
@@ -1970,8 +1970,12 @@
     "🇵🇹",
     "🇨🇩"
    ],
-   "resultado": null,
-   "jugado": false,
+   "resultado": {
+    "signo": "X",
+    "local": 1,
+    "visitante": 1
+   },
+   "jugado": true,
    "predicciones": {
     "Juanlu": {
      "signo": "1",
@@ -9315,6 +9319,6 @@
  "resumen": {
   "n_jugadores": 10,
   "n_partidos": 104,
-  "n_jugados": 20
+  "n_jugados": 21
  }
 }
