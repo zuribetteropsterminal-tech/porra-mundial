@@ -312,7 +312,7 @@ function pintarBoleto(saldo, m){
         id, jugador: bUser, stake, cuotaTotal: +cuotaTotal.toFixed(4),
         retornoPot: +(stake * cuotaTotal).toFixed(2),
         estado: "pendiente",
-        sels: sels.map(s => ({ partido:s.partido, mkNombre:s.mkNombre, etq:s.sel.etq, cuota:s.sel.cuota })),
+        sels: sels.map(s => ({ partido:s.partido, mkId:s.marketId, mkNombre:s.mkNombre, k:s.sel.k, etq:s.sel.etq, cuota:s.sel.cuota })),
       });
       boleto = {};
       bMsg = `✅ Apuesta de ${fmt(stake)} aceptada. Retorno potencial ${fmt(stake*cuotaTotal)}.`;
