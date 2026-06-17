@@ -2,3 +2,5 @@ mensaje_hoy.txt
 __pycache__/
 .DS_Store
 serviceAccount.json
+
+liquidar.log
