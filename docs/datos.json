@@ -1,7 +1,7 @@
 {
  "titulo": "XXIII Mundial USA/MEX/CAN 2026",
  "grupo": "Poyete",
- "actualizado": "2026-06-20T08:47:18",
+ "actualizado": "2026-06-20T21:14:46",
  "jugadores": [
   "Juanlu",
   "WILLY",
@@ -34,9 +34,9 @@
  "clasificacion": [
   {
    "jugador": "Moi",
-   "total": 48.0,
+   "total": 49.0,
    "desglose": {
-    "F. Grupos": 48.0,
+    "F. Grupos": 49.0,
     "Pos. Grupos": 0.0,
     "Equipos 1/16": 0.0,
     "Partidos 1/16": 0.0,
@@ -56,9 +56,9 @@
   },
   {
    "jugador": "TERRY",
-   "total": 41.0,
+   "total": 42.0,
    "desglose": {
-    "F. Grupos": 41.0,
+    "F. Grupos": 42.0,
     "Pos. Grupos": 0.0,
     "Equipos 1/16": 0.0,
     "Partidos 1/16": 0.0,
@@ -78,9 +78,9 @@
   },
   {
    "jugador": "RAFA NAVARRETE",
-   "total": 40.0,
+   "total": 41.0,
    "desglose": {
-    "F. Grupos": 40.0,
+    "F. Grupos": 41.0,
     "Pos. Grupos": 0.0,
     "Equipos 1/16": 0.0,
     "Partidos 1/16": 0.0,
@@ -122,9 +122,9 @@
   },
   {
    "jugador": "WILLY",
-   "total": 32.0,
+   "total": 33.0,
    "desglose": {
-    "F. Grupos": 32.0,
+    "F. Grupos": 33.0,
     "Pos. Grupos": 0.0,
     "Equipos 1/16": 0.0,
     "Partidos 1/16": 0.0,
@@ -144,9 +144,9 @@
   },
   {
    "jugador": "Rino",
-   "total": 31.0,
+   "total": 32.0,
    "desglose": {
-    "F. Grupos": 31.0,
+    "F. Grupos": 32.0,
     "Pos. Grupos": 0.0,
     "Equipos 1/16": 0.0,
     "Partidos 1/16": 0.0,
@@ -166,9 +166,9 @@
   },
   {
    "jugador": "John",
-   "total": 30.0,
+   "total": 31.0,
    "desglose": {
-    "F. Grupos": 30.0,
+    "F. Grupos": 31.0,
     "Pos. Grupos": 0.0,
     "Equipos 1/16": 0.0,
     "Partidos 1/16": 0.0,
@@ -188,9 +188,9 @@
   },
   {
    "jugador": "Velasco",
-   "total": 27.0,
+   "total": 28.0,
    "desglose": {
-    "F. Grupos": 27.0,
+    "F. Grupos": 28.0,
     "Pos. Grupos": 0.0,
     "Equipos 1/16": 0.0,
     "Partidos 1/16": 0.0,
@@ -210,9 +210,9 @@
   },
   {
    "jugador": "Mini",
-   "total": 26.0,
+   "total": 27.0,
    "desglose": {
-    "F. Grupos": 26.0,
+    "F. Grupos": 27.0,
     "Pos. Grupos": 0.0,
     "Equipos 1/16": 0.0,
     "Partidos 1/16": 0.0,
@@ -232,9 +232,9 @@
   },
   {
    "jugador": "Mesa",
-   "total": 25.0,
+   "total": 26.0,
    "desglose": {
-    "F. Grupos": 25.0,
+    "F. Grupos": 26.0,
     "Pos. Grupos": 0.0,
     "Equipos 1/16": 0.0,
     "Partidos 1/16": 0.0,
@@ -3152,8 +3152,12 @@
     "🇳🇱",
     "🇸🇪"
    ],
-   "resultado": null,
-   "jugado": false,
+   "resultado": {
+    "signo": "1",
+    "local": 5,
+    "visitante": 1
+   },
+   "jugado": true,
    "predicciones": {
     "Juanlu": {
      "signo": "X",
@@ -3165,55 +3169,55 @@
      "signo": "1",
      "local": 1,
      "visitante": 0,
-     "puntos": 0.0
+     "puntos": 1.0
     },
     "Mesa": {
      "signo": "1",
      "local": 3,
      "visitante": 0,
-     "puntos": 0.0
+     "puntos": 1.0
     },
     "TERRY": {
      "signo": "1",
      "local": 2,
      "visitante": 0,
-     "puntos": 0.0
+     "puntos": 1.0
     },
     "Velasco": {
      "signo": "1",
      "local": 2,
      "visitante": 0,
-     "puntos": 0.0
+     "puntos": 1.0
     },
     "Rino": {
      "signo": "1",
      "local": 2,
      "visitante": 0,
-     "puntos": 0.0
+     "puntos": 1.0
     },
     "Mini": {
      "signo": "1",
      "local": 2,
      "visitante": 1,
-     "puntos": 0.0
+     "puntos": 1.0
     },
     "Moi": {
      "signo": "1",
      "local": 2,
      "visitante": 0,
-     "puntos": 0.0
+     "puntos": 1.0
     },
     "RAFA NAVARRETE": {
      "signo": "1",
      "local": 2,
      "visitante": 0,
-     "puntos": 0.0
+     "puntos": 1.0
     },
     "John": {
      "signo": "1",
      "local": 3,
      "visitante": 1,
-     "puntos": 0.0
+     "puntos": 1.0
     }
    }
   },
@@ -9363,6 +9367,6 @@
  "resumen": {
   "n_jugadores": 10,
   "n_partidos": 104,
-  "n_jugados": 32
+  "n_jugados": 33
  }
 }
