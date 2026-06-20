@@ -43,7 +43,15 @@ def resolver_seleccion(sel, partido_resultado):
     goles_away = scores.get(away, 0)
     total = goles_home + goles_away
 
-    k = sel["k"]
+    # k puede faltar en apuestas antiguas/caché: se deduce de la etiqueta.
+    k = sel.get("k")
+    if not k:
+        etq = sel.get("etq", "")
+        if   etq == "Empate":          k = "X"
+        elif etq.startswith("Más de"):  k = "O"
+        elif etq.startswith("Menos de"):k = "U"
+        elif etq == home:               k = "1"
+        elif etq == away:               k = "2"
     # 1X2
     if k == "1":   return goles_home > goles_away
     if k == "X":   return goles_home == goles_away
@@ -83,16 +91,22 @@ def main():
 
     liquidadas = ganadas = perdidas = 0
 
+    errores = 0
     for ap_doc in apuestas:
         ap = ap_doc.to_dict()
         sels = ap.get("sels", [])
 
-        resultados = []
-        for sel in sels:
-            odds_id = partido_de_sel(sel, partidos_fs)
-            resultado_partido = completados.get(odds_id) if odds_id else None
-            r = resolver_seleccion(sel, resultado_partido)
-            resultados.append(r)
+        try:
+            resultados = []
+            for sel in sels:
+                odds_id = partido_de_sel(sel, partidos_fs)
+                resultado_partido = completados.get(odds_id) if odds_id else None
+                r = resolver_seleccion(sel, resultado_partido)
+                resultados.append(r)
+        except Exception as e:
+            errores += 1
+            print(f"  ⚠️  {ap.get('jugador','?')}: no se pudo resolver ({e}); se deja pendiente")
+            continue
 
         # Solo liquidar si todos los partidos del boleto tienen resultado
         if any(r is None for r in resultados):
@@ -128,7 +142,7 @@ def main():
         else: perdidas += 1
 
     sufijo = " (simulación —ver)" if SOLO_VER else ""
-    print(f"\n✅ Liquidadas: {liquidadas}  |  Ganadas: {ganadas}  |  Perdidas: {perdidas}{sufijo}")
+    print(f"\n✅ Liquidadas: {liquidadas}  |  Ganadas: {ganadas}  |  Perdidas: {perdidas}  |  Errores: {errores}{sufijo}")
     if liquidadas == 0 and apuestas:
         print("   (los partidos de esas apuestas aún no han terminado o no coinciden)")
 
