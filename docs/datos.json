@@ -1,7 +1,7 @@
 {
  "titulo": "XXIII Mundial USA/MEX/CAN 2026",
  "grupo": "Poyete",
- "actualizado": "2026-06-24T08:15:23",
+ "actualizado": "2026-06-24T23:29:08",
  "jugadores": [
   "Juanlu",
   "WILLY",
@@ -34,9 +34,9 @@
  "clasificacion": [
   {
    "jugador": "Moi",
-   "total": 70.0,
+   "total": 75.0,
    "desglose": {
-    "F. Grupos": 70.0,
+    "F. Grupos": 75.0,
     "Pos. Grupos": 0.0,
     "Equipos 1/16": 0.0,
     "Partidos 1/16": 0.0,
@@ -4512,8 +4512,12 @@
     "🇨🇭",
     "🇨🇦"
    ],
-   "resultado": null,
-   "jugado": false,
+   "resultado": {
+    "signo": "1",
+    "local": 2,
+    "visitante": 1
+   },
+   "jugado": true,
    "predicciones": {
     "Juanlu": {
      "signo": "X",
@@ -4561,7 +4565,7 @@
      "signo": "1",
      "local": 2,
      "visitante": 1,
-     "puntos": 0.0
+     "puntos": 5.0
     },
     "RAFA NAVARRETE": {
      "signo": "X",
@@ -9427,6 +9431,6 @@
  "resumen": {
   "n_jugadores": 10,
   "n_partidos": 104,
-  "n_jugados": 48
+  "n_jugados": 49
  }
 }
