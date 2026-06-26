@@ -1,7 +1,7 @@
 {
  "titulo": "XXIII Mundial USA/MEX/CAN 2026",
  "grupo": "Poyete",
- "actualizado": "2026-06-25T05:20:46",
+ "actualizado": "2026-06-26T10:43:39",
  "jugadores": [
   "Juanlu",
   "WILLY",
@@ -34,11 +34,11 @@
  "clasificacion": [
   {
    "jugador": "Moi",
-   "total": 100.0,
+   "total": 126.0,
    "desglose": {
-    "F. Grupos": 85.0,
-    "Pos. Grupos": 10.0,
-    "Equipos 1/16": 5.0,
+    "F. Grupos": 88.0,
+    "Pos. Grupos": 28.0,
+    "Equipos 1/16": 10.0,
     "Partidos 1/16": 0.0,
     "Equipos 1/8": 0.0,
     "Partidos 1/8": 0.0,
@@ -56,11 +56,11 @@
   },
   {
    "jugador": "Juanlu",
-   "total": 82.0,
+   "total": 111.0,
    "desglose": {
-    "F. Grupos": 59.0,
-    "Pos. Grupos": 18.0,
-    "Equipos 1/16": 5.0,
+    "F. Grupos": 71.0,
+    "Pos. Grupos": 30.0,
+    "Equipos 1/16": 10.0,
     "Partidos 1/16": 0.0,
     "Equipos 1/8": 0.0,
     "Partidos 1/8": 0.0,
@@ -78,11 +78,11 @@
   },
   {
    "jugador": "Rino",
-   "total": 82.0,
+   "total": 109.0,
    "desglose": {
-    "F. Grupos": 64.0,
-    "Pos. Grupos": 12.0,
-    "Equipos 1/16": 6.0,
+    "F. Grupos": 72.0,
+    "Pos. Grupos": 26.0,
+    "Equipos 1/16": 11.0,
     "Partidos 1/16": 0.0,
     "Equipos 1/8": 0.0,
     "Partidos 1/8": 0.0,
@@ -96,15 +96,15 @@
     "Partido Final": 0.0,
     "Cuadro de Honor": 0.0
    },
-   "pos": 2
+   "pos": 3
   },
   {
-   "jugador": "John",
-   "total": 78.0,
+   "jugador": "TERRY",
+   "total": 107.0,
    "desglose": {
-    "F. Grupos": 56.0,
-    "Pos. Grupos": 16.0,
-    "Equipos 1/16": 6.0,
+    "F. Grupos": 67.0,
+    "Pos. Grupos": 30.0,
+    "Equipos 1/16": 10.0,
     "Partidos 1/16": 0.0,
     "Equipos 1/8": 0.0,
     "Partidos 1/8": 0.0,
@@ -121,12 +121,12 @@
    "pos": 4
   },
   {
-   "jugador": "TERRY",
-   "total": 75.0,
+   "jugador": "John",
+   "total": 102.0,
    "desglose": {
-    "F. Grupos": 56.0,
-    "Pos. Grupos": 14.0,
-    "Equipos 1/16": 5.0,
+    "F. Grupos": 61.0,
+    "Pos. Grupos": 30.0,
+    "Equipos 1/16": 11.0,
     "Partidos 1/16": 0.0,
     "Equipos 1/8": 0.0,
     "Partidos 1/8": 0.0,
@@ -143,12 +143,12 @@
    "pos": 5
   },
   {
-   "jugador": "RAFA NAVARRETE",
-   "total": 73.0,
+   "jugador": "Velasco",
+   "total": 98.0,
    "desglose": {
-    "F. Grupos": 54.0,
-    "Pos. Grupos": 14.0,
-    "Equipos 1/16": 5.0,
+    "F. Grupos": 56.0,
+    "Pos. Grupos": 32.0,
+    "Equipos 1/16": 10.0,
     "Partidos 1/16": 0.0,
     "Equipos 1/8": 0.0,
     "Partidos 1/8": 0.0,
@@ -165,12 +165,12 @@
    "pos": 6
   },
   {
-   "jugador": "WILLY",
-   "total": 71.0,
+   "jugador": "RAFA NAVARRETE",
+   "total": 97.0,
    "desglose": {
-    "F. Grupos": 52.0,
-    "Pos. Grupos": 14.0,
-    "Equipos 1/16": 5.0,
+    "F. Grupos": 57.0,
+    "Pos. Grupos": 30.0,
+    "Equipos 1/16": 10.0,
     "Partidos 1/16": 0.0,
     "Equipos 1/8": 0.0,
     "Partidos 1/8": 0.0,
@@ -187,12 +187,12 @@
    "pos": 7
   },
   {
-   "jugador": "Velasco",
-   "total": 65.0,
+   "jugador": "WILLY",
+   "total": 95.0,
    "desglose": {
-    "F. Grupos": 48.0,
-    "Pos. Grupos": 12.0,
-    "Equipos 1/16": 5.0,
+    "F. Grupos": 60.0,
+    "Pos. Grupos": 26.0,
+    "Equipos 1/16": 9.0,
     "Partidos 1/16": 0.0,
     "Equipos 1/8": 0.0,
     "Partidos 1/8": 0.0,
@@ -210,11 +210,11 @@
   },
   {
    "jugador": "Mini",
-   "total": 63.0,
+   "total": 86.0,
    "desglose": {
-    "F. Grupos": 48.0,
-    "Pos. Grupos": 10.0,
-    "Equipos 1/16": 5.0,
+    "F. Grupos": 56.0,
+    "Pos. Grupos": 20.0,
+    "Equipos 1/16": 10.0,
     "Partidos 1/16": 0.0,
     "Equipos 1/8": 0.0,
     "Partidos 1/8": 0.0,
@@ -232,11 +232,11 @@
   },
   {
    "jugador": "Mesa",
-   "total": 58.0,
+   "total": 81.0,
    "desglose": {
-    "F. Grupos": 47.0,
-    "Pos. Grupos": 6.0,
-    "Equipos 1/16": 5.0,
+    "F. Grupos": 56.0,
+    "Pos. Grupos": 16.0,
+    "Equipos 1/16": 9.0,
     "Partidos 1/16": 0.0,
     "Equipos 1/8": 0.0,
     "Partidos 1/8": 0.0,
@@ -4860,8 +4860,12 @@
     "🇹🇷",
     "🇺🇸"
    ],
-   "resultado": null,
-   "jugado": false,
+   "resultado": {
+    "signo": "1",
+    "local": 3,
+    "visitante": 2
+   },
+   "jugado": true,
    "predicciones": {
     "Juanlu": {
      "signo": "X",
@@ -4903,7 +4907,7 @@
      "signo": "1",
      "local": 2,
      "visitante": 1,
-     "puntos": 0.0
+     "puntos": 2.0
     },
     "Moi": {
      "signo": "X",
@@ -4941,8 +4945,12 @@
     "🇵🇾",
     "🇦🇺"
    ],
-   "resultado": null,
-   "jugado": false,
+   "resultado": {
+    "signo": "X",
+    "local": 0,
+    "visitante": 0
+   },
+   "jugado": true,
    "predicciones": {
     "Juanlu": {
      "signo": "1",
@@ -4954,13 +4962,13 @@
      "signo": "X",
      "local": 1,
      "visitante": 1,
-     "puntos": 0.0
+     "puntos": 2.0
     },
     "Mesa": {
      "signo": "X",
      "local": 0,
      "visitante": 0,
-     "puntos": 0.0
+     "puntos": 5.0
     },
     "TERRY": {
      "signo": "1",
@@ -4972,13 +4980,13 @@
      "signo": "X",
      "local": 0,
      "visitante": 0,
-     "puntos": 0.0
+     "puntos": 5.0
     },
     "Rino": {
      "signo": "X",
      "local": 1,
      "visitante": 1,
-     "puntos": 0.0
+     "puntos": 2.0
     },
     "Mini": {
      "signo": "1",
@@ -5002,7 +5010,7 @@
      "signo": "X",
      "local": 1,
      "visitante": 1,
-     "puntos": 0.0
+     "puntos": 2.0
     }
    }
   },
@@ -5022,14 +5030,18 @@
     "🇨🇼",
     "🇨🇮"
    ],
-   "resultado": null,
-   "jugado": false,
+   "resultado": {
+    "signo": "2",
+    "local": 0,
+    "visitante": 2
+   },
+   "jugado": true,
    "predicciones": {
     "Juanlu": {
      "signo": "2",
      "local": 0,
      "visitante": 2,
-     "puntos": 0.0
+     "puntos": 5.0
     },
     "WILLY": {
      "signo": "X",
@@ -5047,31 +5059,31 @@
      "signo": "2",
      "local": 0,
      "visitante": 2,
-     "puntos": 0.0
+     "puntos": 5.0
     },
     "Velasco": {
      "signo": "2",
      "local": 1,
      "visitante": 2,
-     "puntos": 0.0
+     "puntos": 1.0
     },
     "Rino": {
      "signo": "2",
      "local": 0,
      "visitante": 1,
-     "puntos": 0.0
+     "puntos": 1.0
     },
     "Mini": {
      "signo": "2",
      "local": 0,
      "visitante": 2,
-     "puntos": 0.0
+     "puntos": 5.0
     },
     "Moi": {
      "signo": "2",
      "local": 0,
      "visitante": 1,
-     "puntos": 0.0
+     "puntos": 1.0
     },
     "RAFA NAVARRETE": {
      "signo": "X",
@@ -5083,7 +5095,7 @@
      "signo": "2",
      "local": 0,
      "visitante": 1,
-     "puntos": 0.0
+     "puntos": 1.0
     }
    }
   },
@@ -5103,8 +5115,12 @@
     "🇪🇨",
     "🇩🇪"
    ],
-   "resultado": null,
-   "jugado": false,
+   "resultado": {
+    "signo": "1",
+    "local": 2,
+    "visitante": 1
+   },
+   "jugado": true,
    "predicciones": {
     "Juanlu": {
      "signo": "2",
@@ -5122,7 +5138,7 @@
      "signo": "1",
      "local": 2,
      "visitante": 0,
-     "puntos": 0.0
+     "puntos": 1.0
     },
     "TERRY": {
      "signo": "2",
@@ -5184,32 +5200,36 @@
     "🇯🇵",
     "🇸🇪"
    ],
-   "resultado": null,
-   "jugado": false,
+   "resultado": {
+    "signo": "X",
+    "local": 1,
+    "visitante": 1
+   },
+   "jugado": true,
    "predicciones": {
     "Juanlu": {
      "signo": "X",
      "local": 1,
      "visitante": 1,
-     "puntos": 0.0
+     "puntos": 5.0
     },
     "WILLY": {
      "signo": "X",
      "local": 1,
      "visitante": 1,
-     "puntos": 0.0
+     "puntos": 5.0
     },
     "Mesa": {
      "signo": "X",
      "local": 2,
      "visitante": 2,
-     "puntos": 0.0
+     "puntos": 2.0
     },
     "TERRY": {
      "signo": "X",
      "local": 1,
      "visitante": 1,
-     "puntos": 0.0
+     "puntos": 5.0
     },
     "Velasco": {
      "signo": "1",
@@ -5221,7 +5241,7 @@
      "signo": "X",
      "local": 1,
      "visitante": 1,
-     "puntos": 0.0
+     "puntos": 5.0
     },
     "Mini": {
      "signo": "1",
@@ -5239,7 +5259,7 @@
      "signo": "X",
      "local": 2,
      "visitante": 2,
-     "puntos": 0.0
+     "puntos": 2.0
     },
     "John": {
      "signo": "2",
@@ -5265,38 +5285,42 @@
     "🇹🇳",
     "🇳🇱"
    ],
-   "resultado": null,
-   "jugado": false,
+   "resultado": {
+    "signo": "2",
+    "local": 1,
+    "visitante": 3
+   },
+   "jugado": true,
    "predicciones": {
     "Juanlu": {
      "signo": "2",
      "local": 0,
      "visitante": 2,
-     "puntos": 0.0
+     "puntos": 2.0
     },
     "WILLY": {
      "signo": "2",
      "local": 0,
      "visitante": 1,
-     "puntos": 0.0
+     "puntos": 1.0
     },
     "Mesa": {
      "signo": "2",
      "local": 1,
      "visitante": 2,
-     "puntos": 0.0
+     "puntos": 1.0
     },
     "TERRY": {
      "signo": "2",
      "local": 0,
      "visitante": 3,
-     "puntos": 0.0
+     "puntos": 1.0
     },
     "Velasco": {
      "signo": "2",
      "local": 0,
      "visitante": 2,
-     "puntos": 0.0
+     "puntos": 2.0
     },
     "Rino": {
      "signo": "X",
@@ -5308,25 +5332,25 @@
      "signo": "2",
      "local": 1,
      "visitante": 2,
-     "puntos": 0.0
+     "puntos": 1.0
     },
     "Moi": {
      "signo": "2",
      "local": 0,
      "visitante": 2,
-     "puntos": 0.0
+     "puntos": 2.0
     },
     "RAFA NAVARRETE": {
      "signo": "2",
      "local": 0,
      "visitante": 4,
-     "puntos": 0.0
+     "puntos": 1.0
     },
     "John": {
      "signo": "2",
      "local": 0,
      "visitante": 2,
-     "puntos": 0.0
+     "puntos": 2.0
     }
    }
   },
@@ -6392,7 +6416,7 @@
    "fase": "Dieciseisavos",
    "grupo": null,
    "jornada": null,
-   "codigo": "Brasil-2F",
+   "codigo": "Brasil-Japón",
    "fecha": null,
    "hora": null,
    "equipos": null,
@@ -6477,7 +6501,7 @@
    "fase": "Dieciseisavos",
    "grupo": null,
    "jornada": null,
-   "codigo": "1E-3ABCDF",
+   "codigo": "Alemania-3ABCDF",
    "fecha": null,
    "hora": null,
    "equipos": null,
@@ -6562,7 +6586,7 @@
    "fase": "Dieciseisavos",
    "grupo": null,
    "jornada": null,
-   "codigo": "1F-Marruecos",
+   "codigo": "Países Bajos-Marruecos",
    "fecha": null,
    "hora": null,
    "equipos": null,
@@ -6647,7 +6671,7 @@
    "fase": "Dieciseisavos",
    "grupo": null,
    "jornada": null,
-   "codigo": "2E-2I",
+   "codigo": "Costa de Marfil-2I",
    "fecha": null,
    "hora": null,
    "equipos": null,
@@ -7072,7 +7096,7 @@
    "fase": "Dieciseisavos",
    "grupo": null,
    "jornada": null,
-   "codigo": "1D-3BEFIJ",
+   "codigo": "Estados Unidos-3BEFIJ",
    "fecha": null,
    "hora": null,
    "equipos": null,
@@ -7412,7 +7436,7 @@
    "fase": "Dieciseisavos",
    "grupo": null,
    "jornada": null,
-   "codigo": "2D-2G",
+   "codigo": "Australia-2G",
    "fecha": null,
    "hora": null,
    "equipos": null,
@@ -9451,6 +9475,6 @@
  "resumen": {
   "n_jugadores": 10,
   "n_partidos": 104,
-  "n_jugados": 54
+  "n_jugados": 60
  }
 }
