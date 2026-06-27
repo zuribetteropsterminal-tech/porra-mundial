@@ -1,7 +1,7 @@
 {
  "titulo": "XXIII Mundial USA/MEX/CAN 2026",
  "grupo": "Poyete",
- "actualizado": "2026-06-27T05:15:46",
+ "actualizado": "2026-06-27T08:15:29",
  "jugadores": [
   "Juanlu",
   "WILLY",
@@ -56,9 +56,9 @@
   },
   {
    "jugador": "Juanlu",
-   "total": 128.0,
+   "total": 133.0,
    "desglose": {
-    "F. Grupos": 77.0,
+    "F. Grupos": 82.0,
     "Pos. Grupos": 38.0,
     "Equipos 1/16": 13.0,
     "Partidos 1/16": 0.0,
@@ -121,6 +121,28 @@
    "pos": 4
   },
   {
+   "jugador": "WILLY",
+   "total": 120.0,
+   "desglose": {
+    "F. Grupos": 70.0,
+    "Pos. Grupos": 38.0,
+    "Equipos 1/16": 12.0,
+    "Partidos 1/16": 0.0,
+    "Equipos 1/8": 0.0,
+    "Partidos 1/8": 0.0,
+    "Equipos 1/4": 0.0,
+    "Partidos 1/4": 0.0,
+    "Equipos 1/2": 0.0,
+    "Partidos 1/2": 0.0,
+    "Equipos 3-4": 0.0,
+    "Equipos Final": 0.0,
+    "Partido 3-4": 0.0,
+    "Partido Final": 0.0,
+    "Cuadro de Honor": 0.0
+   },
+   "pos": 5
+  },
+  {
    "jugador": "John",
    "total": 118.0,
    "desglose": {
@@ -140,7 +162,7 @@
     "Partido Final": 0.0,
     "Cuadro de Honor": 0.0
    },
-   "pos": 5
+   "pos": 6
   },
   {
    "jugador": "RAFA NAVARRETE",
@@ -149,28 +171,6 @@
     "F. Grupos": 63.0,
     "Pos. Grupos": 40.0,
     "Equipos 1/16": 13.0,
-    "Partidos 1/16": 0.0,
-    "Equipos 1/8": 0.0,
-    "Partidos 1/8": 0.0,
-    "Equipos 1/4": 0.0,
-    "Partidos 1/4": 0.0,
-    "Equipos 1/2": 0.0,
-    "Partidos 1/2": 0.0,
-    "Equipos 3-4": 0.0,
-    "Equipos Final": 0.0,
-    "Partido 3-4": 0.0,
-    "Partido Final": 0.0,
-    "Cuadro de Honor": 0.0
-   },
-   "pos": 6
-  },
-  {
-   "jugador": "WILLY",
-   "total": 115.0,
-   "desglose": {
-    "F. Grupos": 65.0,
-    "Pos. Grupos": 38.0,
-    "Equipos 1/16": 12.0,
     "Partidos 1/16": 0.0,
     "Equipos 1/8": 0.0,
     "Partidos 1/8": 0.0,
@@ -210,9 +210,9 @@
   },
   {
    "jugador": "Mini",
-   "total": 103.0,
+   "total": 105.0,
    "desglose": {
-    "F. Grupos": 60.0,
+    "F. Grupos": 62.0,
     "Pos. Grupos": 30.0,
     "Equipos 1/16": 13.0,
     "Partidos 1/16": 0.0,
@@ -5370,20 +5370,24 @@
     "🇪🇬",
     "🇮🇷"
    ],
-   "resultado": null,
-   "jugado": false,
+   "resultado": {
+    "signo": "X",
+    "local": 1,
+    "visitante": 1
+   },
+   "jugado": true,
    "predicciones": {
     "Juanlu": {
      "signo": "X",
      "local": 1,
      "visitante": 1,
-     "puntos": 0.0
+     "puntos": 5.0
     },
     "WILLY": {
      "signo": "X",
      "local": 1,
      "visitante": 1,
-     "puntos": 0.0
+     "puntos": 5.0
     },
     "Mesa": {
      "signo": "2",
@@ -5413,7 +5417,7 @@
      "signo": "X",
      "local": 2,
      "visitante": 2,
-     "puntos": 0.0
+     "puntos": 2.0
     },
     "Moi": {
      "signo": "1",
@@ -9491,6 +9495,6 @@
  "resumen": {
   "n_jugadores": 10,
   "n_partidos": 104,
-  "n_jugados": 64
+  "n_jugados": 65
  }
 }
