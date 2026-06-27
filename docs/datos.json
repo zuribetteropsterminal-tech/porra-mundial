@@ -1,7 +1,7 @@
 {
  "titulo": "XXIII Mundial USA/MEX/CAN 2026",
  "grupo": "Poyete",
- "actualizado": "2026-06-26T23:15:45",
+ "actualizado": "2026-06-27T05:15:30",
  "jugadores": [
   "Juanlu",
   "WILLY",
@@ -56,9 +56,9 @@
   },
   {
    "jugador": "Juanlu",
-   "total": 119.0,
+   "total": 121.0,
    "desglose": {
-    "F. Grupos": 73.0,
+    "F. Grupos": 75.0,
     "Pos. Grupos": 34.0,
     "Equipos 1/16": 12.0,
     "Partidos 1/16": 0.0,
@@ -78,9 +78,9 @@
   },
   {
    "jugador": "TERRY",
-   "total": 119.0,
+   "total": 121.0,
    "desglose": {
-    "F. Grupos": 69.0,
+    "F. Grupos": 71.0,
     "Pos. Grupos": 38.0,
     "Equipos 1/16": 12.0,
     "Partidos 1/16": 0.0,
@@ -144,9 +144,9 @@
   },
   {
    "jugador": "RAFA NAVARRETE",
-   "total": 109.0,
+   "total": 111.0,
    "desglose": {
-    "F. Grupos": 59.0,
+    "F. Grupos": 61.0,
     "Pos. Grupos": 38.0,
     "Equipos 1/16": 12.0,
     "Partidos 1/16": 0.0,
@@ -166,9 +166,9 @@
   },
   {
    "jugador": "WILLY",
-   "total": 106.0,
+   "total": 108.0,
    "desglose": {
-    "F. Grupos": 61.0,
+    "F. Grupos": 63.0,
     "Pos. Grupos": 34.0,
     "Equipos 1/16": 11.0,
     "Partidos 1/16": 0.0,
@@ -232,9 +232,9 @@
   },
   {
    "jugador": "Mesa",
-   "total": 88.0,
+   "total": 90.0,
    "desglose": {
-    "F. Grupos": 57.0,
+    "F. Grupos": 59.0,
     "Pos. Grupos": 20.0,
     "Equipos 1/16": 11.0,
     "Partidos 1/16": 0.0,
@@ -5532,32 +5532,36 @@
     "🇨🇻",
     "🇸🇦"
    ],
-   "resultado": null,
-   "jugado": false,
+   "resultado": {
+    "signo": "X",
+    "local": 0,
+    "visitante": 0
+   },
+   "jugado": true,
    "predicciones": {
     "Juanlu": {
      "signo": "X",
      "local": 1,
      "visitante": 1,
-     "puntos": 0.0
+     "puntos": 2.0
     },
     "WILLY": {
      "signo": "X",
      "local": 1,
      "visitante": 1,
-     "puntos": 0.0
+     "puntos": 2.0
     },
     "Mesa": {
      "signo": "X",
      "local": 2,
      "visitante": 2,
-     "puntos": 0.0
+     "puntos": 2.0
     },
     "TERRY": {
      "signo": "X",
      "local": 1,
      "visitante": 1,
-     "puntos": 0.0
+     "puntos": 2.0
     },
     "Velasco": {
      "signo": "2",
@@ -5587,7 +5591,7 @@
      "signo": "X",
      "local": 1,
      "visitante": 1,
-     "puntos": 0.0
+     "puntos": 2.0
     },
     "John": {
      "signo": "2",
@@ -9483,6 +9487,6 @@
  "resumen": {
   "n_jugadores": 10,
   "n_partidos": 104,
-  "n_jugados": 62
+  "n_jugados": 63
  }
 }
