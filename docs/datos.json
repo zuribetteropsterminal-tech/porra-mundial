@@ -1,7 +1,7 @@
 {
  "titulo": "XXIII Mundial USA/MEX/CAN 2026",
  "grupo": "Poyete",
- "actualizado": "2026-06-28T05:15:29",
+ "actualizado": "2026-06-28T05:15:45",
  "jugadores": [
   "Juanlu",
   "WILLY",
@@ -34,11 +34,11 @@
  "clasificacion": [
   {
    "jugador": "Moi",
-   "total": 170.0,
+   "total": 172.0,
    "desglose": {
     "F. Grupos": 104.0,
     "Pos. Grupos": 48.0,
-    "Equipos 1/16": 18.0,
+    "Equipos 1/16": 20.0,
     "Partidos 1/16": 0.0,
     "Equipos 1/8": 0.0,
     "Partidos 1/8": 0.0,
@@ -56,11 +56,11 @@
   },
   {
    "jugador": "Juanlu",
-   "total": 157.0,
+   "total": 163.0,
    "desglose": {
     "F. Grupos": 86.0,
-    "Pos. Grupos": 54.0,
-    "Equipos 1/16": 17.0,
+    "Pos. Grupos": 58.0,
+    "Equipos 1/16": 19.0,
     "Partidos 1/16": 0.0,
     "Equipos 1/8": 0.0,
     "Partidos 1/8": 0.0,
@@ -78,11 +78,11 @@
   },
   {
    "jugador": "TERRY",
-   "total": 152.0,
+   "total": 158.0,
    "desglose": {
     "F. Grupos": 79.0,
-    "Pos. Grupos": 56.0,
-    "Equipos 1/16": 17.0,
+    "Pos. Grupos": 60.0,
+    "Equipos 1/16": 19.0,
     "Partidos 1/16": 0.0,
     "Equipos 1/8": 0.0,
     "Partidos 1/8": 0.0,
@@ -100,11 +100,11 @@
   },
   {
    "jugador": "Rino",
-   "total": 142.0,
+   "total": 149.0,
    "desglose": {
-    "F. Grupos": 77.0,
-    "Pos. Grupos": 46.0,
-    "Equipos 1/16": 19.0,
+    "F. Grupos": 78.0,
+    "Pos. Grupos": 50.0,
+    "Equipos 1/16": 21.0,
     "Partidos 1/16": 0.0,
     "Equipos 1/8": 0.0,
     "Partidos 1/8": 0.0,
@@ -122,11 +122,11 @@
   },
   {
    "jugador": "WILLY",
-   "total": 142.0,
+   "total": 148.0,
    "desglose": {
     "F. Grupos": 72.0,
-    "Pos. Grupos": 54.0,
-    "Equipos 1/16": 16.0,
+    "Pos. Grupos": 58.0,
+    "Equipos 1/16": 18.0,
     "Partidos 1/16": 0.0,
     "Equipos 1/8": 0.0,
     "Partidos 1/8": 0.0,
@@ -140,15 +140,15 @@
     "Partido Final": 0.0,
     "Cuadro de Honor": 0.0
    },
-   "pos": 4
+   "pos": 5
   },
   {
    "jugador": "RAFA NAVARRETE",
-   "total": 141.0,
+   "total": 143.0,
    "desglose": {
     "F. Grupos": 68.0,
     "Pos. Grupos": 56.0,
-    "Equipos 1/16": 17.0,
+    "Equipos 1/16": 19.0,
     "Partidos 1/16": 0.0,
     "Equipos 1/8": 0.0,
     "Partidos 1/8": 0.0,
@@ -166,11 +166,11 @@
   },
   {
    "jugador": "John",
-   "total": 140.0,
+   "total": 142.0,
    "desglose": {
     "F. Grupos": 70.0,
     "Pos. Grupos": 52.0,
-    "Equipos 1/16": 18.0,
+    "Equipos 1/16": 20.0,
     "Partidos 1/16": 0.0,
     "Equipos 1/8": 0.0,
     "Partidos 1/8": 0.0,
@@ -188,11 +188,11 @@
   },
   {
    "jugador": "Mini",
-   "total": 127.0,
+   "total": 135.0,
    "desglose": {
-    "F. Grupos": 68.0,
-    "Pos. Grupos": 42.0,
-    "Equipos 1/16": 17.0,
+    "F. Grupos": 70.0,
+    "Pos. Grupos": 46.0,
+    "Equipos 1/16": 19.0,
     "Partidos 1/16": 0.0,
     "Equipos 1/8": 0.0,
     "Partidos 1/8": 0.0,
@@ -210,11 +210,11 @@
   },
   {
    "jugador": "Velasco",
-   "total": 127.0,
+   "total": 133.0,
    "desglose": {
     "F. Grupos": 63.0,
-    "Pos. Grupos": 48.0,
-    "Equipos 1/16": 16.0,
+    "Pos. Grupos": 52.0,
+    "Equipos 1/16": 18.0,
     "Partidos 1/16": 0.0,
     "Equipos 1/8": 0.0,
     "Partidos 1/8": 0.0,
@@ -228,15 +228,15 @@
     "Partido Final": 0.0,
     "Cuadro de Honor": 0.0
    },
-   "pos": 8
+   "pos": 9
   },
   {
    "jugador": "Mesa",
-   "total": 114.0,
+   "total": 119.0,
    "desglose": {
     "F. Grupos": 66.0,
-    "Pos. Grupos": 32.0,
-    "Equipos 1/16": 16.0,
+    "Pos. Grupos": 36.0,
+    "Equipos 1/16": 17.0,
     "Partidos 1/16": 0.0,
     "Equipos 1/8": 0.0,
     "Partidos 1/8": 0.0,
@@ -6127,8 +6127,12 @@
     "🇨🇩",
     "🇺🇿"
    ],
-   "resultado": null,
-   "jugado": false,
+   "resultado": {
+    "signo": "1",
+    "local": 3,
+    "visitante": 1
+   },
+   "jugado": true,
    "predicciones": {
     "Juanlu": {
      "signo": "X",
@@ -6164,13 +6168,13 @@
      "signo": "1",
      "local": 1,
      "visitante": 0,
-     "puntos": 0.0
+     "puntos": 1.0
     },
     "Mini": {
      "signo": "1",
      "local": 2,
      "visitante": 0,
-     "puntos": 0.0
+     "puntos": 2.0
     },
     "Moi": {
      "signo": "2",
@@ -7302,7 +7306,7 @@
    "fase": "Dieciseisavos",
    "grupo": null,
    "jornada": null,
-   "codigo": "2K-Croacia",
+   "codigo": "Portugal-Croacia",
    "fecha": null,
    "hora": null,
    "equipos": null,
@@ -7642,7 +7646,7 @@
    "fase": "Dieciseisavos",
    "grupo": null,
    "jornada": null,
-   "codigo": "1K-3DEIJL",
+   "codigo": "Colombia-3DEIJL",
    "fecha": null,
    "hora": null,
    "equipos": null,
@@ -9511,6 +9515,6 @@
  "resumen": {
   "n_jugadores": 10,
   "n_partidos": 104,
-  "n_jugados": 69
+  "n_jugados": 70
  }
 }
