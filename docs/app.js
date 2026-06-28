@@ -7,11 +7,6 @@ const esc = (s) => String(s ?? "").replace(/[&<>"]/g, c => ({ "&":"&amp;","<":"&
 const ORDEN_FASE = ["Fase de grupos","Dieciseisavos","Octavos","Cuartos","Semifinales","3º y 4º puesto","Final"];
 const SIGNO = { "1":"1", "X":"X", "2":"2" };
 
-function marcador(p){
-  if(!p) return "—";
-  if(p.local!=null) return `${p.signo!=null?p.signo+" · ":""}${p.local}-${p.visitante}`;
-  return p.texto || "—";
-}
 function fechaCorta(iso){
   if(!iso) return "";
   const d = new Date(iso+"T12:00:00");
@@ -43,9 +38,68 @@ function pinta(v){
   const m = $("#vista");
   if(v==="clas") return vClas(m);
   if(v==="partidos") return vPartidos(m);
-  if(v==="quiniela") return vQuiniela(m);
+  if(v==="cruces") return vCruces(m);
   if(v==="apuestas") return window.vApuestas(m);
   if(v==="honor") return vHonor(m);
+}
+
+/* ---------------------------------------------------------------- bracket eliminatorio */
+const KO_FASES = ["Dieciseisavos","Octavos","Cuartos","Semifinales","3º y 4º puesto","Final"];
+let _flags=null, _numToPart=null;
+function flagOf(team){
+  if(!_flags){
+    _flags={};
+    D.partidos.forEach(p=>{ if(p.equipos&&p.banderas) p.equipos.forEach((e,i)=>{ if(e&&p.banderas[i]) _flags[e]=p.banderas[i]; }); });
+  }
+  return _flags[team]||"";
+}
+function numToPart(n){
+  // Numera los partidos eliminatorios 73,74,… en orden de fase e id (estándar FIFA).
+  if(!_numToPart){
+    _numToPart={}; let mn=73;
+    KO_FASES.forEach(f=>{ D.partidos.filter(p=>p.fase===f).sort((a,b)=>a.id-b.id).forEach(p=>{ _numToPart[mn++]=p; }); });
+  }
+  return _numToPart[n];
+}
+function teamsOf(s){ return String(s||"").split("-").map(x=>x.trim()).filter(Boolean); }
+function ganadorReal(p){
+  if(!p.jugado||!p.resultado) return null;
+  const t=teamsOf(p.codigo);
+  if(p.resultado.signo==="1") return t[0];
+  if(p.resultado.signo==="2") return t[1];
+  return null; // empate/penaltis: no se puede deducir el clasificado de aquí
+}
+function ganadoresPosibles(p){
+  if(!p) return [];
+  const m=p.codigo.match(/^W(\d+)-W(\d+)$/);
+  if(!m){ const g=ganadorReal(p); return g?[g]:teamsOf(p.codigo); }
+  return [...ganadoresPosibles(numToPart(+m[1])), ...ganadoresPosibles(numToPart(+m[2]))];
+}
+function ladosCruce(p){
+  // [potA, potB] = equipos que aún pueden ocupar cada lado del cruce.
+  const m=p.codigo.match(/^W(\d+)-W(\d+)$/);
+  if(!m){ const t=teamsOf(p.codigo); return [[t[0]],[t[1]]]; }
+  return [ganadoresPosibles(numToPart(+m[1])), ganadoresPosibles(numToPart(+m[2]))];
+}
+function cruceElegible(p,pr){
+  // ¿La predicción puede aún puntuar en este cruce? (acertó/puede acertar los dos equipos, da igual el orden)
+  if(!pr||!pr.duelo) return false;
+  const t=teamsOf(pr.duelo);
+  if(t.length!==2) return false;
+  const [A,B]=ladosCruce(p);
+  return (A.includes(t[0])&&B.includes(t[1])) || (A.includes(t[1])&&B.includes(t[0]));
+}
+function reorientar(p,pr){
+  // Orienta la predicción al local/visitante del cruce real (cuando los equipos ya se conocen).
+  const real=teamsOf(p.codigo);
+  if(real.length!==2 || !pr || !pr.duelo) return pr;
+  const dt=teamsOf(pr.duelo);
+  if(dt.length!==2) return pr;
+  if(dt[0]===real[1] && dt[1]===real[0]){
+    const flip={"1":"2","2":"1","X":"X"};
+    return {...pr, signo:flip[pr.signo]||pr.signo, local:pr.visitante, visitante:pr.local};
+  }
+  return pr;
 }
 
 /* ---------------------------------------------------------------- CLASIFICACIÓN */
@@ -113,8 +167,13 @@ function vPartidos(m){
 }
 
 function matchCard(p){
-  const teams = p.equipos || p.codigo.split("-");
-  const fl = p.banderas || ["",""];
+  const esKO = p.fase!=="Fase de grupos";
+  const filtraElegibles = esKO && !p.jugado;   // solo quien puede puntuar el cruce
+  let teams;
+  if(p.equipos) teams = p.equipos;
+  else if(/^W\d+-W\d+$/.test(p.codigo)){ const [SA,SB]=ladosCruce(p); teams=[SA.join("/"),SB.join("/")]; }
+  else teams = teamsOf(p.codigo);
+  const fl = p.banderas || teams.map(t=>flagOf(t));
   const res = p.jugado
     ? `<div class="res">${p.resultado.local}-${p.resultado.visitante}</div>`
     : `<div class="res pend">por jugar</div>`;
@@ -131,13 +190,19 @@ function matchCard(p){
     <div class="preds"></div>
   </div>`);
   const cont = $(".preds", c);
-  const entradas = Object.entries(p.predicciones);
+  let entradas = Object.entries(p.predicciones);
+  if(filtraElegibles){
+    entradas = entradas.filter(([nom,pr])=>cruceElegible(p,pr))
+                       .map(([nom,pr])=>[nom, reorientar(p,pr)]);
+    cont.appendChild(el(`<div class="preds-nota">Solo jugadores que pueden puntuar (acertaron el cruce) · <b>${entradas.length}/${Object.keys(p.predicciones).length}</b></div>`));
+    if(!entradas.length){ cont.appendChild(el(`<div class="pred-empty">Nadie tiene opción de puntuar este cruce.</div>`)); return c; }
+  }
   if(!entradas.length){ cont.appendChild(el(`<span class="sub">Sin predicciones</span>`)); return c; }
 
   const grupos = {"1":[], "X":[], "2":[]};
   entradas.forEach(([nom,pr])=>{ if(grupos[pr.signo]) grupos[pr.signo].push([nom,pr]); });
 
-  const colHdr = {"1": p.equipos?p.equipos[0]:"1", "X": "Empate", "2": p.equipos?p.equipos[1]:"2"};
+  const colHdr = {"1": teams[0]||"1", "X": "Empate", "2": teams[1]||"2"};
   const cols = el(`<div class="pred-cols"></div>`);
   ["1","X","2"].forEach(signo=>{
     const col = el(`<div class="pred-col"></div>`);
@@ -164,51 +229,79 @@ function matchCard(p){
   return c;
 }
 
-/* ---------------------------------------------------------------- QUINIELA jugador */
-let jugSel = null;
-function vQuiniela(m){
-  if(!jugSel) jugSel = D.jugadores[0];
-  m.innerHTML = "";
-  const sel = el(`<div class="card"><div class="selrow">
-    <div class="sel"><label>Ver la quiniela de…</label>
-      <select id="js">${D.jugadores.map(j=>`<option ${j===jugSel?"selected":""}>${esc(j)}</option>`).join("")}</select>
-    </div></div><div id="qbody"></div></div>`);
-  m.appendChild(sel);
-  $("#js",sel).onchange = e => { jugSel = e.target.value; vQuiniela(m); };
-  const body = $("#qbody", sel);
+/* ---------------------------------------------------------------- CRUCES eliminatorios */
+let cruceFoco = null; // jugador resaltado, o null = toda la peña
 
-  const clas = D.clasificacion.find(x=>x.jugador===jugSel);
-  body.appendChild(el(`<div class="scoreboard">
-    <div><div class="big">${clas?clas.total:0}</div><div class="nm">puntos · ${ordinal(clas?clas.pos:"-")} puesto</div></div>
+function chipCruce(j, sub){
+  const dim = cruceFoco && cruceFoco!==j ? " dim" : "";
+  const on  = cruceFoco===j ? " on" : "";
+  return `<span class="cchip${dim}${on}" data-j="${esc(j)}"><b>${esc(j)}</b>${sub?`<small>${esc(sub)}</small>`:""}</span>`;
+}
+function nombreLado(pot){
+  // "Sudáfrica/Canadá" con banderas
+  return pot.map(t=>`${flagOf(t)} ${esc(t)}`.trim()).join(" / ");
+}
+
+function vCruces(m){
+  m.innerHTML = "";
+  const die = D.partidos.filter(p=>p.fase==="Dieciseisavos").sort((a,b)=>a.id-b.id);
+  const oct = D.partidos.filter(p=>p.fase==="Octavos").sort((a,b)=>a.id-b.id);
+
+  m.appendChild(el(`<div class="card cintro">
+    <div class="h2">🎯 Cruces de la eliminatoria</div>
+    <div class="sub">En la fase final solo puntúas un partido si acertaste el <b>cruce</b> (los dos equipos, da igual quién juegue de local). Aquí ves los cruces de dieciseisavos que ya tenemos clavados y los de octavos que seguimos llevando vivos.</div>
   </div>`));
 
-  ORDEN_FASE.forEach(fase=>{
-    const ps = D.partidos.filter(p=>p.fase===fase && p.predicciones[jugSel]);
-    if(!ps.length) return;
-    body.appendChild(el(`<div class="h2" style="font-size:.95rem;margin-top:14px">${esc(fase)}</div>`));
-    ps.forEach(p=>{
-      const pr = p.predicciones[jugSel];
-      const teams = p.equipos || p.codigo.split("-");
-      const tag = p.jugado ? (pr.puntos>0?`<span class="tag ok">✓ ${pr.puntos}</span>`:`<span class="tag no">✗</span>`) : "";
-      const real = p.jugado ? `${p.resultado.local}-${p.resultado.visitante}` : "—";
-      body.appendChild(el(`<div class="qline">
-        <div class="ql-m">${esc(teams[0])} - ${esc(teams[1])}<small>${esc(fechaCorta(p.fecha))}${p.duelo?"":""}</small></div>
-        <div class="ql-p">${esc(marcador(pr))}${tag}</div>
-        <div class="ql-r">real<br>${real}</div>
+  // filtro/foco por jugador
+  const foco = el(`<div class="filtros cfoco"></div>`);
+  const btnAll = el(`<button class="${cruceFoco?"":"activa"}">Toda la peña</button>`);
+  btnAll.onclick = () => { cruceFoco=null; vCruces(m); };
+  foco.appendChild(btnAll);
+  D.jugadores.forEach(j=>{
+    const b = el(`<button class="${cruceFoco===j?"activa":""}">${esc(j)}</button>`);
+    b.onclick = () => { cruceFoco = cruceFoco===j?null:j; vCruces(m); };
+    foco.appendChild(b);
+  });
+  m.appendChild(foco);
+
+  // ---- DIECISEISAVOS (definitivo) ----
+  const c16 = el(`<div class="card"><div class="h2" style="font-size:1rem">🥊 Dieciseisavos · cruces acertados</div>
+    <div class="sub" style="margin:-6px 2px 10px">Ya están fijados. Verde = acertó el cruce y puede puntuar el partido.</div></div>`);
+  die.forEach(p=>{
+    const [a,b] = teamsOf(p.codigo);
+    const aciertan = D.jugadores.filter(j=>cruceElegible(p, p.predicciones[j]));
+    const chips = aciertan.length
+      ? aciertan.map(j=>chipCruce(j)).join("")
+      : `<span class="cnadie">— nadie acertó este cruce</span>`;
+    c16.appendChild(el(`<div class="cruce ${aciertan.length?"":"cruce-vacio"}">
+      <div class="cruce-hd">
+        <div class="cruce-tm">${flagOf(a)} ${esc(a)} <span class="cruce-vs">–</span> ${esc(b)} ${flagOf(b)}</div>
+        <div class="ccount">${aciertan.length}/${D.jugadores.length}</div>
+      </div>
+      <div class="cchips">${chips}</div>
+    </div>`));
+  });
+  m.appendChild(c16);
+
+  // ---- OCTAVOS (aún en juego) ----
+  if(oct.length){
+    const c8 = el(`<div class="card"><div class="h2" style="font-size:1rem">⚔️ Octavos · cruces aún posibles</div>
+      <div class="sub" style="margin:-6px 2px 10px">Cada hueco lo disputará un equipo de cada lado. Mostramos quién lleva un cruce todavía vivo y cuál apostó.</div></div>`);
+    oct.forEach(p=>{
+      const [SA,SB] = ladosCruce(p);
+      const vivos = D.jugadores.filter(j=>cruceElegible(p, p.predicciones[j]));
+      const chips = vivos.length
+        ? vivos.map(j=>chipCruce(j, p.predicciones[j].duelo)).join("")
+        : `<span class="cnadie">— nadie lo lleva vivo</span>`;
+      c8.appendChild(el(`<div class="cruce ${vivos.length?"":"cruce-vacio"}">
+        <div class="cruce-hd">
+          <div class="cruce-tm cruce-pot">${nombreLado(SA)} <span class="cruce-vs">vs</span> ${nombreLado(SB)}</div>
+          <div class="ccount">${vivos.length}/${D.jugadores.length}</div>
+        </div>
+        <div class="cchips">${chips}</div>
       </div>`));
     });
-  });
-
-  // cuadro de honor del jugador
-  const hon = D.cuadro_honor.filter(h=>h.predicciones[jugSel]);
-  if(hon.length){
-    body.appendChild(el(`<div class="h2" style="font-size:.95rem;margin-top:14px">🏅 Cuadro de Honor</div>`));
-    hon.forEach(h=>{
-      const pr = h.predicciones[jugSel];
-      const tag = h.resultado ? (pr.puntos>0?`<span class="tag ok">✓ ${pr.puntos}</span>`:`<span class="tag no">✗</span>`) : "";
-      body.appendChild(el(`<div class="qline"><div class="ql-m">${esc(h.concepto)}</div>
-        <div class="ql-p">${esc(pr.texto)}${tag}</div></div>`));
-    });
+    m.appendChild(c8);
   }
 }
 
@@ -236,4 +329,3 @@ function vHonor(m){
 
 /* ---------------------------------------------------------------- utils */
 function cap(s){ return s.charAt(0).toUpperCase()+s.slice(1); }
-function ordinal(n){ return (typeof n==="number")?n+"º":n; }
