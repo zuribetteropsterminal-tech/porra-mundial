@@ -81,13 +81,33 @@ function ladosCruce(p){
   if(!m){ const t=teamsOf(p.codigo); return [[t[0]],[t[1]]]; }
   return [ganadoresPosibles(numToPart(+m[1])), ganadoresPosibles(numToPart(+m[2]))];
 }
-function cruceElegible(p,pr){
-  // ¿La predicción puede aún puntuar en este cruce? (acertó/puede acertar los dos equipos, da igual el orden)
-  if(!pr||!pr.duelo) return false;
-  const t=teamsOf(pr.duelo);
-  if(t.length!==2) return false;
+function keyCruce(a,b){ return [a,b].slice().sort().join(" :: "); }
+let _predCruce = {};
+function predsCruceFase(fase){
+  // {jugador: {claveCruce: predicción}} — cruces que cada jugador predijo en esa ronda,
+  // en CUALQUIER casilla (el Excel puntúa el cruce esté donde esté en su cuadro).
+  if(_predCruce[fase]) return _predCruce[fase];
+  const m={};
+  D.partidos.filter(p=>p.fase===fase).forEach(p=>{
+    Object.entries(p.predicciones).forEach(([j,pr])=>{
+      if(pr&&pr.duelo){ const t=teamsOf(pr.duelo); if(t.length===2) (m[j]=m[j]||{})[keyCruce(t[0],t[1])]=pr; }
+    });
+  });
+  return _predCruce[fase]=m;
+}
+function elegibleCruce(p,j){
+  // ¿Tiene el jugador j, en cualquier casilla de esta ronda, un cruce que pueda
+  // disputarse en este hueco? Devuelve esa predicción (para mostrarla) o null.
+  // (da igual el orden local/visitante y da igual en qué casilla la colocó)
+  const m=predsCruceFase(p.fase)[j];
+  if(!m) return null;
   const [A,B]=ladosCruce(p);
-  return (A.includes(t[0])&&B.includes(t[1])) || (A.includes(t[1])&&B.includes(t[0]));
+  for(const k in m){
+    const pr=m[k], t=teamsOf(pr.duelo);
+    if(t.length!==2) continue;
+    if((A.includes(t[0])&&B.includes(t[1])) || (A.includes(t[1])&&B.includes(t[0]))) return pr;
+  }
+  return null;
 }
 const NEXT_FASE = { "Dieciseisavos":"Octavos", "Octavos":"Cuartos", "Cuartos":"Semifinales", "Semifinales":"Final" };
 const LABEL_RONDA = { "Octavos":"octavos", "Cuartos":"cuartos", "Semifinales":"semifinales", "Final":"la final", "3º y 4º puesto":"el 3º y 4º puesto" };
@@ -244,8 +264,9 @@ function matchCard(p){
   const cont = $(".preds", c);
   let entradas = Object.entries(p.predicciones);
   if(filtraElegibles){
-    entradas = entradas.filter(([nom,pr])=>cruceElegible(p,pr))
-                       .map(([nom,pr])=>[nom, reorientar(p,pr)]);
+    entradas = D.jugadores.map(j=>[j, elegibleCruce(p,j)])
+                          .filter(([nom,pr])=>pr)
+                          .map(([nom,pr])=>[nom, reorientar(p,pr)]);
     cont.appendChild(el(`<div class="preds-nota">Solo jugadores que pueden puntuar (acertaron el cruce) · <b>${entradas.length}/${Object.keys(p.predicciones).length}</b></div>`));
     if(!entradas.length){ cont.appendChild(el(`<div class="pred-empty">Nadie tiene opción de puntuar este cruce.</div>`)); return fin(); }
   }
@@ -321,7 +342,7 @@ function vCruces(m){
     <div class="sub" style="margin:-6px 2px 10px">Ya están fijados. Verde = acertó el cruce y puede puntuar el partido.</div></div>`);
   die.forEach(p=>{
     const [a,b] = teamsOf(p.codigo);
-    const aciertan = D.jugadores.filter(j=>cruceElegible(p, p.predicciones[j]));
+    const aciertan = D.jugadores.filter(j=>elegibleCruce(p, j));
     const chips = aciertan.length
       ? aciertan.map(j=>chipCruce(j)).join("")
       : `<span class="cnadie">— nadie acertó este cruce</span>`;
@@ -341,9 +362,9 @@ function vCruces(m){
       <div class="sub" style="margin:-6px 2px 10px">Cada hueco lo disputará un equipo de cada lado. Mostramos quién lleva un cruce todavía vivo y cuál apostó.</div></div>`);
     oct.forEach(p=>{
       const [SA,SB] = ladosCruce(p);
-      const vivos = D.jugadores.filter(j=>cruceElegible(p, p.predicciones[j]));
+      const vivos = D.jugadores.map(j=>[j, elegibleCruce(p,j)]).filter(([j,pr])=>pr);
       const chips = vivos.length
-        ? vivos.map(j=>chipCruce(j, p.predicciones[j].duelo)).join("")
+        ? vivos.map(([j,pr])=>chipCruce(j, pr.duelo)).join("")
         : `<span class="cnadie">— nadie lo lleva vivo</span>`;
       c8.appendChild(el(`<div class="cruce ${vivos.length?"":"cruce-vacio"}">
         <div class="cruce-hd">
