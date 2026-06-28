@@ -141,6 +141,21 @@ select{width:100%;background:var(--card2);color:var(--txt);border:1px solid var(
 .preds-nota{width:100%;color:var(--muted);font-size:.7rem;font-weight:700;margin-bottom:8px}
 .preds-nota b{color:var(--acc2)}
 
+/* recuadro "¿a quién animar?" — puntos Equipos de la siguiente ronda */
+.next-box{margin-top:11px;background:rgba(58,160,255,.08);border:1px solid rgba(58,160,255,.35);
+  border-radius:11px;padding:9px 11px}
+.next-box .nb-hd{font-size:.72rem;font-weight:800;color:#7fc0ff;text-transform:uppercase;
+  letter-spacing:.3px;margin-bottom:7px}
+.nb-row{display:flex;gap:8px;align-items:baseline;padding:4px 0;border-top:1px solid rgba(58,160,255,.16)}
+.nb-row:first-of-type{border-top:0}
+.nb-team{min-width:120px;font-weight:800;font-size:.82rem;white-space:nowrap}
+.nb-team small{display:block;color:var(--muted2);font-size:.62rem;font-weight:700;white-space:normal}
+.nb-who{flex:1;font-size:.76rem;color:var(--muted);font-weight:600;line-height:1.4}
+.nb-who b{color:#7fc0ff}
+.nb-nadie{color:var(--muted2);font-style:italic}
+.nb-row.nb-ok .nb-team{color:var(--acc2)}
+.nb-row.nb-ok{background:rgba(55,224,166,.07);border-radius:7px}
+
 /* ============================ LA CASA (apuestas) ============================ */
 .btn-primary{width:100%;background:linear-gradient(90deg,var(--acc),#ff9f43);color:#1a1300;
   border:0;border-radius:12px;padding:12px;font-size:.95rem;font-weight:900;cursor:pointer}

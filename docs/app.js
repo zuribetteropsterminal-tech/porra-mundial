@@ -89,6 +89,57 @@ function cruceElegible(p,pr){
   const [A,B]=ladosCruce(p);
   return (A.includes(t[0])&&B.includes(t[1])) || (A.includes(t[1])&&B.includes(t[0]));
 }
+const NEXT_FASE = { "Dieciseisavos":"Octavos", "Octavos":"Cuartos", "Cuartos":"Semifinales", "Semifinales":"Final" };
+const LABEL_RONDA = { "Octavos":"octavos", "Cuartos":"cuartos", "Semifinales":"semifinales", "Final":"la final", "3º y 4º puesto":"el 3º y 4º puesto" };
+let _mapaEq = {};
+function mapaEquipos(fase){
+  // {equipo: [jugadores que lo predijeron en esa fase]} — a partir de los duelos
+  if(_mapaEq[fase]) return _mapaEq[fase];
+  const m={};
+  D.partidos.filter(p=>p.fase===fase).forEach(p=>{
+    Object.entries(p.predicciones).forEach(([j,pr])=>{
+      if(pr&&pr.duelo) teamsOf(pr.duelo).forEach(t=>{ (m[t]=m[t]||new Set()).add(j); });
+    });
+  });
+  Object.keys(m).forEach(t=>m[t]=[...m[t]]);
+  return _mapaEq[fase]=m;
+}
+function benef(team,fase){ return mapaEquipos(fase)[team]||[]; }
+
+function cajaSiguienteFase(p){
+  // Recuadro: quién puntúa («Equipos» de la ronda siguiente) si cada equipo se clasifica.
+  if(p.fase==="Fase de grupos") return null;
+  if(/^W\d+-W\d+$/.test(p.codigo)) return null;   // equipos aún sin definir
+  const real = teamsOf(p.codigo);
+  if(real.length!==2) return null;
+  const gana = p.jugado ? ganadorReal(p) : null;
+
+  let titulo, filas;
+  if(p.fase==="Semifinales"){
+    titulo = "🔜 Final / 3º·4º · puntos «Equipos»";
+    filas = real.flatMap(t=>[
+      {team:t, dest:"a la final (gana)", players:benef(t,"Final"), ok:gana&&t===gana},
+      {team:t, dest:"al 3º y 4º (pierde)", players:benef(t,"3º y 4º puesto"), ok:gana&&t!==gana},
+    ]);
+  } else {
+    const nf = NEXT_FASE[p.fase];
+    if(!nf) return null;   // Final y 3º·4º: no hay ronda siguiente
+    titulo = `🔜 Pase a ${LABEL_RONDA[nf]} · +1 punto «Equipos»`;
+    filas = real.map(t=>({team:t, dest:LABEL_RONDA[nf], players:benef(t,nf), ok:gana&&t===gana}));
+  }
+
+  const box = el(`<div class="next-box"><div class="nb-hd">${esc(titulo)}</div></div>`);
+  filas.forEach(f=>{
+    const who = f.players.length
+      ? `${f.players.map(esc).join(" · ")} <b>(${f.players.length})</b>`
+      : `<span class="nb-nadie">— nadie</span>`;
+    box.appendChild(el(`<div class="nb-row${f.ok?" nb-ok":""}">
+      <span class="nb-team">${flagOf(f.team)} ${esc(f.team)}${p.fase==="Semifinales"?` <small>${esc(f.dest)}</small>`:""}</span>
+      <span class="nb-who">${who}</span>
+    </div>`));
+  });
+  return box;
+}
 function reorientar(p,pr){
   // Orienta la predicción al local/visitante del cruce real (cuando los equipos ya se conocen).
   const real=teamsOf(p.codigo);
@@ -189,15 +240,16 @@ function matchCard(p){
     </div>
     <div class="preds"></div>
   </div>`);
+  const fin = () => { const nb = cajaSiguienteFase(p); if(nb) c.appendChild(nb); return c; };
   const cont = $(".preds", c);
   let entradas = Object.entries(p.predicciones);
   if(filtraElegibles){
     entradas = entradas.filter(([nom,pr])=>cruceElegible(p,pr))
                        .map(([nom,pr])=>[nom, reorientar(p,pr)]);
     cont.appendChild(el(`<div class="preds-nota">Solo jugadores que pueden puntuar (acertaron el cruce) · <b>${entradas.length}/${Object.keys(p.predicciones).length}</b></div>`));
-    if(!entradas.length){ cont.appendChild(el(`<div class="pred-empty">Nadie tiene opción de puntuar este cruce.</div>`)); return c; }
+    if(!entradas.length){ cont.appendChild(el(`<div class="pred-empty">Nadie tiene opción de puntuar este cruce.</div>`)); return fin(); }
   }
-  if(!entradas.length){ cont.appendChild(el(`<span class="sub">Sin predicciones</span>`)); return c; }
+  if(!entradas.length){ cont.appendChild(el(`<span class="sub">Sin predicciones</span>`)); return fin(); }
 
   const grupos = {"1":[], "X":[], "2":[]};
   entradas.forEach(([nom,pr])=>{ if(grupos[pr.signo]) grupos[pr.signo].push([nom,pr]); });
@@ -226,7 +278,7 @@ function matchCard(p){
     cols.appendChild(col);
   });
   cont.appendChild(cols);
-  return c;
+  return fin();
 }
 
 /* ---------------------------------------------------------------- CRUCES eliminatorios */
