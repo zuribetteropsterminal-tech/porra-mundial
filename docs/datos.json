@@ -1,7 +1,7 @@
 {
  "titulo": "XXIII Mundial USA/MEX/CAN 2026",
  "grupo": "Poyete",
- "actualizado": "2026-06-28T05:15:45",
+ "actualizado": "2026-06-28T08:15:30",
  "jugadores": [
   "Juanlu",
   "WILLY",
@@ -56,9 +56,9 @@
   },
   {
    "jugador": "Juanlu",
-   "total": 163.0,
+   "total": 165.0,
    "desglose": {
-    "F. Grupos": 86.0,
+    "F. Grupos": 88.0,
     "Pos. Grupos": 58.0,
     "Equipos 1/16": 19.0,
     "Partidos 1/16": 0.0,
@@ -99,12 +99,12 @@
    "pos": 3
   },
   {
-   "jugador": "Rino",
-   "total": 149.0,
+   "jugador": "WILLY",
+   "total": 150.0,
    "desglose": {
-    "F. Grupos": 78.0,
-    "Pos. Grupos": 50.0,
-    "Equipos 1/16": 21.0,
+    "F. Grupos": 74.0,
+    "Pos. Grupos": 58.0,
+    "Equipos 1/16": 18.0,
     "Partidos 1/16": 0.0,
     "Equipos 1/8": 0.0,
     "Partidos 1/8": 0.0,
@@ -121,12 +121,12 @@
    "pos": 4
   },
   {
-   "jugador": "WILLY",
-   "total": 148.0,
+   "jugador": "Rino",
+   "total": 149.0,
    "desglose": {
-    "F. Grupos": 72.0,
-    "Pos. Grupos": 58.0,
-    "Equipos 1/16": 18.0,
+    "F. Grupos": 78.0,
+    "Pos. Grupos": 50.0,
+    "Equipos 1/16": 21.0,
     "Partidos 1/16": 0.0,
     "Equipos 1/8": 0.0,
     "Partidos 1/8": 0.0,
@@ -232,9 +232,9 @@
   },
   {
    "jugador": "Mesa",
-   "total": 119.0,
+   "total": 121.0,
    "desglose": {
-    "F. Grupos": 66.0,
+    "F. Grupos": 68.0,
     "Pos. Grupos": 36.0,
     "Equipos 1/16": 17.0,
     "Partidos 1/16": 0.0,
@@ -5880,26 +5880,30 @@
     "🇩🇿",
     "🇦🇹"
    ],
-   "resultado": null,
-   "jugado": false,
+   "resultado": {
+    "signo": "X",
+    "local": 3,
+    "visitante": 3
+   },
+   "jugado": true,
    "predicciones": {
     "Juanlu": {
      "signo": "X",
      "local": 1,
      "visitante": 1,
-     "puntos": 0.0
+     "puntos": 2.0
     },
     "WILLY": {
      "signo": "X",
      "local": 1,
      "visitante": 1,
-     "puntos": 0.0
+     "puntos": 2.0
     },
     "Mesa": {
      "signo": "X",
      "local": 1,
      "visitante": 1,
-     "puntos": 0.0
+     "puntos": 2.0
     },
     "TERRY": {
      "signo": "2",
@@ -9515,6 +9519,6 @@
  "resumen": {
   "n_jugadores": 10,
   "n_partidos": 104,
-  "n_jugados": 70
+  "n_jugados": 71
  }
 }
