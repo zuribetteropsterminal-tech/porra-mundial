@@ -1,7 +1,7 @@
 {
  "titulo": "XXIII Mundial USA/MEX/CAN 2026",
  "grupo": "Poyete",
- "actualizado": "2026-06-28T02:15:42",
+ "actualizado": "2026-06-28T05:15:29",
  "jugadores": [
   "Juanlu",
   "WILLY",
@@ -34,9 +34,9 @@
  "clasificacion": [
   {
    "jugador": "Moi",
-   "total": 168.0,
+   "total": 170.0,
    "desglose": {
-    "F. Grupos": 102.0,
+    "F. Grupos": 104.0,
     "Pos. Grupos": 48.0,
     "Equipos 1/16": 18.0,
     "Partidos 1/16": 0.0,
@@ -56,9 +56,9 @@
   },
   {
    "jugador": "Juanlu",
-   "total": 155.0,
+   "total": 157.0,
    "desglose": {
-    "F. Grupos": 84.0,
+    "F. Grupos": 86.0,
     "Pos. Grupos": 54.0,
     "Equipos 1/16": 17.0,
     "Partidos 1/16": 0.0,
@@ -210,9 +210,9 @@
   },
   {
    "jugador": "Velasco",
-   "total": 125.0,
+   "total": 127.0,
    "desglose": {
-    "F. Grupos": 61.0,
+    "F. Grupos": 63.0,
     "Pos. Grupos": 48.0,
     "Equipos 1/16": 16.0,
     "Partidos 1/16": 0.0,
@@ -228,7 +228,7 @@
     "Partido Final": 0.0,
     "Cuadro de Honor": 0.0
    },
-   "pos": 9
+   "pos": 8
   },
   {
    "jugador": "Mesa",
@@ -6042,14 +6042,18 @@
     "🇨🇴",
     "🇵🇹"
    ],
-   "resultado": null,
-   "jugado": false,
+   "resultado": {
+    "signo": "X",
+    "local": 0,
+    "visitante": 0
+   },
+   "jugado": true,
    "predicciones": {
     "Juanlu": {
      "signo": "X",
      "local": 1,
      "visitante": 1,
-     "puntos": 0.0
+     "puntos": 2.0
     },
     "WILLY": {
      "signo": "2",
@@ -6073,7 +6077,7 @@
      "signo": "X",
      "local": 2,
      "visitante": 2,
-     "puntos": 0.0
+     "puntos": 2.0
     },
     "Rino": {
      "signo": "2",
@@ -6091,7 +6095,7 @@
      "signo": "X",
      "local": 1,
      "visitante": 1,
-     "puntos": 0.0
+     "puntos": 2.0
     },
     "RAFA NAVARRETE": {
      "signo": "2",
@@ -9507,6 +9511,6 @@
  "resumen": {
   "n_jugadores": 10,
   "n_partidos": 104,
-  "n_jugados": 68
+  "n_jugados": 69
  }
 }
