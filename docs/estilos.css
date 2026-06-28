@@ -115,6 +115,32 @@ select{width:100%;background:var(--card2);color:var(--txt);border:1px solid var(
 .tag.ok{background:rgba(55,224,166,.18);color:var(--good)}
 .tag.no{background:rgba(255,107,125,.15);color:var(--bad)}
 
+/* ============================ CRUCES (eliminatoria) ============================ */
+.cintro .sub{margin-top:-4px}
+.filtros.cfoco{margin-top:-2px}
+.cruce{padding:10px 4px;border-bottom:1px solid var(--line)}
+.cruce:last-child{border-bottom:0}
+.cruce-vacio{opacity:.55}
+.cruce-hd{display:flex;align-items:center;gap:10px;margin-bottom:7px}
+.cruce-tm{flex:1;font-weight:800;font-size:.92rem;line-height:1.3}
+.cruce-tm .cruce-vs{color:var(--muted2);font-weight:700;margin:0 3px}
+.cruce-pot{font-size:.82rem;font-weight:700;color:var(--txt)}
+.cruce-pot .cruce-vs{font-size:.72rem;display:inline-block;margin:0 5px}
+.ccount{font-weight:900;font-size:.82rem;color:var(--acc2);background:var(--chip);
+  border:1px solid var(--line);border-radius:8px;padding:3px 9px;white-space:nowrap}
+.cchips{display:flex;flex-wrap:wrap;gap:6px}
+.cchip{display:inline-flex;flex-direction:column;gap:1px;background:rgba(55,224,166,.12);
+  border:1px solid var(--good);border-radius:9px;padding:4px 9px;font-size:.78rem}
+.cchip b{font-weight:800;color:var(--txt)}
+.cchip small{color:var(--muted);font-size:.66rem;font-weight:700}
+.cchip.dim{opacity:.22;filter:grayscale(.5)}
+.cchip.on{background:rgba(255,211,78,.18);border-color:var(--acc)}
+.cnadie{color:var(--muted2);font-size:.78rem;font-style:italic}
+
+/* nota de partidos filtrados por elegibilidad */
+.preds-nota{width:100%;color:var(--muted);font-size:.7rem;font-weight:700;margin-bottom:8px}
+.preds-nota b{color:var(--acc2)}
+
 /* ============================ LA CASA (apuestas) ============================ */
 .btn-primary{width:100%;background:linear-gradient(90deg,var(--acc),#ff9f43);color:#1a1300;
   border:0;border-radius:12px;padding:12px;font-size:.95rem;font-weight:900;cursor:pointer}
