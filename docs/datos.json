@@ -1,7 +1,7 @@
 {
  "titulo": "XXIII Mundial USA/MEX/CAN 2026",
  "grupo": "Poyete",
- "actualizado": "2026-06-28T08:15:46",
+ "actualizado": "2026-06-29T07:15:37",
  "jugadores": [
   "Juanlu",
   "WILLY",
@@ -56,13 +56,13 @@
   },
   {
    "jugador": "Juanlu",
-   "total": 182.0,
+   "total": 184.0,
    "desglose": {
     "F. Grupos": 89.0,
     "Pos. Grupos": 66.0,
     "Equipos 1/16": 27.0,
     "Partidos 1/16": 0.0,
-    "Equipos 1/8": 0.0,
+    "Equipos 1/8": 2.0,
     "Partidos 1/8": 0.0,
     "Equipos 1/4": 0.0,
     "Partidos 1/4": 0.0,
@@ -166,13 +166,13 @@
   },
   {
    "jugador": "RAFA NAVARRETE",
-   "total": 156.0,
+   "total": 158.0,
    "desglose": {
     "F. Grupos": 69.0,
     "Pos. Grupos": 60.0,
     "Equipos 1/16": 27.0,
     "Partidos 1/16": 0.0,
-    "Equipos 1/8": 0.0,
+    "Equipos 1/8": 2.0,
     "Partidos 1/8": 0.0,
     "Equipos 1/4": 0.0,
     "Partidos 1/4": 0.0,
@@ -184,7 +184,7 @@
     "Partido Final": 0.0,
     "Cuadro de Honor": 0.0
    },
-   "pos": 7
+   "pos": 6
   },
   {
    "jugador": "Mini",
@@ -6384,8 +6384,12 @@
    "hora": null,
    "equipos": null,
    "banderas": null,
-   "resultado": null,
-   "jugado": false,
+   "resultado": {
+    "signo": "2",
+    "local": 0,
+    "visitante": 1
+   },
+   "jugado": true,
    "predicciones": {
     "Juanlu": {
      "signo": "X",
@@ -9523,6 +9527,6 @@
  "resumen": {
   "n_jugadores": 10,
   "n_partidos": 104,
-  "n_jugados": 72
+  "n_jugados": 73
  }
 }
