@@ -16,53 +16,6 @@ function haEmpezado(p){
 
 const MOCK_JUGADORES = ["Juanlu","WILLY","Mesa","TERRY","Velasco","Rino","Mini","Moi","RAFA NAVARRETE","John"];
 
-/* Partidos de ejemplo con cuotas. Cuando conectes cuotas.py + The Odds API,
-   esta tabla vendrá de Firestore (los scripts la rellenarán). */
-const MOCK_PARTIDOS = [
-  {
-    id: "m1", fecha: "2026-06-16", hora: "21:00",
-    local: "España", visitante: "Uruguay", flLocal: "🇪🇸", flVis: "🇺🇾",
-    mercados: [
-      { id: "1x2", nombre: "Ganador del partido",
-        sel: [{k:"1",etq:"España",cuota:1.85},{k:"X",etq:"Empate",cuota:3.40},{k:"2",etq:"Uruguay",cuota:4.20}] },
-      { id: "dc", nombre: "Doble oportunidad",
-        sel: [{k:"1X",etq:"España o Empate",cuota:1.22},{k:"12",etq:"España o Uruguay",cuota:1.28},{k:"X2",etq:"Empate o Uruguay",cuota:1.90}] },
-      { id: "ou25", nombre: "Total de goles 2.5",
-        sel: [{k:"O",etq:"Más de 2.5",cuota:2.05},{k:"U",etq:"Menos de 2.5",cuota:1.75}] },
-      { id: "btts", nombre: "Ambos equipos marcan",
-        sel: [{k:"S",etq:"Sí",cuota:1.95},{k:"N",etq:"No",cuota:1.80}] },
-      { id: "exact", nombre: "Resultado exacto",
-        sel: [{k:"1-0",etq:"1-0",cuota:6.5},{k:"2-0",etq:"2-0",cuota:8.0},{k:"2-1",etq:"2-1",cuota:8.5},{k:"1-1",etq:"1-1",cuota:6.0},{k:"0-0",etq:"0-0",cuota:9.0},{k:"0-1",etq:"0-1",cuota:13.0}] },
-    ],
-  },
-  {
-    id: "m2", fecha: "2026-06-17", hora: "18:00",
-    local: "Argentina", visitante: "Nigeria", flLocal: "🇦🇷", flVis: "🇳🇬",
-    mercados: [
-      { id: "1x2", nombre: "Ganador del partido",
-        sel: [{k:"1",etq:"Argentina",cuota:1.50},{k:"X",etq:"Empate",cuota:4.00},{k:"2",etq:"Nigeria",cuota:6.50}] },
-      { id: "dc", nombre: "Doble oportunidad",
-        sel: [{k:"1X",etq:"Argentina o Empate",cuota:1.12},{k:"12",etq:"Argentina o Nigeria",cuota:1.20},{k:"X2",etq:"Empate o Nigeria",cuota:2.45}] },
-      { id: "ou25", nombre: "Total de goles 2.5",
-        sel: [{k:"O",etq:"Más de 2.5",cuota:1.90},{k:"U",etq:"Menos de 2.5",cuota:1.90}] },
-      { id: "btts", nombre: "Ambos equipos marcan",
-        sel: [{k:"S",etq:"Sí",cuota:2.10},{k:"N",etq:"No",cuota:1.68}] },
-    ],
-  },
-  {
-    id: "m3", fecha: "2026-06-17", hora: "21:00",
-    local: "Francia", visitante: "Croacia", flLocal: "🇫🇷", flVis: "🇭🇷",
-    mercados: [
-      { id: "1x2", nombre: "Ganador del partido",
-        sel: [{k:"1",etq:"Francia",cuota:1.70},{k:"X",etq:"Empate",cuota:3.60},{k:"2",etq:"Croacia",cuota:4.80}] },
-      { id: "ou25", nombre: "Total de goles 2.5",
-        sel: [{k:"O",etq:"Más de 2.5",cuota:1.95},{k:"U",etq:"Menos de 2.5",cuota:1.85}] },
-      { id: "btts", nombre: "Ambos equipos marcan",
-        sel: [{k:"S",etq:"Sí",cuota:1.85},{k:"N",etq:"No",cuota:1.90}] },
-    ],
-  },
-];
-
 /* ================================================================ Store
    Todas las lecturas/escrituras de datos pasan por aquí.
    La UI no toca Firebase directamente. */
@@ -87,9 +40,8 @@ const Store = {
     MOCK_JUGADORES.forEach(j => {
       batch.set(this._db.doc(`jugadores/${j}`), { saldo: SALDO_INICIAL });
     });
-    MOCK_PARTIDOS.forEach(p => {
-      batch.set(this._db.doc(`partidos/${p.id}`), p);
-    });
+    // Los partidos los pone cuotas.py con cuotas reales. NO sembramos partidos
+    // de prueba: si se colaran, la peña podría apostar a partidos inexistentes.
     await batch.commit();
   },
 
