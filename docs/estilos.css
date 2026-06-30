@@ -73,6 +73,7 @@ nav button.activa{color:var(--acc)}
 .teams .tm .fl{font-size:1.3rem}
 .teams .res{min-width:64px;text-align:center;font-weight:900;font-size:1.15rem;
   background:var(--card2);border-radius:9px;padding:4px 8px}
+.teams .res small{display:block;font-size:.62rem;line-height:1.05;font-weight:800;color:var(--muted)}
 .teams .res.pend{color:var(--muted);font-size:.75rem;font-weight:700;background:transparent;border:1px dashed var(--line)}
 .preds{display:flex;flex-wrap:wrap;gap:6px;margin-top:11px;padding-top:10px;border-top:1px solid var(--line)}
 .pred{display:flex;align-items:center;gap:6px;background:var(--chip);border:1px solid var(--line);

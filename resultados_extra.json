@@ -1,0 +1,16 @@
+{
+  "Alemania-Paraguay": {
+    "ganador": "Paraguay",
+    "penaltis": {
+      "local": 3,
+      "visitante": 4
+    }
+  },
+  "Países Bajos-Marruecos": {
+    "ganador": "Marruecos",
+    "penaltis": {
+      "local": 2,
+      "visitante": 3
+    }
+  }
+}

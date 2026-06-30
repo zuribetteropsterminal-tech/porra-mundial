@@ -1,7 +1,7 @@
 {
  "titulo": "XXIII Mundial USA/MEX/CAN 2026",
  "grupo": "Poyete",
- "actualizado": "2026-06-30T07:03:44",
+ "actualizado": "2026-06-30T07:07:42",
  "jugadores": [
   "Juanlu",
   "WILLY",
@@ -6583,7 +6583,12 @@
    "resultado": {
     "signo": "X",
     "local": 1,
-    "visitante": 1
+    "visitante": 1,
+    "ganador": "Paraguay",
+    "penaltis": {
+     "local": 3,
+     "visitante": 4
+    }
    },
    "jugado": true,
    "predicciones": {
@@ -6678,7 +6683,12 @@
    "resultado": {
     "signo": "X",
     "local": 1,
-    "visitante": 1
+    "visitante": 1,
+    "ganador": "Marruecos",
+    "penaltis": {
+     "local": 2,
+     "visitante": 3
+    }
    },
    "jugado": true,
    "predicciones": {

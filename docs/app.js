@@ -64,22 +64,26 @@ function numToPart(n){
 function teamsOf(s){ return String(s||"").split("-").map(x=>x.trim()).filter(Boolean); }
 function ganadorReal(p){
   if(!p.jugado||!p.resultado) return null;
+  if(p.resultado.ganador) return p.resultado.ganador;
   const t=teamsOf(p.codigo);
   if(p.resultado.signo==="1") return t[0];
   if(p.resultado.signo==="2") return t[1];
-  return null; // empate/penaltis: no se puede deducir el clasificado de aquí
+  return null;
 }
 function ganadoresPosibles(p){
   if(!p) return [];
-  const m=p.codigo.match(/^W(\d+)-W(\d+)$/);
-  if(!m){ const g=ganadorReal(p); return g?[g]:teamsOf(p.codigo); }
-  return [...ganadoresPosibles(numToPart(+m[1])), ...ganadoresPosibles(numToPart(+m[2]))];
+  const g=ganadorReal(p);
+  if(g) return [g];
+  return ladosCruce(p).flat();
+}
+function posiblesToken(t){
+  const m=String(t||"").match(/^W(\d+)$/);
+  return m ? ganadoresPosibles(numToPart(+m[1])) : [t].filter(Boolean);
 }
 function ladosCruce(p){
   // [potA, potB] = equipos que aún pueden ocupar cada lado del cruce.
-  const m=p.codigo.match(/^W(\d+)-W(\d+)$/);
-  if(!m){ const t=teamsOf(p.codigo); return [[t[0]],[t[1]]]; }
-  return [ganadoresPosibles(numToPart(+m[1])), ganadoresPosibles(numToPart(+m[2]))];
+  const t=teamsOf(p.codigo);
+  return [posiblesToken(t[0]), posiblesToken(t[1])];
 }
 function keyCruce(a,b){ return [a,b].slice().sort().join(" :: "); }
 let _predCruce = {};
@@ -245,8 +249,9 @@ function matchCard(p){
   else if(/^W\d+-W\d+$/.test(p.codigo)){ const [SA,SB]=ladosCruce(p); teams=[SA.join("/"),SB.join("/")]; }
   else teams = teamsOf(p.codigo);
   const fl = p.banderas || teams.map(t=>flagOf(t));
+  const pen = p.resultado?.penaltis ? `<small>pen. ${p.resultado.penaltis.local}-${p.resultado.penaltis.visitante}</small>` : "";
   const res = p.jugado
-    ? `<div class="res">${p.resultado.local}-${p.resultado.visitante}</div>`
+    ? `<div class="res">${p.resultado.local}-${p.resultado.visitante}${pen}</div>`
     : `<div class="res pend">por jugar</div>`;
   const c = el(`<div class="match">
     <div class="top">

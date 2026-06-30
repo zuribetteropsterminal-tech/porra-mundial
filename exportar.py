@@ -21,6 +21,7 @@ except ImportError:
 AQUI = os.path.dirname(os.path.abspath(__file__))
 DEFECTO_XLSX = os.path.join(AQUI, "..", "ADMIN lMundial 2026 - Porra Poyete.xlsx")
 SALIDA = os.path.join(AQUI, "docs", "datos.json")
+EXTRAS = os.path.join(AQUI, "resultados_extra.json")
 
 # ---------------------------------------------------------------- banderas
 BANDERAS = {
@@ -110,6 +111,12 @@ ruta = sys.argv[1] if len(sys.argv) > 1 else DEFECTO_XLSX
 if not os.path.exists(ruta):
     sys.exit(f"No encuentro el Excel en: {ruta}")
 
+if os.path.exists(EXTRAS):
+    with open(EXTRAS, encoding="utf-8") as fh:
+        resultados_extra = json.load(fh)
+else:
+    resultados_extra = {}
+
 import warnings
 warnings.simplefilter("ignore")
 wb = openpyxl.load_workbook(ruta, data_only=True)
@@ -184,6 +191,8 @@ for r in range(6, 260):
         equipos = partes
 
     resultado = parse_marcador(adm.cell(r, 13).value, adm.cell(r, 12).value)   # col M, signo col L
+    if resultado:
+        resultado.update(resultados_extra.get(k.strip(), {}))
     jugado = bool(resultado and "local" in resultado)
 
     preds = {}

@@ -23,6 +23,7 @@ from zoneinfo import ZoneInfo
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
 ESPN_URL = "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates={date}"
+EXTRAS = os.path.join(AQUI, "resultados_extra.json")
 MADRID = ZoneInfo("Europe/Madrid")
 
 ALIASES = {
@@ -125,6 +126,8 @@ def competidores_evento(evento):
             "nombre": nombre,
             "score": int(comp.get("score") or 0),
             "homeAway": comp.get("homeAway"),
+            "winner": bool(comp.get("winner")),
+            "shootoutScore": comp.get("shootoutScore"),
         }
     return competidores
 
@@ -166,6 +169,35 @@ def run(cmd):
     subprocess.run(cmd, cwd=AQUI, check=True)
 
 
+def guarda_extra(local, visitante, comp_local, comp_visitante):
+    extra = {}
+    if comp_local.get("winner"):
+        extra["ganador"] = local
+    elif comp_visitante.get("winner"):
+        extra["ganador"] = visitante
+
+    pen_local = comp_local.get("shootoutScore")
+    pen_visitante = comp_visitante.get("shootoutScore")
+    if pen_local is not None or pen_visitante is not None:
+        extra["penaltis"] = {
+            "local": int(pen_local or 0),
+            "visitante": int(pen_visitante or 0),
+        }
+
+    if not extra:
+        return
+
+    if os.path.exists(EXTRAS):
+        with open(EXTRAS, encoding="utf-8") as fh:
+            data = json.load(fh)
+    else:
+        data = {}
+    data[f"{local}-{visitante}"] = extra
+    with open(EXTRAS, "w", encoding="utf-8") as fh:
+        json.dump(data, fh, ensure_ascii=False, indent=2)
+        fh.write("\n")
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("partido", nargs="+")
@@ -201,6 +233,7 @@ def main():
     if ns.force:
         registrar.append("--force")
     run(registrar)
+    guarda_extra(local, visitante, comp_local, comp_visitante)
 
     actualizar = ["./actualizar.sh"]
     if not ns.publicar:
