@@ -68,6 +68,38 @@ def parse_pred(valor):
         out["duelo"] = duelo.strip()
     return out
 
+def parse_marcador(valor, signo=None):
+    """Resultado real en formato del Excel: '1|2-0' en grupos o '2-1' en KO."""
+    pred = parse_pred(valor)
+    if pred and "local" in pred:
+        return pred
+
+    if valor is None:
+        return None
+    s = str(valor).strip()
+    if s in ("-", "", "Pendiente"):
+        return None
+    m = re.match(r"\s*(\d+)\s*-\s*(\d+)\s*", s)
+    if not m:
+        return None
+
+    local = int(m.group(1))
+    visitante = int(m.group(2))
+    signo = str(signo or "").strip()
+    if signo == "1":
+        signo = "1"
+    elif signo == "2":
+        signo = "2"
+    elif signo in ("0", "X"):
+        signo = "X"
+    elif local > visitante:
+        signo = "1"
+    elif visitante > local:
+        signo = "2"
+    else:
+        signo = "X"
+    return {"signo": signo, "local": local, "visitante": visitante}
+
 def iso_fecha(v):
     if isinstance(v, (datetime.datetime, datetime.date)):
         return v.strftime("%Y-%m-%d")
@@ -145,14 +177,13 @@ for r in range(6, 260):
     if isinstance(jcod, str) and re.match(r"^[A-L]\d$", jcod):
         grupo, jornada = jcod[0], "J" + jcod[1]
 
-    # equipos: en grupos K = "Local-Visitante" con nombres reales
+    # equipos: K = "Local-Visitante"; en rondas futuras puede contener W73-W74.
     equipos = None
-    if fase_actual == "Fase de grupos":
-        partes = k.split("-")
-        if len(partes) == 2:
-            equipos = [partes[0].strip(), partes[1].strip()]
+    partes = [p.strip() for p in k.split("-", 1)]
+    if len(partes) == 2 and not any(re.match(r"^[WL]\d+$", p) for p in partes):
+        equipos = partes
 
-    resultado = parse_pred(adm.cell(r, 13).value)   # col M
+    resultado = parse_marcador(adm.cell(r, 13).value, adm.cell(r, 12).value)   # col M, signo col L
     jugado = bool(resultado and "local" in resultado)
 
     preds = {}
