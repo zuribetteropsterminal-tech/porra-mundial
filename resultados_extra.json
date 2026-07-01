@@ -15,5 +15,11 @@
   },
   "Costa de Marfil-Noruega": {
     "ganador": "Noruega"
+  },
+  "Francia-Suecia": {
+    "ganador": "Francia"
+  },
+  "México-Ecuador": {
+    "ganador": "México"
   }
 }
