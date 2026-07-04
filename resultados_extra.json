@@ -39,5 +39,15 @@
   },
   "Suiza-Argelia": {
     "ganador": "Suiza"
+  },
+  "Australia-Egipto": {
+    "ganador": "Egipto",
+    "penaltis": {
+      "local": 2,
+      "visitante": 4
+    }
+  },
+  "Argentina-Cabo Verde": {
+    "ganador": "Argentina"
   }
 }
