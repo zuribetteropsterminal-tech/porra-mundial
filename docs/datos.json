@@ -1,7 +1,7 @@
 {
  "titulo": "XXIII Mundial USA/MEX/CAN 2026",
  "grupo": "Poyete",
- "actualizado": "2026-07-04T18:56:54",
+ "actualizado": "2026-07-04T21:42:51",
  "jugadores": [
   "Juanlu",
   "WILLY",
@@ -7930,8 +7930,13 @@
    "hora": null,
    "equipos": null,
    "banderas": null,
-   "resultado": null,
-   "jugado": false,
+   "resultado": {
+    "signo": "2",
+    "local": 0,
+    "visitante": 3,
+    "ganador": "Marruecos"
+   },
+   "jugado": true,
    "predicciones": {
     "Juanlu": {
      "signo": "2",
@@ -8635,7 +8640,7 @@
    "fase": "Cuartos",
    "grupo": null,
    "jornada": null,
-   "codigo": "W89-W90",
+   "codigo": "W89-W75",
    "fecha": null,
    "hora": null,
    "equipos": null,
@@ -9739,6 +9744,6 @@
  "resumen": {
   "n_jugadores": 10,
   "n_partidos": 104,
-  "n_jugados": 88
+  "n_jugados": 89
  }
 }
