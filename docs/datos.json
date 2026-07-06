@@ -1,7 +1,7 @@
 {
  "titulo": "XXIII Mundial USA/MEX/CAN 2026",
  "grupo": "Poyete",
- "actualizado": "2026-07-06T06:54:17",
+ "actualizado": "2026-07-06T14:09:47",
  "jugadores": [
   "Juanlu",
   "WILLY",
@@ -7925,16 +7925,21 @@
    "fase": "Octavos",
    "grupo": null,
    "jornada": null,
-   "codigo": "Canadá-W75",
+   "codigo": "Canadá-Países Bajos",
    "fecha": null,
    "hora": null,
-   "equipos": null,
-   "banderas": null,
+   "equipos": [
+    "Canadá",
+    "Países Bajos"
+   ],
+   "banderas": [
+    "🇨🇦",
+    "🇳🇱"
+   ],
    "resultado": {
     "signo": "2",
     "local": 0,
-    "visitante": 3,
-    "ganador": "Marruecos"
+    "visitante": 3
    },
    "jugado": true,
    "predicciones": {
@@ -8015,16 +8020,21 @@
    "fase": "Octavos",
    "grupo": null,
    "jornada": null,
-   "codigo": "W74-Francia",
+   "codigo": "Alemania-Francia",
    "fecha": null,
    "hora": null,
-   "equipos": null,
-   "banderas": null,
+   "equipos": [
+    "Alemania",
+    "Francia"
+   ],
+   "banderas": [
+    "🇩🇪",
+    "🇫🇷"
+   ],
    "resultado": {
     "signo": "2",
     "local": 0,
-    "visitante": 1,
-    "ganador": "Francia"
+    "visitante": 1
    },
    "jugado": true,
    "predicciones": {
@@ -8655,11 +8665,17 @@
    "fase": "Cuartos",
    "grupo": null,
    "jornada": null,
-   "codigo": "Francia-W75",
+   "codigo": "Francia-Países Bajos",
    "fecha": null,
    "hora": null,
-   "equipos": null,
-   "banderas": null,
+   "equipos": [
+    "Francia",
+    "Países Bajos"
+   ],
+   "banderas": [
+    "🇫🇷",
+    "🇳🇱"
+   ],
    "resultado": null,
    "jugado": false,
    "predicciones": {

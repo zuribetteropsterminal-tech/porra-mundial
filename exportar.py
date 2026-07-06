@@ -117,6 +117,14 @@ if os.path.exists(EXTRAS):
 else:
     resultados_extra = {}
 
+etiquetas = resultados_extra.get("_etiquetas", {})
+
+def sustituye_etiquetas(valor):
+    s = str(valor or "")
+    for etiqueta, equipo in etiquetas.items():
+        s = re.sub(rf"\b{re.escape(etiqueta)}\b", str(equipo), s)
+    return s
+
 import warnings
 warnings.simplefilter("ignore")
 wb = openpyxl.load_workbook(ruta, data_only=True)
@@ -185,14 +193,16 @@ for r in range(6, 260):
         grupo, jornada = jcod[0], "J" + jcod[1]
 
     # equipos: K = "Local-Visitante"; en rondas futuras puede contener W73-W74.
+    codigo_original = k.strip()
+    codigo_visible = sustituye_etiquetas(codigo_original)
     equipos = None
-    partes = [p.strip() for p in k.split("-", 1)]
+    partes = [p.strip() for p in codigo_visible.split("-", 1)]
     if len(partes) == 2 and not any(re.match(r"^[WL]\d+$", p) for p in partes):
         equipos = partes
 
     resultado = parse_marcador(adm.cell(r, 13).value, adm.cell(r, 12).value)   # col M, signo col L
     if resultado:
-        resultado.update(resultados_extra.get(k.strip(), {}))
+        resultado.update(resultados_extra.get(codigo_original, resultados_extra.get(codigo_visible, {})))
     jugado = bool(resultado and "local" in resultado)
 
     preds = {}
@@ -211,7 +221,7 @@ for r in range(6, 260):
         "fase": fase_actual,
         "grupo": grupo,
         "jornada": jornada,
-        "codigo": k.strip(),
+        "codigo": codigo_visible,
         "fecha": fecha,
         "hora": hora,
         "equipos": equipos,
