@@ -1,7 +1,7 @@
 {
  "titulo": "XXIII Mundial USA/MEX/CAN 2026",
  "grupo": "Poyete",
- "actualizado": "2026-07-06T14:09:47",
+ "actualizado": "2026-07-07T07:15:34",
  "jugadores": [
   "Juanlu",
   "WILLY",
@@ -34,7 +34,7 @@
  "clasificacion": [
   {
    "jugador": "TERRY",
-   "total": 229.0,
+   "total": 232.0,
    "desglose": {
     "F. Grupos": 80.0,
     "Pos. Grupos": 68.0,
@@ -42,7 +42,7 @@
     "Partidos 1/16": 20.0,
     "Equipos 1/8": 26.0,
     "Partidos 1/8": 3.0,
-    "Equipos 1/4": 6.0,
+    "Equipos 1/4": 9.0,
     "Partidos 1/4": 0.0,
     "Equipos 1/2": 0.0,
     "Partidos 1/2": 0.0,
@@ -56,7 +56,7 @@
   },
   {
    "jugador": "Moi",
-   "total": 221.0,
+   "total": 227.0,
    "desglose": {
     "F. Grupos": 106.0,
     "Pos. Grupos": 56.0,
@@ -64,7 +64,7 @@
     "Partidos 1/16": 9.0,
     "Equipos 1/8": 18.0,
     "Partidos 1/8": 0.0,
-    "Equipos 1/4": 6.0,
+    "Equipos 1/4": 12.0,
     "Partidos 1/4": 0.0,
     "Equipos 1/2": 0.0,
     "Partidos 1/2": 0.0,
@@ -78,7 +78,7 @@
   },
   {
    "jugador": "Juanlu",
-   "total": 215.0,
+   "total": 218.0,
    "desglose": {
     "F. Grupos": 89.0,
     "Pos. Grupos": 66.0,
@@ -86,7 +86,7 @@
     "Partidos 1/16": 2.0,
     "Equipos 1/8": 22.0,
     "Partidos 1/8": 3.0,
-    "Equipos 1/4": 6.0,
+    "Equipos 1/4": 9.0,
     "Partidos 1/4": 0.0,
     "Equipos 1/2": 0.0,
     "Partidos 1/2": 0.0,
@@ -99,16 +99,16 @@
    "pos": 3
   },
   {
-   "jugador": "WILLY",
-   "total": 200.0,
+   "jugador": "RAFA NAVARRETE",
+   "total": 205.0,
    "desglose": {
-    "F. Grupos": 76.0,
-    "Pos. Grupos": 66.0,
-    "Equipos 1/16": 26.0,
-    "Partidos 1/16": 5.0,
-    "Equipos 1/8": 18.0,
-    "Partidos 1/8": 3.0,
-    "Equipos 1/4": 6.0,
+    "F. Grupos": 69.0,
+    "Pos. Grupos": 60.0,
+    "Equipos 1/16": 27.0,
+    "Partidos 1/16": 8.0,
+    "Equipos 1/8": 24.0,
+    "Partidos 1/8": 5.0,
+    "Equipos 1/4": 12.0,
     "Partidos 1/4": 0.0,
     "Equipos 1/2": 0.0,
     "Partidos 1/2": 0.0,
@@ -121,16 +121,16 @@
    "pos": 4
   },
   {
-   "jugador": "RAFA NAVARRETE",
-   "total": 197.0,
+   "jugador": "WILLY",
+   "total": 205.0,
    "desglose": {
-    "F. Grupos": 69.0,
-    "Pos. Grupos": 60.0,
-    "Equipos 1/16": 27.0,
-    "Partidos 1/16": 8.0,
-    "Equipos 1/8": 24.0,
-    "Partidos 1/8": 3.0,
-    "Equipos 1/4": 6.0,
+    "F. Grupos": 76.0,
+    "Pos. Grupos": 66.0,
+    "Equipos 1/16": 26.0,
+    "Partidos 1/16": 5.0,
+    "Equipos 1/8": 18.0,
+    "Partidos 1/8": 5.0,
+    "Equipos 1/4": 9.0,
     "Partidos 1/4": 0.0,
     "Equipos 1/2": 0.0,
     "Partidos 1/2": 0.0,
@@ -140,11 +140,11 @@
     "Partido Final": 0.0,
     "Cuadro de Honor": 0.0
    },
-   "pos": 5
+   "pos": 4
   },
   {
    "jugador": "Rino",
-   "total": 191.0,
+   "total": 197.0,
    "desglose": {
     "F. Grupos": 80.0,
     "Pos. Grupos": 54.0,
@@ -152,7 +152,7 @@
     "Partidos 1/16": 2.0,
     "Equipos 1/8": 20.0,
     "Partidos 1/8": 0.0,
-    "Equipos 1/4": 6.0,
+    "Equipos 1/4": 12.0,
     "Partidos 1/4": 0.0,
     "Equipos 1/2": 0.0,
     "Partidos 1/2": 0.0,
@@ -166,7 +166,7 @@
   },
   {
    "jugador": "Mini",
-   "total": 185.0,
+   "total": 191.0,
    "desglose": {
     "F. Grupos": 72.0,
     "Pos. Grupos": 54.0,
@@ -174,7 +174,7 @@
     "Partidos 1/16": 4.0,
     "Equipos 1/8": 24.0,
     "Partidos 1/8": 0.0,
-    "Equipos 1/4": 3.0,
+    "Equipos 1/4": 9.0,
     "Partidos 1/4": 0.0,
     "Equipos 1/2": 0.0,
     "Partidos 1/2": 0.0,
@@ -188,15 +188,15 @@
   },
   {
    "jugador": "Velasco",
-   "total": 178.0,
+   "total": 186.0,
    "desglose": {
     "F. Grupos": 68.0,
     "Pos. Grupos": 56.0,
     "Equipos 1/16": 25.0,
     "Partidos 1/16": 1.0,
     "Equipos 1/8": 22.0,
-    "Partidos 1/8": 3.0,
-    "Equipos 1/4": 3.0,
+    "Partidos 1/8": 5.0,
+    "Equipos 1/4": 9.0,
     "Partidos 1/4": 0.0,
     "Equipos 1/2": 0.0,
     "Partidos 1/2": 0.0,
@@ -210,15 +210,15 @@
   },
   {
    "jugador": "John",
-   "total": 175.0,
+   "total": 180.0,
    "desglose": {
     "F. Grupos": 71.0,
     "Pos. Grupos": 60.0,
     "Equipos 1/16": 27.0,
     "Partidos 1/16": 0.0,
     "Equipos 1/8": 14.0,
-    "Partidos 1/8": 0.0,
-    "Equipos 1/4": 3.0,
+    "Partidos 1/8": 2.0,
+    "Equipos 1/4": 6.0,
     "Partidos 1/4": 0.0,
     "Equipos 1/2": 0.0,
     "Partidos 1/2": 0.0,
@@ -232,7 +232,7 @@
   },
   {
    "jugador": "Mesa",
-   "total": 148.0,
+   "total": 151.0,
    "desglose": {
     "F. Grupos": 69.0,
     "Pos. Grupos": 38.0,
@@ -240,7 +240,7 @@
     "Partidos 1/16": 0.0,
     "Equipos 1/8": 14.0,
     "Partidos 1/8": 0.0,
-    "Equipos 1/4": 0.0,
+    "Equipos 1/4": 3.0,
     "Partidos 1/4": 0.0,
     "Equipos 1/2": 0.0,
     "Partidos 1/2": 0.0,
@@ -8308,7 +8308,7 @@
    "grupo": null,
    "jornada": null,
    "codigo": "Portugal-España",
-   "fecha": null,
+   "fecha": "2026-07-06",
    "hora": null,
    "equipos": [
     "Portugal",
@@ -8318,8 +8318,13 @@
     "🇵🇹",
     "🇪🇸"
    ],
-   "resultado": null,
-   "jugado": false,
+   "resultado": {
+    "signo": "2",
+    "local": 0,
+    "visitante": 1,
+    "ganador": "España"
+   },
+   "jugado": true,
    "predicciones": {
     "Juanlu": {
      "signo": "2",
@@ -8399,7 +8404,7 @@
    "grupo": null,
    "jornada": null,
    "codigo": "Estados Unidos-Bélgica",
-   "fecha": null,
+   "fecha": "2026-07-06",
    "hora": null,
    "equipos": [
     "Estados Unidos",
@@ -8409,8 +8414,13 @@
     "🇺🇸",
     "🇧🇪"
    ],
-   "resultado": null,
-   "jugado": false,
+   "resultado": {
+    "signo": "2",
+    "local": 1,
+    "visitante": 4,
+    "ganador": "Bélgica"
+   },
+   "jugado": true,
    "predicciones": {
     "Juanlu": {
      "signo": "1",
@@ -8424,7 +8434,7 @@
      "local": 1,
      "visitante": 2,
      "duelo": "Estados Unidos-Bélgica",
-     "puntos": 0.0
+     "puntos": 2.0
     },
     "Mesa": {
      "signo": "2",
@@ -8445,7 +8455,7 @@
      "local": 1,
      "visitante": 2,
      "duelo": "Estados Unidos-Bélgica",
-     "puntos": 0.0
+     "puntos": 2.0
     },
     "Rino": {
      "signo": "2",
@@ -8473,14 +8483,14 @@
      "local": 1,
      "visitante": 2,
      "duelo": "Estados Unidos-Bélgica",
-     "puntos": 0.0
+     "puntos": 2.0
     },
     "John": {
      "signo": "2",
      "local": 1,
      "visitante": 2,
      "duelo": "Estados Unidos-Bélgica",
-     "puntos": 0.0
+     "puntos": 2.0
     }
    }
   },
@@ -9781,6 +9791,6 @@
  "resumen": {
   "n_jugadores": 10,
   "n_partidos": 104,
-  "n_jugados": 92
+  "n_jugados": 94
  }
 }
