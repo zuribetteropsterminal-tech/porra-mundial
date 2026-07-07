@@ -68,6 +68,10 @@
   "_etiquetas": {
     "W74": "Alemania",
     "W75": "Países Bajos",
-    "W88": "Egipto"
+    "W88": "Egipto",
+    "W95": "Argentina"
+  },
+  "Argentina-Egipto": {
+    "ganador": "Argentina"
   }
 }
