@@ -8499,11 +8499,17 @@
    "fase": "Octavos",
    "grupo": null,
    "jornada": null,
-   "codigo": "Argentina-W88",
+   "codigo": "Argentina-Egipto",
    "fecha": null,
    "hora": null,
-   "equipos": null,
-   "banderas": null,
+   "equipos": [
+    "Argentina",
+    "Egipto"
+   ],
+   "banderas": [
+    "🇦🇷",
+    "🇪🇬"
+   ],
    "resultado": null,
    "jugado": false,
    "predicciones": {
