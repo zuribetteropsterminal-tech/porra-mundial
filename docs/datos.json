@@ -1,7 +1,7 @@
 {
  "titulo": "XXIII Mundial USA/MEX/CAN 2026",
  "grupo": "Poyete",
- "actualizado": "2026-07-08T07:00:06",
+ "actualizado": "2026-07-08T16:25:20",
  "jugadores": [
   "Juanlu",
   "WILLY",
@@ -7925,16 +7925,16 @@
    "fase": "Octavos",
    "grupo": null,
    "jornada": null,
-   "codigo": "Canadá-Países Bajos",
+   "codigo": "Canadá-Marruecos",
    "fecha": null,
    "hora": null,
    "equipos": [
     "Canadá",
-    "Países Bajos"
+    "Marruecos"
    ],
    "banderas": [
     "🇨🇦",
-    "🇳🇱"
+    "🇲🇦"
    ],
    "resultado": {
     "signo": "2",
@@ -8695,16 +8695,16 @@
    "fase": "Cuartos",
    "grupo": null,
    "jornada": null,
-   "codigo": "Francia-Países Bajos",
+   "codigo": "Francia-Marruecos",
    "fecha": null,
    "hora": null,
    "equipos": [
     "Francia",
-    "Países Bajos"
+    "Marruecos"
    ],
    "banderas": [
     "🇫🇷",
-    "🇳🇱"
+    "🇲🇦"
    ],
    "resultado": null,
    "jugado": false,
