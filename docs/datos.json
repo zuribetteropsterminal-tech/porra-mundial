@@ -1,7 +1,7 @@
 {
  "titulo": "XXIII Mundial USA/MEX/CAN 2026",
  "grupo": "Poyete",
- "actualizado": "2026-07-07T22:46:44",
+ "actualizado": "2026-07-08T07:00:06",
  "jugadores": [
   "Juanlu",
   "WILLY",
@@ -8606,8 +8606,17 @@
     "🇨🇭",
     "🇨🇴"
    ],
-   "resultado": null,
-   "jugado": false,
+   "resultado": {
+    "signo": "X",
+    "local": 0,
+    "visitante": 0,
+    "ganador": "Suiza",
+    "penaltis": {
+     "local": 4,
+     "visitante": 3
+    }
+   },
+   "jugado": true,
    "predicciones": {
     "Juanlu": {
      "signo": "2",
@@ -8953,11 +8962,17 @@
    "fase": "Cuartos",
    "grupo": null,
    "jornada": null,
-   "codigo": "Argentina-W96",
+   "codigo": "Argentina-Suiza",
    "fecha": null,
    "hora": null,
-   "equipos": null,
-   "banderas": null,
+   "equipos": [
+    "Argentina",
+    "Suiza"
+   ],
+   "banderas": [
+    "🇦🇷",
+    "🇨🇭"
+   ],
    "resultado": null,
    "jugado": false,
    "predicciones": {
@@ -9802,6 +9817,6 @@
  "resumen": {
   "n_jugadores": 10,
   "n_partidos": 104,
-  "n_jugados": 95
+  "n_jugados": 96
  }
 }

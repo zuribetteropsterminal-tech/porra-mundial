@@ -69,9 +69,17 @@
     "W74": "Alemania",
     "W75": "Países Bajos",
     "W88": "Egipto",
-    "W95": "Argentina"
+    "W95": "Argentina",
+    "W96": "Suiza"
   },
   "Argentina-Egipto": {
     "ganador": "Argentina"
+  },
+  "Suiza-Colombia": {
+    "ganador": "Suiza",
+    "penaltis": {
+      "local": 4,
+      "visitante": 3
+    }
   }
 }
