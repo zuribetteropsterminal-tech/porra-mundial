@@ -38,7 +38,6 @@ function pinta(v){
   const m = $("#vista");
   if(v==="clas") return vClas(m);
   if(v==="partidos") return vPartidos(m);
-  if(v==="cruces") return vCruces(m);
   if(v==="apuestas") return window.vApuestas(m);
   if(v==="honor") return vHonor(m);
 }
@@ -76,9 +75,18 @@ function ganadoresPosibles(p){
   if(g) return [g];
   return ladosCruce(p).flat();
 }
+function perdedoresPosibles(p){
+  // Para el 3º·4º puesto: los que pueden PERDER la semifinal (L101/L102).
+  if(!p) return [];
+  const g=ganadorReal(p);
+  const todos=ladosCruce(p).flat();
+  return g ? todos.filter(t=>t!==g) : todos;
+}
 function posiblesToken(t){
-  const m=String(t||"").match(/^W(\d+)$/);
-  return m ? ganadoresPosibles(numToPart(+m[1])) : [t].filter(Boolean);
+  const m=String(t||"").match(/^([WL])(\d+)$/);
+  if(!m) return [t].filter(Boolean);
+  const p=numToPart(+m[2]);
+  return m[1]==="W" ? ganadoresPosibles(p) : perdedoresPosibles(p);
 }
 function ladosCruce(p){
   // [potA, potB] = equipos que aún pueden ocupar cada lado del cruce.
@@ -114,7 +122,6 @@ function elegibleCruce(p,j){
   return null;
 }
 const NEXT_FASE = { "Dieciseisavos":"Octavos", "Octavos":"Cuartos", "Cuartos":"Semifinales", "Semifinales":"Final" };
-const LABEL_RONDA = { "Octavos":"octavos", "Cuartos":"cuartos", "Semifinales":"semifinales", "Final":"la final", "3º y 4º puesto":"el 3º y 4º puesto" };
 let _mapaEq = {};
 function mapaEquipos(fase){
   // {equipo: [jugadores que lo predijeron en esa fase]} — a partir de los duelos
@@ -130,44 +137,50 @@ function mapaEquipos(fase){
 }
 function benef(team,fase){ return mapaEquipos(fase)[team]||[]; }
 
-function cajaSiguienteFase(p){
-  // Recuadro: quién puntúa («Equipos» de la ronda siguiente) si cada equipo se clasifica.
-  if(p.fase==="Fase de grupos") return null;
-  if(/^W\d+-W\d+$/.test(p.codigo)) return null;   // equipos aún sin definir
-  const real = teamsOf(p.codigo);
-  if(real.length!==2) return null;
-  const gana = p.jugado ? ganadorReal(p) : null;
+function stakesUpcoming(p, cont){
+  // Vista por jugador de un partido por venir: qué puede puntuar cada uno aquí.
+  // 🎯 resultado (si acertó el cruce, reorientado al local/visitante real) y
+  // 🔜 +1 punto «Equipos» según qué equipo se clasifique a la siguiente ronda.
+  const [potA,potB] = ladosCruce(p);
+  const resolved = potA.length===1 && potB.length===1;   // cruce ya definido (aunque el código siga siendo Wnn-Wnn)
+  const real = resolved ? [potA[0],potB[0]] : teamsOf(p.codigo);
+  const nf = NEXT_FASE[p.fase];
 
-  let titulo, filas;
-  if(p.fase==="Semifinales"){
-    titulo = "🔜 Final / 3º·4º · puntos «Equipos»";
-    filas = real.flatMap(t=>[
-      {team:t, dest:"a la final (gana)", players:benef(t,"Final"), ok:gana&&t===gana},
-      {team:t, dest:"al 3º y 4º (pierde)", players:benef(t,"3º y 4º puesto"), ok:gana&&t!==gana},
-    ]);
-  } else {
-    const nf = NEXT_FASE[p.fase];
-    if(!nf) return null;   // Final y 3º·4º: no hay ronda siguiente
-    titulo = `🔜 Pase a ${LABEL_RONDA[nf]} · +1 punto «Equipos»`;
-    filas = real.map(t=>({team:t, dest:LABEL_RONDA[nf], players:benef(t,nf), ok:gana&&t===gana}));
-  }
-
-  const box = el(`<div class="next-box"><div class="nb-hd">${esc(titulo)}</div></div>`);
-  filas.forEach(f=>{
-    const who = f.players.length
-      ? `${f.players.map(esc).join(" · ")} <b>(${f.players.length})</b>`
-      : `<span class="nb-nadie">— nadie</span>`;
-    box.appendChild(el(`<div class="nb-row${f.ok?" nb-ok":""}">
-      <span class="nb-team">${flagOf(f.team)} ${esc(f.team)}${p.fase==="Semifinales"?` <small>${esc(f.dest)}</small>`:""}</span>
-      <span class="nb-who">${who}</span>
-    </div>`));
+  const rows = D.jugadores.map(j=>{
+    const raw = elegibleCruce(p,j);
+    const pr = raw && resolved ? reorientar(real,raw) : raw;
+    const eq = [];
+    if(resolved){
+      if(p.fase==="Semifinales"){
+        real.forEach(t=>{
+          if(benef(t,"Final").includes(j)) eq.push(`+1 si ${flagOf(t)} ${esc(t)} <b>gana</b> (final)`);
+          if(benef(t,"3º y 4º puesto").includes(j)) eq.push(`+1 si ${flagOf(t)} ${esc(t)} <b>pierde</b> (3º·4º)`);
+        });
+      } else if(nf){
+        const suyos = real.filter(t=>benef(t,nf).includes(j));
+        if(suyos.length===2) eq.push(`+1 pase quien pase`);
+        else if(suyos.length===1) eq.push(`+1 si pasa ${flagOf(suyos[0])} ${esc(suyos[0])}`);
+      }
+    }
+    return {j, pr, raw, eq};
   });
-  return box;
+  rows.sort((a,b)=>((b.pr?2:0)+(b.eq.length?1:0))-((a.pr?2:0)+(a.eq.length?1:0)));
+  const con = rows.filter(r=>r.pr||r.eq.length);
+  const sin = rows.filter(r=>!r.pr&&!r.eq.length);
+
+  cont.appendChild(el(`<div class="preds-nota">Qué se juega cada uno · <span class="nk-res">🎯 resultado</span> (acertó el cruce) · <span class="nk-eq">🔜 +1 «Equipos»</span> por clasificado</div>`));
+  if(!con.length){ cont.appendChild(el(`<div class="pred-empty">Nadie puede puntuar en este partido.</div>`)); }
+  con.forEach(r=>{
+    const b = [];
+    if(r.pr) b.push(`<span class="stk-res"><span class="signo-badge s${r.pr.signo}">${r.pr.signo}</span>${r.pr.local}-${r.pr.visitante}${resolved?"":` <small>${esc(r.raw.duelo)}</small>`}</span>`);
+    r.eq.forEach(t=>b.push(`<span class="stk-eq">🔜 ${t}</span>`));
+    cont.appendChild(el(`<div class="stk"><span class="stk-nom">${esc(r.j)}</span><span class="stk-b">${b.join("")}</span></div>`));
+  });
+  if(sin.length) cont.appendChild(el(`<div class="stk-fuera">Sin opciones aquí: ${sin.map(r=>esc(r.j)).join(" · ")}</div>`));
 }
-function reorientar(p,pr){
-  // Orienta la predicción al local/visitante del cruce real (cuando los equipos ya se conocen).
-  const real=teamsOf(p.codigo);
-  if(real.length!==2 || !pr || !pr.duelo) return pr;
+function reorientar(real,pr){
+  // Orienta la predicción al local/visitante del cruce real (par de equipos ya conocido).
+  if(!real || real.length!==2 || !pr || !pr.duelo) return pr;
   const dt=teamsOf(pr.duelo);
   if(dt.length!==2) return pr;
   if(dt[0]===real[1] && dt[1]===real[0]){
@@ -246,7 +259,7 @@ function matchCard(p){
   const filtraElegibles = esKO && !p.jugado;   // solo quien puede puntuar el cruce
   let teams;
   if(p.equipos) teams = p.equipos;
-  else if(/^W\d+-W\d+$/.test(p.codigo)){ const [SA,SB]=ladosCruce(p); teams=[SA.join("/"),SB.join("/")]; }
+  else if(/^[WL]\d+-[WL]\d+$/.test(p.codigo)){ const [SA,SB]=ladosCruce(p); teams=[SA.join("/"),SB.join("/")]; }
   else teams = teamsOf(p.codigo);
   const fl = p.banderas || teams.map(t=>flagOf(t));
   const pen = p.resultado?.penaltis ? `<small>pen. ${p.resultado.penaltis.local}-${p.resultado.penaltis.visitante}</small>` : "";
@@ -265,17 +278,10 @@ function matchCard(p){
     </div>
     <div class="preds"></div>
   </div>`);
-  const fin = () => { const nb = cajaSiguienteFase(p); if(nb) c.appendChild(nb); return c; };
   const cont = $(".preds", c);
-  let entradas = Object.entries(p.predicciones);
-  if(filtraElegibles){
-    entradas = D.jugadores.map(j=>[j, elegibleCruce(p,j)])
-                          .filter(([nom,pr])=>pr)
-                          .map(([nom,pr])=>[nom, reorientar(p,pr)]);
-    cont.appendChild(el(`<div class="preds-nota">Solo jugadores que pueden puntuar (acertaron el cruce) · <b>${entradas.length}/${Object.keys(p.predicciones).length}</b></div>`));
-    if(!entradas.length){ cont.appendChild(el(`<div class="pred-empty">Nadie tiene opción de puntuar este cruce.</div>`)); return fin(); }
-  }
-  if(!entradas.length){ cont.appendChild(el(`<span class="sub">Sin predicciones</span>`)); return fin(); }
+  if(filtraElegibles){ stakesUpcoming(p, cont); return c; }
+  const entradas = Object.entries(p.predicciones);
+  if(!entradas.length){ cont.appendChild(el(`<span class="sub">Sin predicciones</span>`)); return c; }
 
   const grupos = {"1":[], "X":[], "2":[]};
   entradas.forEach(([nom,pr])=>{ if(grupos[pr.signo]) grupos[pr.signo].push([nom,pr]); });
@@ -304,83 +310,7 @@ function matchCard(p){
     cols.appendChild(col);
   });
   cont.appendChild(cols);
-  return fin();
-}
-
-/* ---------------------------------------------------------------- CRUCES eliminatorios */
-let cruceFoco = null; // jugador resaltado, o null = toda la peña
-
-function chipCruce(j, sub){
-  const dim = cruceFoco && cruceFoco!==j ? " dim" : "";
-  const on  = cruceFoco===j ? " on" : "";
-  return `<span class="cchip${dim}${on}" data-j="${esc(j)}"><b>${esc(j)}</b>${sub?`<small>${esc(sub)}</small>`:""}</span>`;
-}
-function nombreLado(pot){
-  // "Sudáfrica/Canadá" con banderas
-  return pot.map(t=>`${flagOf(t)} ${esc(t)}`.trim()).join(" / ");
-}
-
-function vCruces(m){
-  m.innerHTML = "";
-  const die = D.partidos.filter(p=>p.fase==="Dieciseisavos").sort((a,b)=>a.id-b.id);
-  const oct = D.partidos.filter(p=>p.fase==="Octavos").sort((a,b)=>a.id-b.id);
-
-  m.appendChild(el(`<div class="card cintro">
-    <div class="h2">🎯 Cruces de la eliminatoria</div>
-    <div class="sub">En la fase final solo puntúas un partido si acertaste el <b>cruce</b> (los dos equipos, da igual quién juegue de local). Aquí ves los cruces de dieciseisavos que ya tenemos clavados y los de octavos que seguimos llevando vivos.</div>
-  </div>`));
-
-  // filtro/foco por jugador
-  const foco = el(`<div class="filtros cfoco"></div>`);
-  const btnAll = el(`<button class="${cruceFoco?"":"activa"}">Toda la peña</button>`);
-  btnAll.onclick = () => { cruceFoco=null; vCruces(m); };
-  foco.appendChild(btnAll);
-  D.jugadores.forEach(j=>{
-    const b = el(`<button class="${cruceFoco===j?"activa":""}">${esc(j)}</button>`);
-    b.onclick = () => { cruceFoco = cruceFoco===j?null:j; vCruces(m); };
-    foco.appendChild(b);
-  });
-  m.appendChild(foco);
-
-  // ---- DIECISEISAVOS (definitivo) ----
-  const c16 = el(`<div class="card"><div class="h2" style="font-size:1rem">🥊 Dieciseisavos · cruces acertados</div>
-    <div class="sub" style="margin:-6px 2px 10px">Ya están fijados. Verde = acertó el cruce y puede puntuar el partido.</div></div>`);
-  die.forEach(p=>{
-    const [a,b] = teamsOf(p.codigo);
-    const aciertan = D.jugadores.filter(j=>elegibleCruce(p, j));
-    const chips = aciertan.length
-      ? aciertan.map(j=>chipCruce(j)).join("")
-      : `<span class="cnadie">— nadie acertó este cruce</span>`;
-    c16.appendChild(el(`<div class="cruce ${aciertan.length?"":"cruce-vacio"}">
-      <div class="cruce-hd">
-        <div class="cruce-tm">${flagOf(a)} ${esc(a)} <span class="cruce-vs">–</span> ${esc(b)} ${flagOf(b)}</div>
-        <div class="ccount">${aciertan.length}/${D.jugadores.length}</div>
-      </div>
-      <div class="cchips">${chips}</div>
-    </div>`));
-  });
-  m.appendChild(c16);
-
-  // ---- OCTAVOS (aún en juego) ----
-  if(oct.length){
-    const c8 = el(`<div class="card"><div class="h2" style="font-size:1rem">⚔️ Octavos · cruces aún posibles</div>
-      <div class="sub" style="margin:-6px 2px 10px">Cada hueco lo disputará un equipo de cada lado. Mostramos quién lleva un cruce todavía vivo y cuál apostó.</div></div>`);
-    oct.forEach(p=>{
-      const [SA,SB] = ladosCruce(p);
-      const vivos = D.jugadores.map(j=>[j, elegibleCruce(p,j)]).filter(([j,pr])=>pr);
-      const chips = vivos.length
-        ? vivos.map(([j,pr])=>chipCruce(j, pr.duelo)).join("")
-        : `<span class="cnadie">— nadie lo lleva vivo</span>`;
-      c8.appendChild(el(`<div class="cruce ${vivos.length?"":"cruce-vacio"}">
-        <div class="cruce-hd">
-          <div class="cruce-tm cruce-pot">${nombreLado(SA)} <span class="cruce-vs">vs</span> ${nombreLado(SB)}</div>
-          <div class="ccount">${vivos.length}/${D.jugadores.length}</div>
-        </div>
-        <div class="cchips">${chips}</div>
-      </div>`));
-    });
-    m.appendChild(c8);
-  }
+  return c;
 }
 
 /* ---------------------------------------------------------------- CUADRO DE HONOR */
