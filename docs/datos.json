@@ -1,7 +1,7 @@
 {
  "titulo": "XXIII Mundial USA/MEX/CAN 2026",
  "grupo": "Poyete",
- "actualizado": "2026-07-08T16:25:20",
+ "actualizado": "2026-07-10T07:13:37",
  "jugadores": [
   "Juanlu",
   "WILLY",
@@ -34,17 +34,17 @@
  "clasificacion": [
   {
    "jugador": "TERRY",
-   "total": 235.0,
+   "total": 252.0,
    "desglose": {
     "F. Grupos": 80.0,
     "Pos. Grupos": 68.0,
     "Equipos 1/16": 26.0,
     "Partidos 1/16": 20.0,
-    "Equipos 1/8": 26.0,
-    "Partidos 1/8": 3.0,
-    "Equipos 1/4": 12.0,
-    "Partidos 1/4": 0.0,
-    "Equipos 1/2": 0.0,
+    "Equipos 1/8": 30.0,
+    "Partidos 1/8": 6.0,
+    "Equipos 1/4": 15.0,
+    "Partidos 1/4": 3.0,
+    "Equipos 1/2": 4.0,
     "Partidos 1/2": 0.0,
     "Equipos 3-4": 0.0,
     "Equipos Final": 0.0,
@@ -56,17 +56,17 @@
   },
   {
    "jugador": "Moi",
-   "total": 232.0,
+   "total": 251.0,
    "desglose": {
     "F. Grupos": 106.0,
     "Pos. Grupos": 56.0,
     "Equipos 1/16": 26.0,
     "Partidos 1/16": 9.0,
-    "Equipos 1/8": 18.0,
-    "Partidos 1/8": 2.0,
-    "Equipos 1/4": 15.0,
-    "Partidos 1/4": 0.0,
-    "Equipos 1/2": 0.0,
+    "Equipos 1/8": 24.0,
+    "Partidos 1/8": 5.0,
+    "Equipos 1/4": 18.0,
+    "Partidos 1/4": 3.0,
+    "Equipos 1/2": 4.0,
     "Partidos 1/2": 0.0,
     "Equipos 3-4": 0.0,
     "Equipos Final": 0.0,
@@ -78,17 +78,17 @@
   },
   {
    "jugador": "Juanlu",
-   "total": 221.0,
+   "total": 227.0,
    "desglose": {
     "F. Grupos": 89.0,
     "Pos. Grupos": 66.0,
     "Equipos 1/16": 27.0,
     "Partidos 1/16": 2.0,
-    "Equipos 1/8": 22.0,
+    "Equipos 1/8": 24.0,
     "Partidos 1/8": 3.0,
     "Equipos 1/4": 12.0,
     "Partidos 1/4": 0.0,
-    "Equipos 1/2": 0.0,
+    "Equipos 1/2": 4.0,
     "Partidos 1/2": 0.0,
     "Equipos 3-4": 0.0,
     "Equipos Final": 0.0,
@@ -99,18 +99,18 @@
    "pos": 3
   },
   {
-   "jugador": "RAFA NAVARRETE",
-   "total": 208.0,
+   "jugador": "WILLY",
+   "total": 224.0,
    "desglose": {
-    "F. Grupos": 69.0,
-    "Pos. Grupos": 60.0,
-    "Equipos 1/16": 27.0,
-    "Partidos 1/16": 8.0,
-    "Equipos 1/8": 24.0,
-    "Partidos 1/8": 5.0,
-    "Equipos 1/4": 15.0,
-    "Partidos 1/4": 0.0,
-    "Equipos 1/2": 0.0,
+    "F. Grupos": 76.0,
+    "Pos. Grupos": 66.0,
+    "Equipos 1/16": 26.0,
+    "Partidos 1/16": 5.0,
+    "Equipos 1/8": 22.0,
+    "Partidos 1/8": 8.0,
+    "Equipos 1/4": 12.0,
+    "Partidos 1/4": 5.0,
+    "Equipos 1/2": 4.0,
     "Partidos 1/2": 0.0,
     "Equipos 3-4": 0.0,
     "Equipos Final": 0.0,
@@ -121,18 +121,18 @@
    "pos": 4
   },
   {
-   "jugador": "WILLY",
-   "total": 205.0,
+   "jugador": "RAFA NAVARRETE",
+   "total": 217.0,
    "desglose": {
-    "F. Grupos": 76.0,
-    "Pos. Grupos": 66.0,
-    "Equipos 1/16": 26.0,
-    "Partidos 1/16": 5.0,
-    "Equipos 1/8": 18.0,
-    "Partidos 1/8": 5.0,
-    "Equipos 1/4": 9.0,
+    "F. Grupos": 69.0,
+    "Pos. Grupos": 60.0,
+    "Equipos 1/16": 27.0,
+    "Partidos 1/16": 8.0,
+    "Equipos 1/8": 26.0,
+    "Partidos 1/8": 8.0,
+    "Equipos 1/4": 15.0,
     "Partidos 1/4": 0.0,
-    "Equipos 1/2": 0.0,
+    "Equipos 1/2": 4.0,
     "Partidos 1/2": 0.0,
     "Equipos 3-4": 0.0,
     "Equipos Final": 0.0,
@@ -144,17 +144,17 @@
   },
   {
    "jugador": "Rino",
-   "total": 200.0,
+   "total": 211.0,
    "desglose": {
     "F. Grupos": 80.0,
     "Pos. Grupos": 54.0,
     "Equipos 1/16": 29.0,
     "Partidos 1/16": 2.0,
-    "Equipos 1/8": 20.0,
+    "Equipos 1/8": 24.0,
     "Partidos 1/8": 0.0,
-    "Equipos 1/4": 15.0,
+    "Equipos 1/4": 18.0,
     "Partidos 1/4": 0.0,
-    "Equipos 1/2": 0.0,
+    "Equipos 1/2": 4.0,
     "Partidos 1/2": 0.0,
     "Equipos 3-4": 0.0,
     "Equipos Final": 0.0,
@@ -166,17 +166,17 @@
   },
   {
    "jugador": "Mini",
-   "total": 194.0,
+   "total": 208.0,
    "desglose": {
     "F. Grupos": 72.0,
     "Pos. Grupos": 54.0,
     "Equipos 1/16": 28.0,
     "Partidos 1/16": 4.0,
-    "Equipos 1/8": 24.0,
-    "Partidos 1/8": 0.0,
-    "Equipos 1/4": 12.0,
+    "Equipos 1/8": 28.0,
+    "Partidos 1/8": 3.0,
+    "Equipos 1/4": 15.0,
     "Partidos 1/4": 0.0,
-    "Equipos 1/2": 0.0,
+    "Equipos 1/2": 4.0,
     "Partidos 1/2": 0.0,
     "Equipos 3-4": 0.0,
     "Equipos Final": 0.0,
@@ -188,15 +188,15 @@
   },
   {
    "jugador": "Velasco",
-   "total": 191.0,
+   "total": 200.0,
    "desglose": {
     "F. Grupos": 68.0,
     "Pos. Grupos": 56.0,
     "Equipos 1/16": 25.0,
     "Partidos 1/16": 1.0,
-    "Equipos 1/8": 22.0,
+    "Equipos 1/8": 28.0,
     "Partidos 1/8": 7.0,
-    "Equipos 1/4": 12.0,
+    "Equipos 1/4": 15.0,
     "Partidos 1/4": 0.0,
     "Equipos 1/2": 0.0,
     "Partidos 1/2": 0.0,
@@ -210,13 +210,13 @@
   },
   {
    "jugador": "John",
-   "total": 183.0,
+   "total": 187.0,
    "desglose": {
     "F. Grupos": 71.0,
     "Pos. Grupos": 60.0,
     "Equipos 1/16": 27.0,
     "Partidos 1/16": 0.0,
-    "Equipos 1/8": 14.0,
+    "Equipos 1/8": 18.0,
     "Partidos 1/8": 2.0,
     "Equipos 1/4": 9.0,
     "Partidos 1/4": 0.0,
@@ -232,15 +232,15 @@
   },
   {
    "jugador": "Mesa",
-   "total": 151.0,
+   "total": 159.0,
    "desglose": {
     "F. Grupos": 69.0,
     "Pos. Grupos": 38.0,
     "Equipos 1/16": 27.0,
     "Partidos 1/16": 0.0,
-    "Equipos 1/8": 14.0,
+    "Equipos 1/8": 16.0,
     "Partidos 1/8": 0.0,
-    "Equipos 1/4": 3.0,
+    "Equipos 1/4": 9.0,
     "Partidos 1/4": 0.0,
     "Equipos 1/2": 0.0,
     "Partidos 1/2": 0.0,
@@ -8050,7 +8050,7 @@
      "local": 2,
      "visitante": 3,
      "duelo": "Alemania-Francia",
-     "puntos": 0.0
+     "puntos": 3.0
     },
     "Mesa": {
      "signo": "2",
@@ -8064,7 +8064,7 @@
      "local": 1,
      "visitante": 2,
      "duelo": "Alemania-Francia",
-     "puntos": 0.0
+     "puntos": 3.0
     },
     "Velasco": {
      "signo": "1",
@@ -8085,21 +8085,21 @@
      "local": 2,
      "visitante": 3,
      "duelo": "Alemania-Francia",
-     "puntos": 0.0
+     "puntos": 3.0
     },
     "Moi": {
      "signo": "2",
      "local": 1,
      "visitante": 2,
      "duelo": "Alemania-Francia",
-     "puntos": 0.0
+     "puntos": 3.0
     },
     "RAFA NAVARRETE": {
      "signo": "2",
      "local": 1,
      "visitante": 2,
      "duelo": "Alemania-Francia",
-     "puntos": 0.0
+     "puntos": 3.0
     },
     "John": {
      "signo": "1",
@@ -8308,7 +8308,7 @@
    "grupo": null,
    "jornada": null,
    "codigo": "Portugal-España",
-   "fecha": "2026-07-06",
+   "fecha": null,
    "hora": null,
    "equipos": [
     "Portugal",
@@ -8321,8 +8321,7 @@
    "resultado": {
     "signo": "2",
     "local": 0,
-    "visitante": 1,
-    "ganador": "España"
+    "visitante": 1
    },
    "jugado": true,
    "predicciones": {
@@ -8404,7 +8403,7 @@
    "grupo": null,
    "jornada": null,
    "codigo": "Estados Unidos-Bélgica",
-   "fecha": "2026-07-06",
+   "fecha": null,
    "hora": null,
    "equipos": [
     "Estados Unidos",
@@ -8417,8 +8416,7 @@
    "resultado": {
     "signo": "2",
     "local": 1,
-    "visitante": 4,
-    "ganador": "Bélgica"
+    "visitante": 4
    },
    "jugado": true,
    "predicciones": {
@@ -8500,7 +8498,7 @@
    "grupo": null,
    "jornada": null,
    "codigo": "Argentina-Egipto",
-   "fecha": "2026-07-07",
+   "fecha": null,
    "hora": null,
    "equipos": [
     "Argentina",
@@ -8706,8 +8704,13 @@
     "🇫🇷",
     "🇲🇦"
    ],
-   "resultado": null,
-   "jugado": false,
+   "resultado": {
+    "signo": "1",
+    "local": 2,
+    "visitante": 0,
+    "ganador": "Francia"
+   },
+   "jugado": true,
    "predicciones": {
     "Juanlu": {
      "signo": "1",
@@ -8721,7 +8724,7 @@
      "local": 3,
      "visitante": 1,
      "duelo": "Francia-Marruecos",
-     "puntos": 0.0
+     "puntos": 5.0
     },
     "Mesa": {
      "signo": "2",
@@ -8735,7 +8738,7 @@
      "local": 2,
      "visitante": 1,
      "duelo": "Francia-Marruecos",
-     "puntos": 0.0
+     "puntos": 3.0
     },
     "Velasco": {
      "signo": "2",
@@ -8763,7 +8766,7 @@
      "local": 1,
      "visitante": 0,
      "duelo": "Francia-Marruecos",
-     "puntos": 0.0
+     "puntos": 3.0
     },
     "RAFA NAVARRETE": {
      "signo": "1",
@@ -8786,11 +8789,17 @@
    "fase": "Cuartos",
    "grupo": null,
    "jornada": null,
-   "codigo": "W93-W94",
+   "codigo": "España-Bélgica",
    "fecha": null,
    "hora": null,
-   "equipos": null,
-   "banderas": null,
+   "equipos": [
+    "España",
+    "Bélgica"
+   ],
+   "banderas": [
+    "🇪🇸",
+    "🇧🇪"
+   ],
    "resultado": null,
    "jugado": false,
    "predicciones": {
@@ -9053,7 +9062,7 @@
    "fase": "Semifinales",
    "grupo": null,
    "jornada": null,
-   "codigo": "W97-W98",
+   "codigo": "Francia-W98",
    "fecha": null,
    "hora": null,
    "equipos": null,
@@ -9817,6 +9826,6 @@
  "resumen": {
   "n_jugadores": 10,
   "n_partidos": 104,
-  "n_jugados": 96
+  "n_jugados": 97
  }
 }
