@@ -150,10 +150,7 @@ def busca_evento(local, visitante, fechas):
                 visitante_key = next(iter(visitante_match))
                 return evento, comps[local_key], comps[visitante_key]
 
-    raise SystemExit(
-        "No encuentro en ESPN el partido "
-        f"{local}-{visitante}. Eventos vistos: {', '.join(vistos) or 'ninguno'}"
-    )
+    return None
 
 
 def fecha_madrid_evento(evento):
@@ -211,7 +208,16 @@ def main():
         raise SystemExit("Usa solo una opcion: --publicar o --no-publicar.")
 
     local, visitante = partir_partido(ns.partido)
-    evento, comp_local, comp_visitante = busca_evento(local, visitante, fechas_a_consultar(ns.fecha))
+    encontrado = busca_evento(local, visitante, fechas_a_consultar(ns.fecha))
+    if encontrado is None:
+        # Sin fecha fiable (eliminatorias) el partido puede no estar aun en la
+        # ventana consultada: se trata como pendiente, no como error.
+        print(
+            "PENDIENTE: ESPN no lista el partido "
+            f"{local}-{visitante} en la ventana consultada."
+        )
+        return 2
+    evento, comp_local, comp_visitante = encontrado
     estado = evento.get("status", {}).get("type", {})
     if not estado.get("completed"):
         print(
@@ -230,6 +236,10 @@ def main():
     )
 
     registrar = ["python3", "registrar_resultado.py", f"{local}-{visitante}", str(goles_local), str(goles_visitante)]
+    pen_local = comp_local.get("shootoutScore")
+    pen_visitante = comp_visitante.get("shootoutScore")
+    if pen_local is not None or pen_visitante is not None:
+        registrar.extend(["--penaltis", str(int(pen_local or 0)), str(int(pen_visitante or 0))])
     if ns.force:
         registrar.append("--force")
     run(registrar)

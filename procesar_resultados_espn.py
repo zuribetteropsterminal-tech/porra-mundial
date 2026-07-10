@@ -33,8 +33,13 @@ def candidatos(partidos, hasta):
         if partido.get("jugado"):
             continue
         equipos = partido.get("equipos")
+        if not equipos or len(equipos) != 2:
+            continue
         fecha = partido.get("fecha")
-        if not equipos or len(equipos) != 2 or not fecha:
+        if not fecha:
+            # Eliminatorias: el Excel no siempre tiene fecha. Se consulta ESPN
+            # igualmente (ventana de ayer/hoy/manana en actualizar_desde_espn).
+            yield partido
             continue
         try:
             fecha_partido = dt.date.fromisoformat(fecha)
@@ -50,11 +55,11 @@ def ejecutar(partido, publicar):
         "python3",
         "actualizar_desde_espn.py",
         f"{local}-{visitante}",
-        "--fecha",
-        partido["fecha"],
     ]
+    if partido.get("fecha"):
+        cmd.extend(["--fecha", partido["fecha"]])
     cmd.append("--publicar" if publicar else "--no-publicar")
-    print(f"CONSULTA: {local}-{visitante} ({partido['fecha']})", flush=True)
+    print(f"CONSULTA: {local}-{visitante} ({partido.get('fecha') or 'sin fecha'})", flush=True)
     proc = subprocess.run(cmd, cwd=AQUI)
     if proc.returncode == 0:
         print(f"ACTUALIZADO: {local}-{visitante}", flush=True)

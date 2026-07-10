@@ -5,10 +5,12 @@ Registra un resultado real en el Excel de la porra usando Microsoft Excel.
 Uso:
     python3 registrar_resultado.py "Mexico" "Sudafrica" 2 0
     python3 registrar_resultado.py "Mexico-Sudafrica" 2 0
+    python3 registrar_resultado.py "Australia-Egipto" 1 1 --penaltis 2 4
 
 El script localiza el partido en la hoja WORLDCUP, escribe los goles en las
-columnas AC/AD, fuerza el calculo del libro y guarda. Despues debe ejecutarse
-./actualizar.sh para regenerar datos.json y el mensaje.
+columnas AC/AD y, si se indican, los penaltis/desempate en AB/AE. Fuerza el
+calculo del libro y guarda. Despues debe ejecutarse ./actualizar.sh para
+regenerar datos.json y el mensaje.
 """
 import argparse
 import os
@@ -69,6 +71,8 @@ def localizar_partido(ruta, local, visitante):
                     "visitante": str(real_visitante).strip(),
                     "goles_local_actual": ws.cell(r, 29).value,  # AC
                     "goles_visitante_actual": ws.cell(r, 30).value,  # AD
+                    "penaltis_local_actual": ws.cell(r, 28).value,  # AB
+                    "penaltis_visitante_actual": ws.cell(r, 31).value,  # AE
                 }
             )
 
@@ -85,14 +89,27 @@ def applescript_text(s):
     return str(s).replace("\\", "\\\\").replace('"', '\\"')
 
 
-def guardar_con_excel(ruta, fila, goles_local, goles_visitante):
+def guardar_con_excel(
+    ruta,
+    fila,
+    goles_local,
+    goles_visitante,
+    penaltis_local=None,
+    penaltis_visitante=None,
+):
+    penaltis_script = ""
+    if penaltis_local is not None and penaltis_visitante is not None:
+        penaltis_script = f'''
+    set value of range "AB{fila}" of worksheet "WORLDCUP" of wb to {penaltis_local}
+    set value of range "AE{fila}" of worksheet "WORLDCUP" of wb to {penaltis_visitante}'''
+
     script = f'''
-set workbookPath to POSIX file "{applescript_text(ruta)}"
+set workbookPath to "{applescript_text(ruta)}"
 tell application "Microsoft Excel"
     open workbook workbook file name workbookPath
     set wb to active workbook
     set value of range "AC{fila}" of worksheet "WORLDCUP" of wb to {goles_local}
-    set value of range "AD{fila}" of worksheet "WORLDCUP" of wb to {goles_visitante}
+    set value of range "AD{fila}" of worksheet "WORLDCUP" of wb to {goles_visitante}{penaltis_script}
     calculate full
     save wb
     close wb saving yes
@@ -109,6 +126,12 @@ def main():
         "--force",
         action="store_true",
         help="Sobrescribe un resultado distinto ya escrito.",
+    )
+    parser.add_argument(
+        "--penaltis",
+        nargs=2,
+        metavar=("PL", "PV"),
+        help="Penaltis/desempate local y visitante para partidos KO empatados.",
     )
     ns = parser.parse_args()
 
@@ -130,6 +153,18 @@ def main():
         raise SystemExit("Los goles deben ser numeros enteros.")
     if goles_local < 0 or goles_visitante < 0:
         raise SystemExit("Los goles no pueden ser negativos.")
+    penaltis_local = penaltis_visitante = None
+    if ns.penaltis:
+        try:
+            penaltis_local, penaltis_visitante = map(int, ns.penaltis)
+        except ValueError:
+            raise SystemExit("Los penaltis deben ser numeros enteros.")
+        if penaltis_local < 0 or penaltis_visitante < 0:
+            raise SystemExit("Los penaltis no pueden ser negativos.")
+        if goles_local != goles_visitante:
+            raise SystemExit("Solo tiene sentido indicar penaltis si el partido acaba empatado.")
+        if penaltis_local == penaltis_visitante:
+            raise SystemExit("Los penaltis deben desempatar el partido.")
 
     ruta = os.path.abspath(ns.excel)
     if not os.path.exists(ruta):
@@ -145,11 +180,33 @@ def main():
                 f"({actual[0]}-{actual[1]}). Usa --force para sobrescribir."
             )
 
-    guardar_con_excel(ruta, partido["fila"], goles_local, goles_visitante)
+    pen_actual = (
+        partido["penaltis_local_actual"],
+        partido["penaltis_visitante_actual"],
+    )
+    pen_nuevo = (penaltis_local, penaltis_visitante)
+    if ns.penaltis and all(v not in (None, "") for v in pen_actual):
+        if tuple(map(int, pen_actual)) != pen_nuevo and not ns.force:
+            raise SystemExit(
+                "Ese partido ya tiene otros penaltis "
+                f"({pen_actual[0]}-{pen_actual[1]}). Usa --force para sobrescribir."
+            )
+
+    guardar_con_excel(
+        ruta,
+        partido["fila"],
+        goles_local,
+        goles_visitante,
+        penaltis_local,
+        penaltis_visitante,
+    )
+    penaltis_msg = ""
+    if ns.penaltis:
+        penaltis_msg = f" (penaltis {penaltis_local}-{penaltis_visitante})"
     print(
         "OK: "
         f"{partido['local']} {goles_local}-{goles_visitante} "
-        f"{partido['visitante']} escrito en WORLDCUP fila {partido['fila']}."
+        f"{partido['visitante']}{penaltis_msg} escrito en WORLDCUP fila {partido['fila']}."
     )
 
 
