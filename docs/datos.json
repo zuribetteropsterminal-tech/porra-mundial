@@ -1,7 +1,7 @@
 {
  "titulo": "XXIII Mundial USA/MEX/CAN 2026",
  "grupo": "Poyete",
- "actualizado": "2026-07-10T16:29:16",
+ "actualizado": "2026-07-10T23:00:24",
  "jugadores": [
   "Juanlu",
   "WILLY",
@@ -33,18 +33,18 @@
  ],
  "clasificacion": [
   {
-   "jugador": "TERRY",
-   "total": 247.0,
+   "jugador": "Moi",
+   "total": 260.0,
    "desglose": {
-    "F. Grupos": 80.0,
-    "Pos. Grupos": 68.0,
+    "F. Grupos": 106.0,
+    "Pos. Grupos": 56.0,
     "Equipos 1/16": 26.0,
-    "Partidos 1/16": 20.0,
-    "Equipos 1/8": 28.0,
-    "Partidos 1/8": 3.0,
-    "Equipos 1/4": 15.0,
-    "Partidos 1/4": 3.0,
-    "Equipos 1/2": 4.0,
+    "Partidos 1/16": 9.0,
+    "Equipos 1/8": 22.0,
+    "Partidos 1/8": 2.0,
+    "Equipos 1/4": 18.0,
+    "Partidos 1/4": 13.0,
+    "Equipos 1/2": 8.0,
     "Partidos 1/2": 0.0,
     "Equipos 3-4": 0.0,
     "Equipos Final": 0.0,
@@ -55,18 +55,18 @@
    "pos": 1
   },
   {
-   "jugador": "Moi",
-   "total": 246.0,
+   "jugador": "TERRY",
+   "total": 251.0,
    "desglose": {
-    "F. Grupos": 106.0,
-    "Pos. Grupos": 56.0,
+    "F. Grupos": 80.0,
+    "Pos. Grupos": 68.0,
     "Equipos 1/16": 26.0,
-    "Partidos 1/16": 9.0,
-    "Equipos 1/8": 22.0,
-    "Partidos 1/8": 2.0,
-    "Equipos 1/4": 18.0,
+    "Partidos 1/16": 20.0,
+    "Equipos 1/8": 28.0,
+    "Partidos 1/8": 3.0,
+    "Equipos 1/4": 15.0,
     "Partidos 1/4": 3.0,
-    "Equipos 1/2": 4.0,
+    "Equipos 1/2": 8.0,
     "Partidos 1/2": 0.0,
     "Equipos 3-4": 0.0,
     "Equipos Final": 0.0,
@@ -78,7 +78,7 @@
   },
   {
    "jugador": "Juanlu",
-   "total": 225.0,
+   "total": 229.0,
    "desglose": {
     "F. Grupos": 89.0,
     "Pos. Grupos": 66.0,
@@ -88,7 +88,7 @@
     "Partidos 1/8": 3.0,
     "Equipos 1/4": 12.0,
     "Partidos 1/4": 0.0,
-    "Equipos 1/2": 4.0,
+    "Equipos 1/2": 8.0,
     "Partidos 1/2": 0.0,
     "Equipos 3-4": 0.0,
     "Equipos Final": 0.0,
@@ -97,6 +97,28 @@
     "Cuadro de Honor": 0.0
    },
    "pos": 3
+  },
+  {
+   "jugador": "RAFA NAVARRETE",
+   "total": 219.0,
+   "desglose": {
+    "F. Grupos": 69.0,
+    "Pos. Grupos": 60.0,
+    "Equipos 1/16": 27.0,
+    "Partidos 1/16": 8.0,
+    "Equipos 1/8": 24.0,
+    "Partidos 1/8": 5.0,
+    "Equipos 1/4": 15.0,
+    "Partidos 1/4": 3.0,
+    "Equipos 1/2": 8.0,
+    "Partidos 1/2": 0.0,
+    "Equipos 3-4": 0.0,
+    "Equipos Final": 0.0,
+    "Partido 3-4": 0.0,
+    "Partido Final": 0.0,
+    "Cuadro de Honor": 0.0
+   },
+   "pos": 4
   },
   {
    "jugador": "WILLY",
@@ -121,30 +143,8 @@
    "pos": 4
   },
   {
-   "jugador": "RAFA NAVARRETE",
-   "total": 212.0,
-   "desglose": {
-    "F. Grupos": 69.0,
-    "Pos. Grupos": 60.0,
-    "Equipos 1/16": 27.0,
-    "Partidos 1/16": 8.0,
-    "Equipos 1/8": 24.0,
-    "Partidos 1/8": 5.0,
-    "Equipos 1/4": 15.0,
-    "Partidos 1/4": 0.0,
-    "Equipos 1/2": 4.0,
-    "Partidos 1/2": 0.0,
-    "Equipos 3-4": 0.0,
-    "Equipos Final": 0.0,
-    "Partido 3-4": 0.0,
-    "Partido Final": 0.0,
-    "Cuadro de Honor": 0.0
-   },
-   "pos": 5
-  },
-  {
    "jugador": "Rino",
-   "total": 209.0,
+   "total": 218.0,
    "desglose": {
     "F. Grupos": 80.0,
     "Pos. Grupos": 54.0,
@@ -153,8 +153,8 @@
     "Equipos 1/8": 22.0,
     "Partidos 1/8": 0.0,
     "Equipos 1/4": 18.0,
-    "Partidos 1/4": 0.0,
-    "Equipos 1/2": 4.0,
+    "Partidos 1/4": 5.0,
+    "Equipos 1/2": 8.0,
     "Partidos 1/2": 0.0,
     "Equipos 3-4": 0.0,
     "Equipos Final": 0.0,
@@ -166,7 +166,7 @@
   },
   {
    "jugador": "Mini",
-   "total": 203.0,
+   "total": 210.0,
    "desglose": {
     "F. Grupos": 72.0,
     "Pos. Grupos": 54.0,
@@ -175,8 +175,8 @@
     "Equipos 1/8": 26.0,
     "Partidos 1/8": 0.0,
     "Equipos 1/4": 15.0,
-    "Partidos 1/4": 0.0,
-    "Equipos 1/2": 4.0,
+    "Partidos 1/4": 3.0,
+    "Equipos 1/2": 8.0,
     "Partidos 1/2": 0.0,
     "Equipos 3-4": 0.0,
     "Equipos Final": 0.0,
@@ -188,7 +188,7 @@
   },
   {
    "jugador": "Velasco",
-   "total": 198.0,
+   "total": 205.0,
    "desglose": {
     "F. Grupos": 68.0,
     "Pos. Grupos": 56.0,
@@ -197,8 +197,8 @@
     "Equipos 1/8": 26.0,
     "Partidos 1/8": 7.0,
     "Equipos 1/4": 15.0,
-    "Partidos 1/4": 0.0,
-    "Equipos 1/2": 0.0,
+    "Partidos 1/4": 3.0,
+    "Equipos 1/2": 4.0,
     "Partidos 1/2": 0.0,
     "Equipos 3-4": 0.0,
     "Equipos Final": 0.0,
@@ -232,7 +232,7 @@
   },
   {
    "jugador": "Mesa",
-   "total": 161.0,
+   "total": 165.0,
    "desglose": {
     "F. Grupos": 69.0,
     "Pos. Grupos": 38.0,
@@ -242,7 +242,7 @@
     "Partidos 1/8": 0.0,
     "Equipos 1/4": 9.0,
     "Partidos 1/4": 0.0,
-    "Equipos 1/2": 0.0,
+    "Equipos 1/2": 4.0,
     "Partidos 1/2": 0.0,
     "Equipos 3-4": 0.0,
     "Equipos Final": 0.0,
@@ -8800,8 +8800,13 @@
     "🇪🇸",
     "🇧🇪"
    ],
-   "resultado": null,
-   "jugado": false,
+   "resultado": {
+    "signo": "1",
+    "local": 2,
+    "visitante": 1,
+    "ganador": "España"
+   },
+   "jugado": true,
    "predicciones": {
     "Juanlu": {
      "signo": "1",
@@ -8836,35 +8841,35 @@
      "local": 4,
      "visitante": 1,
      "duelo": "España-Bélgica",
-     "puntos": 0.0
+     "puntos": 3.0
     },
     "Rino": {
      "signo": "1",
      "local": 3,
      "visitante": 2,
      "duelo": "España-Bélgica",
-     "puntos": 0.0
+     "puntos": 5.0
     },
     "Mini": {
      "signo": "1",
      "local": 3,
      "visitante": 1,
      "duelo": "España-Bélgica",
-     "puntos": 0.0
+     "puntos": 3.0
     },
     "Moi": {
      "signo": "1",
      "local": 2,
      "visitante": 1,
      "duelo": "España-Bélgica",
-     "puntos": 0.0
+     "puntos": 10.0
     },
     "RAFA NAVARRETE": {
      "signo": "1",
      "local": 2,
      "visitante": 0,
      "duelo": "España-Bélgica",
-     "puntos": 0.0
+     "puntos": 3.0
     },
     "John": {
      "signo": "2",
@@ -9062,11 +9067,17 @@
    "fase": "Semifinales",
    "grupo": null,
    "jornada": null,
-   "codigo": "Francia-W98",
+   "codigo": "Francia-España",
    "fecha": null,
    "hora": null,
-   "equipos": null,
-   "banderas": null,
+   "equipos": [
+    "Francia",
+    "España"
+   ],
+   "banderas": [
+    "🇫🇷",
+    "🇪🇸"
+   ],
    "resultado": null,
    "jugado": false,
    "predicciones": {
@@ -9826,6 +9837,6 @@
  "resumen": {
   "n_jugadores": 10,
   "n_partidos": 104,
-  "n_jugados": 97
+  "n_jugados": 98
  }
 }
