@@ -1,7 +1,7 @@
 {
  "titulo": "XXIII Mundial USA/MEX/CAN 2026",
  "grupo": "Poyete",
- "actualizado": "2026-07-12T06:00:23",
+ "actualizado": "2026-07-12T06:00:39",
  "jugadores": [
   "Juanlu",
   "WILLY",
@@ -34,7 +34,7 @@
  "clasificacion": [
   {
    "jugador": "Moi",
-   "total": 260.0,
+   "total": 264.0,
    "desglose": {
     "F. Grupos": 106.0,
     "Pos. Grupos": 56.0,
@@ -44,7 +44,7 @@
     "Partidos 1/8": 2.0,
     "Equipos 1/4": 18.0,
     "Partidos 1/4": 13.0,
-    "Equipos 1/2": 8.0,
+    "Equipos 1/2": 12.0,
     "Partidos 1/2": 0.0,
     "Equipos 3-4": 0.0,
     "Equipos Final": 0.0,
@@ -100,7 +100,7 @@
   },
   {
    "jugador": "RAFA NAVARRETE",
-   "total": 223.0,
+   "total": 227.0,
    "desglose": {
     "F. Grupos": 69.0,
     "Pos. Grupos": 60.0,
@@ -110,7 +110,7 @@
     "Partidos 1/8": 5.0,
     "Equipos 1/4": 15.0,
     "Partidos 1/4": 3.0,
-    "Equipos 1/2": 12.0,
+    "Equipos 1/2": 16.0,
     "Partidos 1/2": 0.0,
     "Equipos 3-4": 0.0,
     "Equipos Final": 0.0,
@@ -165,18 +165,18 @@
    "pos": 6
   },
   {
-   "jugador": "Mini",
-   "total": 210.0,
+   "jugador": "Velasco",
+   "total": 213.0,
    "desglose": {
-    "F. Grupos": 72.0,
-    "Pos. Grupos": 54.0,
-    "Equipos 1/16": 28.0,
-    "Partidos 1/16": 4.0,
+    "F. Grupos": 68.0,
+    "Pos. Grupos": 56.0,
+    "Equipos 1/16": 25.0,
+    "Partidos 1/16": 1.0,
     "Equipos 1/8": 26.0,
-    "Partidos 1/8": 0.0,
+    "Partidos 1/8": 7.0,
     "Equipos 1/4": 15.0,
     "Partidos 1/4": 3.0,
-    "Equipos 1/2": 8.0,
+    "Equipos 1/2": 12.0,
     "Partidos 1/2": 0.0,
     "Equipos 3-4": 0.0,
     "Equipos Final": 0.0,
@@ -187,15 +187,15 @@
    "pos": 7
   },
   {
-   "jugador": "Velasco",
-   "total": 209.0,
+   "jugador": "Mini",
+   "total": 210.0,
    "desglose": {
-    "F. Grupos": 68.0,
-    "Pos. Grupos": 56.0,
-    "Equipos 1/16": 25.0,
-    "Partidos 1/16": 1.0,
+    "F. Grupos": 72.0,
+    "Pos. Grupos": 54.0,
+    "Equipos 1/16": 28.0,
+    "Partidos 1/16": 4.0,
     "Equipos 1/8": 26.0,
-    "Partidos 1/8": 7.0,
+    "Partidos 1/8": 0.0,
     "Equipos 1/4": 15.0,
     "Partidos 1/4": 3.0,
     "Equipos 1/2": 8.0,
@@ -8992,8 +8992,13 @@
     "🇦🇷",
     "🇨🇭"
    ],
-   "resultado": null,
-   "jugado": false,
+   "resultado": {
+    "signo": "1",
+    "local": 3,
+    "visitante": 1,
+    "ganador": "Argentina"
+   },
+   "jugado": true,
    "predicciones": {
     "Juanlu": {
      "signo": "2",
@@ -9163,11 +9168,17 @@
    "fase": "Semifinales",
    "grupo": null,
    "jornada": null,
-   "codigo": "Inglaterra-W100",
+   "codigo": "Inglaterra-Argentina",
    "fecha": null,
    "hora": null,
-   "equipos": null,
-   "banderas": null,
+   "equipos": [
+    "Inglaterra",
+    "Argentina"
+   ],
+   "banderas": [
+    "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "🇦🇷"
+   ],
    "resultado": null,
    "jugado": false,
    "predicciones": {
@@ -9842,6 +9853,6 @@
  "resumen": {
   "n_jugadores": 10,
   "n_partidos": 104,
-  "n_jugados": 99
+  "n_jugados": 100
  }
 }
