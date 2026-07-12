@@ -1,7 +1,7 @@
 {
  "titulo": "XXIII Mundial USA/MEX/CAN 2026",
  "grupo": "Poyete",
- "actualizado": "2026-07-10T23:00:24",
+ "actualizado": "2026-07-12T06:00:23",
  "jugadores": [
   "Juanlu",
   "WILLY",
@@ -56,7 +56,7 @@
   },
   {
    "jugador": "TERRY",
-   "total": 251.0,
+   "total": 255.0,
    "desglose": {
     "F. Grupos": 80.0,
     "Pos. Grupos": 68.0,
@@ -66,7 +66,7 @@
     "Partidos 1/8": 3.0,
     "Equipos 1/4": 15.0,
     "Partidos 1/4": 3.0,
-    "Equipos 1/2": 8.0,
+    "Equipos 1/2": 12.0,
     "Partidos 1/2": 0.0,
     "Equipos 3-4": 0.0,
     "Equipos Final": 0.0,
@@ -78,7 +78,7 @@
   },
   {
    "jugador": "Juanlu",
-   "total": 229.0,
+   "total": 233.0,
    "desglose": {
     "F. Grupos": 89.0,
     "Pos. Grupos": 66.0,
@@ -88,7 +88,7 @@
     "Partidos 1/8": 3.0,
     "Equipos 1/4": 12.0,
     "Partidos 1/4": 0.0,
-    "Equipos 1/2": 8.0,
+    "Equipos 1/2": 12.0,
     "Partidos 1/2": 0.0,
     "Equipos 3-4": 0.0,
     "Equipos Final": 0.0,
@@ -100,7 +100,7 @@
   },
   {
    "jugador": "RAFA NAVARRETE",
-   "total": 219.0,
+   "total": 223.0,
    "desglose": {
     "F. Grupos": 69.0,
     "Pos. Grupos": 60.0,
@@ -110,7 +110,7 @@
     "Partidos 1/8": 5.0,
     "Equipos 1/4": 15.0,
     "Partidos 1/4": 3.0,
-    "Equipos 1/2": 8.0,
+    "Equipos 1/2": 12.0,
     "Partidos 1/2": 0.0,
     "Equipos 3-4": 0.0,
     "Equipos Final": 0.0,
@@ -140,7 +140,7 @@
     "Partido Final": 0.0,
     "Cuadro de Honor": 0.0
    },
-   "pos": 4
+   "pos": 5
   },
   {
    "jugador": "Rino",
@@ -188,7 +188,7 @@
   },
   {
    "jugador": "Velasco",
-   "total": 205.0,
+   "total": 209.0,
    "desglose": {
     "F. Grupos": 68.0,
     "Pos. Grupos": 56.0,
@@ -198,7 +198,7 @@
     "Partidos 1/8": 7.0,
     "Equipos 1/4": 15.0,
     "Partidos 1/4": 3.0,
-    "Equipos 1/2": 4.0,
+    "Equipos 1/2": 8.0,
     "Partidos 1/2": 0.0,
     "Equipos 3-4": 0.0,
     "Equipos Final": 0.0,
@@ -8896,8 +8896,13 @@
     "🇳🇴",
     "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
    ],
-   "resultado": null,
-   "jugado": false,
+   "resultado": {
+    "signo": "2",
+    "local": 1,
+    "visitante": 2,
+    "ganador": "Inglaterra"
+   },
+   "jugado": true,
    "predicciones": {
     "Juanlu": {
      "signo": "2",
@@ -9158,7 +9163,7 @@
    "fase": "Semifinales",
    "grupo": null,
    "jornada": null,
-   "codigo": "W99-W100",
+   "codigo": "Inglaterra-W100",
    "fecha": null,
    "hora": null,
    "equipos": null,
@@ -9837,6 +9842,6 @@
  "resumen": {
   "n_jugadores": 10,
   "n_partidos": 104,
-  "n_jugados": 98
+  "n_jugados": 99
  }
 }
