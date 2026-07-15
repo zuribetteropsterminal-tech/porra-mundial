@@ -1,7 +1,7 @@
 {
  "titulo": "XXIII Mundial USA/MEX/CAN 2026",
  "grupo": "Poyete",
- "actualizado": "2026-07-14T23:46:51",
+ "actualizado": "2026-07-15T23:06:29",
  "jugadores": [
   "Juanlu",
   "WILLY",
@@ -56,7 +56,7 @@
   },
   {
    "jugador": "TERRY",
-   "total": 269.0,
+   "total": 274.0,
    "desglose": {
     "F. Grupos": 80.0,
     "Pos. Grupos": 68.0,
@@ -68,13 +68,35 @@
     "Partidos 1/4": 3.0,
     "Equipos 1/2": 12.0,
     "Partidos 1/2": 4.0,
-    "Equipos 3-4": 5.0,
+    "Equipos 3-4": 10.0,
     "Equipos Final": 5.0,
     "Partido 3-4": 0.0,
     "Partido Final": 0.0,
     "Cuadro de Honor": 0.0
    },
    "pos": 2
+  },
+  {
+   "jugador": "RAFA NAVARRETE",
+   "total": 264.0,
+   "desglose": {
+    "F. Grupos": 69.0,
+    "Pos. Grupos": 60.0,
+    "Equipos 1/16": 27.0,
+    "Partidos 1/16": 8.0,
+    "Equipos 1/8": 24.0,
+    "Partidos 1/8": 5.0,
+    "Equipos 1/4": 15.0,
+    "Partidos 1/4": 3.0,
+    "Equipos 1/2": 16.0,
+    "Partidos 1/2": 17.0,
+    "Equipos 3-4": 10.0,
+    "Equipos Final": 10.0,
+    "Partido 3-4": 0.0,
+    "Partido Final": 0.0,
+    "Cuadro de Honor": 0.0
+   },
+   "pos": 3
   },
   {
    "jugador": "Juanlu",
@@ -96,29 +118,29 @@
     "Partido Final": 0.0,
     "Cuadro de Honor": 0.0
    },
-   "pos": 3
+   "pos": 4
   },
   {
-   "jugador": "RAFA NAVARRETE",
-   "total": 241.0,
+   "jugador": "Velasco",
+   "total": 232.0,
    "desglose": {
-    "F. Grupos": 69.0,
-    "Pos. Grupos": 60.0,
-    "Equipos 1/16": 27.0,
-    "Partidos 1/16": 8.0,
-    "Equipos 1/8": 24.0,
-    "Partidos 1/8": 5.0,
+    "F. Grupos": 68.0,
+    "Pos. Grupos": 56.0,
+    "Equipos 1/16": 25.0,
+    "Partidos 1/16": 1.0,
+    "Equipos 1/8": 26.0,
+    "Partidos 1/8": 7.0,
     "Equipos 1/4": 15.0,
     "Partidos 1/4": 3.0,
-    "Equipos 1/2": 16.0,
+    "Equipos 1/2": 12.0,
     "Partidos 1/2": 4.0,
     "Equipos 3-4": 5.0,
-    "Equipos Final": 5.0,
+    "Equipos Final": 10.0,
     "Partido 3-4": 0.0,
     "Partido Final": 0.0,
     "Cuadro de Honor": 0.0
    },
-   "pos": 4
+   "pos": 5
   },
   {
    "jugador": "Mini",
@@ -140,7 +162,7 @@
     "Partido Final": 0.0,
     "Cuadro de Honor": 0.0
    },
-   "pos": 5
+   "pos": 6
   },
   {
    "jugador": "Rino",
@@ -162,7 +184,7 @@
     "Partido Final": 0.0,
     "Cuadro de Honor": 0.0
    },
-   "pos": 6
+   "pos": 7
   },
   {
    "jugador": "WILLY",
@@ -180,28 +202,6 @@
     "Partidos 1/2": 0.0,
     "Equipos 3-4": 0.0,
     "Equipos Final": 0.0,
-    "Partido 3-4": 0.0,
-    "Partido Final": 0.0,
-    "Cuadro de Honor": 0.0
-   },
-   "pos": 7
-  },
-  {
-   "jugador": "Velasco",
-   "total": 218.0,
-   "desglose": {
-    "F. Grupos": 68.0,
-    "Pos. Grupos": 56.0,
-    "Equipos 1/16": 25.0,
-    "Partidos 1/16": 1.0,
-    "Equipos 1/8": 26.0,
-    "Partidos 1/8": 7.0,
-    "Equipos 1/4": 15.0,
-    "Partidos 1/4": 3.0,
-    "Equipos 1/2": 12.0,
-    "Partidos 1/2": 0.0,
-    "Equipos 3-4": 0.0,
-    "Equipos Final": 5.0,
     "Partido 3-4": 0.0,
     "Partido Final": 0.0,
     "Cuadro de Honor": 0.0
@@ -9184,8 +9184,13 @@
     "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "🇦🇷"
    ],
-   "resultado": null,
-   "jugado": false,
+   "resultado": {
+    "signo": "2",
+    "local": 1,
+    "visitante": 2,
+    "ganador": "Argentina"
+   },
+   "jugado": true,
    "predicciones": {
     "Juanlu": {
      "signo": "1",
@@ -9220,7 +9225,7 @@
      "local": 1,
      "visitante": 3,
      "duelo": "Inglaterra-Argentina",
-     "puntos": 0.0
+     "puntos": 4.0
     },
     "Rino": {
      "signo": "1",
@@ -9248,7 +9253,7 @@
      "local": 1,
      "visitante": 2,
      "duelo": "Inglaterra-Argentina",
-     "puntos": 0.0
+     "puntos": 13.0
     },
     "John": {
      "signo": "2",
@@ -9264,11 +9269,17 @@
    "fase": "3º y 4º puesto",
    "grupo": null,
    "jornada": null,
-   "codigo": "Francia-L102",
+   "codigo": "Francia-Inglaterra",
    "fecha": null,
    "hora": null,
-   "equipos": null,
-   "banderas": null,
+   "equipos": [
+    "Francia",
+    "Inglaterra"
+   ],
+   "banderas": [
+    "🇫🇷",
+    "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+   ],
    "resultado": null,
    "jugado": false,
    "predicciones": {
@@ -9349,11 +9360,17 @@
    "fase": "Final",
    "grupo": null,
    "jornada": null,
-   "codigo": "España-W102",
+   "codigo": "España-Argentina",
    "fecha": null,
    "hora": null,
-   "equipos": null,
-   "banderas": null,
+   "equipos": [
+    "España",
+    "Argentina"
+   ],
+   "banderas": [
+    "🇪🇸",
+    "🇦🇷"
+   ],
    "resultado": null,
    "jugado": false,
    "predicciones": {
@@ -9858,6 +9875,6 @@
  "resumen": {
   "n_jugadores": 10,
   "n_partidos": 104,
-  "n_jugados": 101
+  "n_jugados": 102
  }
 }
