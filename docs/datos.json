@@ -1,7 +1,7 @@
 {
  "titulo": "XXIII Mundial USA/MEX/CAN 2026",
  "grupo": "Poyete",
- "actualizado": "2026-07-15T23:06:29",
+ "actualizado": "2026-07-19T06:00:24",
  "jugadores": [
   "Juanlu",
   "WILLY",
@@ -9280,8 +9280,13 @@
     "🇫🇷",
     "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
    ],
-   "resultado": null,
-   "jugado": false,
+   "resultado": {
+    "signo": "2",
+    "local": 4,
+    "visitante": 6,
+    "ganador": "Inglaterra"
+   },
+   "jugado": true,
    "predicciones": {
     "Juanlu": {
      "signo": "1",
@@ -9544,8 +9549,8 @@
   },
   {
    "concepto": "🥉3º puesto",
-   "resultado": null,
-   "bandera": "",
+   "resultado": "Inglaterra",
+   "bandera": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
    "predicciones": {
     "Juanlu": {
      "texto": "Francia",
@@ -9875,6 +9880,6 @@
  "resumen": {
   "n_jugadores": 10,
   "n_partidos": 104,
-  "n_jugados": 102
+  "n_jugados": 103
  }
 }
