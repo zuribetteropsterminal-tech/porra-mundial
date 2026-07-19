@@ -10,7 +10,7 @@ Uso:
     python3 exportar.py                # usa el .xlsx por defecto (carpeta superior)
     python3 exportar.py ruta/al.xlsx   # ruta concreta
 """
-import sys, os, json, datetime, re
+import sys, os, json, datetime, re, unicodedata
 
 try:
     import openpyxl
@@ -106,6 +106,23 @@ def iso_fecha(v):
         return v.strftime("%Y-%m-%d")
     return None
 
+def compacta(texto):
+    return re.sub(r"\s+", " ", str(texto or "")).strip()
+
+def normaliza_nombre(texto):
+    texto = unicodedata.normalize("NFKD", str(texto or "").lower())
+    texto = "".join(c for c in texto if not unicodedata.combining(c))
+    texto = re.sub(r"[^a-z0-9 ]+", " ", texto)
+    texto = re.sub(r"\b(jr|junior)\b", "", texto)
+    return compacta(texto)
+
+def acierta_honor(prediccion, resultado):
+    pred = normaliza_nombre(prediccion)
+    real = normaliza_nombre(resultado)
+    if not pred or not real:
+        return False
+    return pred == real or pred in real or real in pred
+
 # ---------------------------------------------------------------- carga
 ruta = sys.argv[1] if len(sys.argv) > 1 else DEFECTO_XLSX
 if not os.path.exists(ruta):
@@ -118,6 +135,9 @@ else:
     resultados_extra = {}
 
 etiquetas = resultados_extra.get("_etiquetas", {})
+cuadro_honor_extra = {
+    compacta(k): v for k, v in resultados_extra.get("_cuadro_honor", {}).items()
+}
 
 def sustituye_etiquetas(valor):
     s = str(valor or "")
@@ -233,32 +253,47 @@ for r in range(6, 260):
 
 # ---------------------------------------------------------------- cuadro de honor
 honor = []
+honor_puntos = {nombre: 0.0 for nombre in nombres}
 ETIQUETAS_HONOR = {
     "🥇Campeón", "🥈Subcampeón", "🥉3º puesto",
     "Bota de Oro  (máximo goleador)", "Bota de Plata (2º máximo goleador)",
     "Bota de Bronce (3º máximo goleador)", "Balón de Oro  (mejor jugador)",
     "Balón de Plata (2º mejor jugador)", "Balón de Bronce (3º mejor jugador)",
 }
+PUNTOS_HONOR = {
+    "🥇Campeón": 10,
+    "🥈Subcampeón": 8,
+    "🥉3º puesto": 7,
+    "Bota de Oro (máximo goleador)": 8,
+    "Bota de Plata (2º máximo goleador)": 5,
+    "Bota de Bronce (3º máximo goleador)": 3,
+    "Balón de Oro (mejor jugador)": 8,
+    "Balón de Plata (2º mejor jugador)": 5,
+    "Balón de Bronce (3º mejor jugador)": 3,
+}
 for r in range(249, 260):
     k = adm.cell(r, 11).value
     if not isinstance(k, str) or k.strip() not in ETIQUETAS_HONOR:
         continue
+    concepto = compacta(k)
     real = adm.cell(r, 13).value
     real = real.strip() if isinstance(real, str) else None
     # los placeholders de fórmula (WF, LF, W34, "Escribe el jugador...") = aún sin decidir
     if real and (real.startswith("Escribe") or re.match(r"^[WL]F?\d*$", real)):
         real = None
+    real = cuadro_honor_extra.get(concepto, real)
     preds = {}
     for j in jugadores:
         v = adm.cell(r, j["col_pred"]).value
-        pts = adm.cell(r, j["col_pts"]).value
         if isinstance(v, str) and v.strip():
+            pts = PUNTOS_HONOR.get(concepto, 0) if acierta_honor(v, real) else 0
+            honor_puntos[j["nombre"]] += pts
             preds[j["nombre"]] = {
                 "texto": v.strip(),
-                "puntos": round(float(pts), 2) if isinstance(pts, (int, float)) else 0,
+                "puntos": round(float(pts), 2),
             }
     honor.append({
-        "concepto": re.sub(r"\s+", " ", k).strip(),
+        "concepto": concepto,
         "resultado": real,
         "bandera": bandera(real),
         "predicciones": preds,
@@ -283,6 +318,9 @@ for r in range(5, 30):
     for cat in categorias:
         v = clas.cell(r, cat["col"]).value
         desglose[cat["nombre"]] = float(v) if isinstance(v, (int, float)) else 0
+    if "Cuadro de Honor" in desglose:
+        desglose["Cuadro de Honor"] = round(honor_puntos.get(nombre.strip(), 0.0), 2)
+        total = sum(desglose.values())
     clasificacion.append({
         "jugador": nombre.strip(),
         "total": round(float(total), 2),

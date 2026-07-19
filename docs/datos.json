@@ -1,7 +1,7 @@
 {
  "titulo": "XXIII Mundial USA/MEX/CAN 2026",
  "grupo": "Poyete",
- "actualizado": "2026-07-19T06:00:24",
+ "actualizado": "2026-07-20T00:22:34",
  "jugadores": [
   "Juanlu",
   "WILLY",
@@ -33,30 +33,30 @@
  ],
  "clasificacion": [
   {
-   "jugador": "Moi",
-   "total": 278.0,
+   "jugador": "RAFA NAVARRETE",
+   "total": 296.0,
    "desglose": {
-    "F. Grupos": 106.0,
-    "Pos. Grupos": 56.0,
-    "Equipos 1/16": 26.0,
-    "Partidos 1/16": 9.0,
-    "Equipos 1/8": 22.0,
-    "Partidos 1/8": 2.0,
-    "Equipos 1/4": 18.0,
-    "Partidos 1/4": 13.0,
-    "Equipos 1/2": 12.0,
-    "Partidos 1/2": 4.0,
-    "Equipos 3-4": 5.0,
-    "Equipos Final": 5.0,
+    "F. Grupos": 69.0,
+    "Pos. Grupos": 60.0,
+    "Equipos 1/16": 27.0,
+    "Partidos 1/16": 8.0,
+    "Equipos 1/8": 24.0,
+    "Partidos 1/8": 5.0,
+    "Equipos 1/4": 15.0,
+    "Partidos 1/4": 3.0,
+    "Equipos 1/2": 16.0,
+    "Partidos 1/2": 17.0,
+    "Equipos 3-4": 10.0,
+    "Equipos Final": 10.0,
     "Partido 3-4": 0.0,
-    "Partido Final": 0.0,
-    "Cuadro de Honor": 0.0
+    "Partido Final": 9.0,
+    "Cuadro de Honor": 23.0
    },
    "pos": 1
   },
   {
    "jugador": "TERRY",
-   "total": 274.0,
+   "total": 292.0,
    "desglose": {
     "F. Grupos": 80.0,
     "Pos. Grupos": 68.0,
@@ -72,35 +72,35 @@
     "Equipos Final": 5.0,
     "Partido 3-4": 0.0,
     "Partido Final": 0.0,
-    "Cuadro de Honor": 0.0
+    "Cuadro de Honor": 18.0
    },
    "pos": 2
   },
   {
-   "jugador": "RAFA NAVARRETE",
-   "total": 264.0,
+   "jugador": "Moi",
+   "total": 286.0,
    "desglose": {
-    "F. Grupos": 69.0,
-    "Pos. Grupos": 60.0,
-    "Equipos 1/16": 27.0,
-    "Partidos 1/16": 8.0,
-    "Equipos 1/8": 24.0,
-    "Partidos 1/8": 5.0,
-    "Equipos 1/4": 15.0,
-    "Partidos 1/4": 3.0,
-    "Equipos 1/2": 16.0,
-    "Partidos 1/2": 17.0,
-    "Equipos 3-4": 10.0,
-    "Equipos Final": 10.0,
+    "F. Grupos": 106.0,
+    "Pos. Grupos": 56.0,
+    "Equipos 1/16": 26.0,
+    "Partidos 1/16": 9.0,
+    "Equipos 1/8": 22.0,
+    "Partidos 1/8": 2.0,
+    "Equipos 1/4": 18.0,
+    "Partidos 1/4": 13.0,
+    "Equipos 1/2": 12.0,
+    "Partidos 1/2": 4.0,
+    "Equipos 3-4": 5.0,
+    "Equipos Final": 5.0,
     "Partido 3-4": 0.0,
     "Partido Final": 0.0,
-    "Cuadro de Honor": 0.0
+    "Cuadro de Honor": 8.0
    },
    "pos": 3
   },
   {
    "jugador": "Juanlu",
-   "total": 247.0,
+   "total": 265.0,
    "desglose": {
     "F. Grupos": 89.0,
     "Pos. Grupos": 66.0,
@@ -116,13 +116,13 @@
     "Equipos Final": 5.0,
     "Partido 3-4": 0.0,
     "Partido Final": 0.0,
-    "Cuadro de Honor": 0.0
+    "Cuadro de Honor": 18.0
    },
    "pos": 4
   },
   {
    "jugador": "Velasco",
-   "total": 232.0,
+   "total": 260.0,
    "desglose": {
     "F. Grupos": 68.0,
     "Pos. Grupos": 56.0,
@@ -137,14 +137,14 @@
     "Equipos 3-4": 5.0,
     "Equipos Final": 10.0,
     "Partido 3-4": 0.0,
-    "Partido Final": 0.0,
-    "Cuadro de Honor": 0.0
+    "Partido Final": 5.0,
+    "Cuadro de Honor": 23.0
    },
    "pos": 5
   },
   {
    "jugador": "Mini",
-   "total": 224.0,
+   "total": 242.0,
    "desglose": {
     "F. Grupos": 72.0,
     "Pos. Grupos": 54.0,
@@ -160,13 +160,13 @@
     "Equipos Final": 5.0,
     "Partido 3-4": 0.0,
     "Partido Final": 0.0,
-    "Cuadro de Honor": 0.0
+    "Cuadro de Honor": 18.0
    },
    "pos": 6
   },
   {
    "jugador": "Rino",
-   "total": 223.0,
+   "total": 238.0,
    "desglose": {
     "F. Grupos": 80.0,
     "Pos. Grupos": 54.0,
@@ -182,13 +182,13 @@
     "Equipos Final": 5.0,
     "Partido 3-4": 0.0,
     "Partido Final": 0.0,
-    "Cuadro de Honor": 0.0
+    "Cuadro de Honor": 15.0
    },
    "pos": 7
   },
   {
    "jugador": "WILLY",
-   "total": 219.0,
+   "total": 224.0,
    "desglose": {
     "F. Grupos": 76.0,
     "Pos. Grupos": 66.0,
@@ -204,13 +204,13 @@
     "Equipos Final": 0.0,
     "Partido 3-4": 0.0,
     "Partido Final": 0.0,
-    "Cuadro de Honor": 0.0
+    "Cuadro de Honor": 5.0
    },
    "pos": 8
   },
   {
    "jugador": "John",
-   "total": 185.0,
+   "total": 196.0,
    "desglose": {
     "F. Grupos": 71.0,
     "Pos. Grupos": 60.0,
@@ -226,13 +226,13 @@
     "Equipos Final": 0.0,
     "Partido 3-4": 0.0,
     "Partido Final": 0.0,
-    "Cuadro de Honor": 0.0
+    "Cuadro de Honor": 11.0
    },
    "pos": 9
   },
   {
    "jugador": "Mesa",
-   "total": 170.0,
+   "total": 180.0,
    "desglose": {
     "F. Grupos": 69.0,
     "Pos. Grupos": 38.0,
@@ -248,7 +248,7 @@
     "Equipos Final": 5.0,
     "Partido 3-4": 0.0,
     "Partido Final": 0.0,
-    "Cuadro de Honor": 0.0
+    "Cuadro de Honor": 10.0
    },
    "pos": 10
   }
@@ -9376,8 +9376,12 @@
     "🇪🇸",
     "🇦🇷"
    ],
-   "resultado": null,
-   "jugado": false,
+   "resultado": {
+    "signo": "1",
+    "local": 1,
+    "visitante": 0
+   },
+   "jugado": true,
    "predicciones": {
     "Juanlu": {
      "signo": "1",
@@ -9412,7 +9416,7 @@
      "local": 4,
      "visitante": 1,
      "duelo": "España-Argentina",
-     "puntos": 0.0
+     "puntos": 5.0
     },
     "Rino": {
      "signo": "1",
@@ -9440,7 +9444,7 @@
      "local": 2,
      "visitante": 1,
      "duelo": "España-Argentina",
-     "puntos": 0.0
+     "puntos": 9.0
     },
     "John": {
      "signo": "1",
@@ -9455,12 +9459,12 @@
  "cuadro_honor": [
   {
    "concepto": "🥇Campeón",
-   "resultado": null,
-   "bandera": "",
+   "resultado": "España",
+   "bandera": "🇪🇸",
    "predicciones": {
     "Juanlu": {
      "texto": "España",
-     "puntos": 0.0
+     "puntos": 10.0
     },
     "WILLY": {
      "texto": "Portugal",
@@ -9468,23 +9472,23 @@
     },
     "Mesa": {
      "texto": "España",
-     "puntos": 0.0
+     "puntos": 10.0
     },
     "TERRY": {
      "texto": "España",
-     "puntos": 0.0
+     "puntos": 10.0
     },
     "Velasco": {
      "texto": "España",
-     "puntos": 0.0
+     "puntos": 10.0
     },
     "Rino": {
      "texto": "España",
-     "puntos": 0.0
+     "puntos": 10.0
     },
     "Mini": {
      "texto": "España",
-     "puntos": 0.0
+     "puntos": 10.0
     },
     "Moi": {
      "texto": "Brasil",
@@ -9492,7 +9496,7 @@
     },
     "RAFA NAVARRETE": {
      "texto": "España",
-     "puntos": 0.0
+     "puntos": 10.0
     },
     "John": {
      "texto": "Alemania",
@@ -9502,8 +9506,8 @@
   },
   {
    "concepto": "🥈Subcampeón",
-   "resultado": null,
-   "bandera": "",
+   "resultado": "Argentina",
+   "bandera": "🇦🇷",
    "predicciones": {
     "Juanlu": {
      "texto": "Inglaterra",
@@ -9523,7 +9527,7 @@
     },
     "Velasco": {
      "texto": "Argentina",
-     "puntos": 0.0
+     "puntos": 8.0
     },
     "Rino": {
      "texto": "Francia",
@@ -9539,7 +9543,7 @@
     },
     "RAFA NAVARRETE": {
      "texto": "Argentina",
-     "puntos": 0.0
+     "puntos": 8.0
     },
     "John": {
      "texto": "Portugal",
@@ -9596,12 +9600,12 @@
   },
   {
    "concepto": "Bota de Oro (máximo goleador)",
-   "resultado": null,
+   "resultado": "Kylian Mbappé",
    "bandera": "",
    "predicciones": {
     "Juanlu": {
      "texto": "Mbappé",
-     "puntos": 0.0
+     "puntos": 8.0
     },
     "WILLY": {
      "texto": "RONALDO",
@@ -9613,7 +9617,7 @@
     },
     "TERRY": {
      "texto": "MBAPPE",
-     "puntos": 0.0
+     "puntos": 8.0
     },
     "Velasco": {
      "texto": "CRISTIANO RONALDO",
@@ -9625,11 +9629,11 @@
     },
     "Mini": {
      "texto": "Mbappe",
-     "puntos": 0.0
+     "puntos": 8.0
     },
     "Moi": {
      "texto": "Kylian Mbappé",
-     "puntos": 0.0
+     "puntos": 8.0
     },
     "RAFA NAVARRETE": {
      "texto": "Harry Kane",
@@ -9637,13 +9641,13 @@
     },
     "John": {
      "texto": "Kylian Mbappé",
-     "puntos": 0.0
+     "puntos": 8.0
     }
    }
   },
   {
    "concepto": "Bota de Plata (2º máximo goleador)",
-   "resultado": null,
+   "resultado": "Lionel Messi",
    "bandera": "",
    "predicciones": {
     "Juanlu": {
@@ -9664,7 +9668,7 @@
     },
     "Velasco": {
      "texto": "MESSI",
-     "puntos": 0.0
+     "puntos": 5.0
     },
     "Rino": {
      "texto": "Kylian Mbappé",
@@ -9690,7 +9694,7 @@
   },
   {
    "concepto": "Bota de Bronce (3º máximo goleador)",
-   "resultado": null,
+   "resultado": "Jude Bellingham",
    "bandera": "",
    "predicciones": {
     "Juanlu": {
@@ -9737,7 +9741,7 @@
   },
   {
    "concepto": "Balón de Oro (mejor jugador)",
-   "resultado": null,
+   "resultado": "Lionel Messi",
    "bandera": "",
    "predicciones": {
     "Juanlu": {
@@ -9784,7 +9788,7 @@
   },
   {
    "concepto": "Balón de Plata (2º mejor jugador)",
-   "resultado": null,
+   "resultado": "Kylian Mbappé",
    "bandera": "",
    "predicciones": {
     "Juanlu": {
@@ -9793,7 +9797,7 @@
     },
     "WILLY": {
      "texto": "MBAPPE",
-     "puntos": 0.0
+     "puntos": 5.0
     },
     "Mesa": {
      "texto": "Vinicus Jr.",
@@ -9809,7 +9813,7 @@
     },
     "Rino": {
      "texto": "Kylian Mbappé",
-     "puntos": 0.0
+     "puntos": 5.0
     },
     "Mini": {
      "texto": "Pedri",
@@ -9821,7 +9825,7 @@
     },
     "RAFA NAVARRETE": {
      "texto": "Kylian Mbappé",
-     "puntos": 0.0
+     "puntos": 5.0
     },
     "John": {
      "texto": "Pedri",
@@ -9831,7 +9835,7 @@
   },
   {
    "concepto": "Balón de Bronce (3º mejor jugador)",
-   "resultado": null,
+   "resultado": "Jude Bellingham",
    "bandera": "",
    "predicciones": {
     "Juanlu": {
@@ -9872,7 +9876,7 @@
     },
     "John": {
      "texto": "Jude Bellingham",
-     "puntos": 0.0
+     "puntos": 3.0
     }
    }
   }
@@ -9880,6 +9884,6 @@
  "resumen": {
   "n_jugadores": 10,
   "n_partidos": 104,
-  "n_jugados": 103
+  "n_jugados": 104
  }
 }

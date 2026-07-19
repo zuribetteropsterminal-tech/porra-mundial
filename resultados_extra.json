@@ -102,5 +102,16 @@
   },
   "Francia-Inglaterra": {
     "ganador": "Inglaterra"
+  },
+  "_cuadro_honor": {
+    "🥇Campeón": "España",
+    "🥈Subcampeón": "Argentina",
+    "🥉3º puesto": "Inglaterra",
+    "Bota de Oro (máximo goleador)": "Kylian Mbappé",
+    "Bota de Plata (2º máximo goleador)": "Lionel Messi",
+    "Bota de Bronce (3º máximo goleador)": "Jude Bellingham",
+    "Balón de Oro (mejor jugador)": "Lionel Messi",
+    "Balón de Plata (2º mejor jugador)": "Kylian Mbappé",
+    "Balón de Bronce (3º mejor jugador)": "Jude Bellingham"
   }
 }
